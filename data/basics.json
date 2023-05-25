@@ -1,0 +1,26 @@
+{
+  "name": "Allen's Aliens",
+  "titles": [
+    "Allen's Aliens in the Wild"
+  ],
+  "abouts": [
+    "Allen's Aliens in the wild.",
+    "Photos submitted to me and photos I've taken of proud new owners."
+  ],
+  "website": "allensaliens.com",
+  "email": "allensaliens@gmail.com",
+  "location": "Denver, Colorado",
+  "contactIntro": "Please send me a message if you would like to know more about Allen's Aliens.",
+  "socialLinks": [
+    {
+      "name": "instagram",
+      "handle": "real_allens_aliens",
+      "url": "https://instagram.com/real_allens_aliens"
+    },
+    {
+      "name": "facebook",
+      "handle": "allensaliens",
+      "url": "https://facebook.com/allensaliens"
+    }
+  ]
+}

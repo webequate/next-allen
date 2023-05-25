@@ -1,0 +1,138 @@
+[
+  {
+    "id": "switzerland",
+    "title": "Switzerland 1998-99",
+    "cover": "switzerland.jpg",
+    "description": "Photos scanned from the original prints of my year abroad in Switzerland.",
+    "sections": [
+      {
+        "heading": "Year in Switzerland",
+        "photos": [
+          { "id": 1, "file": "File_01.jpg", "caption": "Geneva" },
+          { "id": 2, "file": "File_54.jpg", "caption": "First Swiss hike" },
+          { "id": 3, "file": "File_49.jpg", "caption": "More hiking" },
+
+          { "id": 4, "file": "File_50.jpg", "caption": "Lake Starnberg, Germany" },
+          { "id": 5, "file": "File_51.jpg", "caption": "Gruyere" },
+          { "id": 6, "file": "File_02.jpg", "caption": "Near Gruyere" },
+
+          { "id": 7, "file": "File_03.jpg", "caption": "Interlaken" },
+          { "id": 8, "file": "File_04.jpg", "caption": "Grindelwald" },
+          { "id": 9, "file": "File_52.jpg", "caption": "Kandersteg" },
+
+          { "id": 10, "file": "File_53.jpg", "caption": "Evian, France" },
+          { "id": 11, "file": "File_05.jpg", "caption": "Verbier" },
+          { "id": 12, "file": "File_06.jpg", "caption": "Zermatt" },
+
+          { "id": 13, "file": "File_07.jpg", "caption": "Barcelona, Spain" },
+          { "id": 14, "file": "File_08.jpg", "caption": "Murcia, Spain" },
+          { "id": 15, "file": "File_09.jpg", "caption": "Nice, France" },
+
+          { "id": 16, "file": "File_10.jpg", "caption": "Lausanne" },
+          { "id": 17, "file": "File_11.jpg", "caption": "Lausanne" },
+          { "id": 18, "file": "File_12.jpg", "caption": "Lausanne" },
+
+          { "id": 19, "file": "File_13.jpg", "caption": "Angela, Klaus, Karin, Roman, and Christine" },
+          { "id": 20, "file": "File_14.jpg", "caption": "Vienna, Austria" },
+          { "id": 21, "file": "File_15.jpg", "caption": "Hundertwasser House" },
+
+          { "id": 22, "file": "File_16.jpg", "caption": "Vienna, Austria" },
+          { "id": 23, "file": "File_17.jpg", "caption": "Big Ben, London" },
+          { "id": 24, "file": "File_18.jpg", "caption": "Cambridge, England" },
+
+          { "id": 25, "file": "File_19.jpg", "caption": "Sion" },
+          { "id": 26, "file": "File_20.jpg", "caption": "Lyon, France" },
+          { "id": 27, "file": "File_21.jpg", "caption": "Milan, Italy" },
+
+          { "id": 28, "file": "File_22.jpg", "caption": "Milan, Italy" },
+          { "id": 29, "file": "File_23.jpg", "caption": "Swiss Guard monument, Luzern" },
+          { "id": 30, "file": "File_24.jpg", "caption": "Luzern" },
+
+          { "id": 31, "file": "File_25.jpg", "caption": "Rhiannon, Clare, Allen, and Helga in Zurich" },
+          { "id": 32, "file": "File_26.jpg", "caption": "Zurich" },
+          { "id": 33, "file": "File_27.jpg", "caption": "Salzburg, Austria" },
+
+          { "id": 34, "file": "File_28.jpg", "caption": "Salzburg" },
+          { "id": 35, "file": "File_29.jpg", "caption": "Salzburg" },
+          { "id": 36, "file": "File_30.jpg", "caption": "Salzburg" },
+
+          { "id": 37, "file": "File_31.jpg", "caption": "Karin und Katze" },
+          { "id": 38, "file": "File_32.jpg", "caption": "Pizza Hut in Lausanne" },
+          { "id": 39, "file": "File_33.jpg", "caption": "Amanda, Hattie, Jessica" },
+
+          { "id": 40, "file": "File_34.jpg", "caption": "Allen, Klaus, Alicia on Lake Geneva" },
+          { "id": 41, "file": "File_35.jpg", "caption": "View from my balcony, Lausanne" },
+          { "id": 42, "file": "File_38.jpg", "caption": "Chateau de Chillon, Montreux" },
+
+          { "id": 43, "file": "File_36.jpg", "caption": "Lake Geneva view from Vevey" },
+          { "id": 44, "file": "File_37.jpg", "caption": "Continued panorama" },
+          { "id": 45, "file": "File_39.jpg", "caption": "Cute cows near Engelberg" },
+
+          { "id": 46, "file": "File_40.jpg", "caption": "Threatening cows near Engelberg" },
+          { "id": 47, "file": "File_41.jpg", "caption": "Engelberg hiking sign" },
+          { "id": 48, "file": "File_42.jpg", "caption": "EPFL, Lausanne" },
+
+          { "id": 49, "file": "File_43.jpg", "caption": "St. Tropez, France" },
+          { "id": 50, "file": "File_44.jpg", "caption": "St. Tropez" },
+          { "id": 51, "file": "File_45.jpg", "caption": "Cote d'Azur, France" },
+
+          { "id": 52, "file": "File_46.jpg", "caption": "Toulon, France" },
+          { "id": 53, "file": "File_47.jpg", "caption": "Marseille, France" },
+          { "id": 54, "file": "File_48.jpg", "caption": "Sunset in Sion" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "album2",
+    "title": "July 1999 - July 2002",
+    "cover": "2001.jpg",
+    "description": "Photos scanned from the original prints before I had a digital camera.",
+    "sections": [
+      {
+        "heading": "July 1999 - July 2022",
+        "photos": [
+          { "id": 1, "file": "Group_01.jpg", "caption": "View near Grand Tetons" },
+          { "id": 2, "file": "Group_02.jpg", "caption": "Anna at Grand Tetons" },
+          { "id": 3, "file": "Group_03.jpg", "caption": "Yellowstone" },
+
+          { "id": 4, "file": "Group_04.jpg", "caption": "Yellowstone" },
+          { "id": 5, "file": "Group_05.jpg", "caption": "View from CMU" },
+          { "id": 6, "file": "Group_06.jpg", "caption": "Fall colors" },
+
+          { "id": 7, "file": "Group_07.jpg", "caption": "Skiing at Vail, Colorado" },
+          { "id": 8, "file": "Group_08.jpg", "caption": "Stanford" },
+          { "id": 9, "file": "Group_09.jpg", "caption": "Maria on top of World Trade Center" },
+
+          { "id": 10, "file": "Group_10.jpg", "caption": "Allen on crutches in Seattle" },
+          { "id": 11, "file": "Group_11.jpg", "caption": "Apartment in Squirrel Hill" },
+          { "id": 12, "file": "Group_13.jpg", "caption": "Louis" },
+
+          { "id": 13, "file": "Group_12.jpg", "caption": "Richard, Maria, and Anastasia" },
+          { "id": 14, "file": "Group_14.jpg", "caption": "Imad, Mohit, Dave, Merle, Arvind" },
+          { "id": 15, "file": "Group_15.jpg", "caption": "Golden Gate Bridge" },
+
+          { "id": 16, "file": "Group_16.jpg", "caption": "Maria playing Tetris" },
+          { "id": 17, "file": "Group_17.jpg", "caption": "View from my apartment in Fairfax" },
+          { "id": 18, "file": "Group_18.jpg", "caption": "My VW Jetta VR6" },
+
+          { "id": 19, "file": "Group_19.jpg", "caption": "Robin, Allen, and Karin in Germany" },
+          { "id": 20, "file": "Group_20.jpg", "caption": "Christine in Toronto" },
+          { "id": 21, "file": "Group_21.jpg", "caption": "Pennsylvania woods" },
+
+          { "id": 22, "file": "Group_22.jpg", "caption": "Camping with the bunch" },
+          { "id": 23, "file": "Group_23.jpg", "caption": "Colorado Springs" },
+          { "id": 24, "file": "Group_24.jpg", "caption": "Arvind, Robin, Sanjay, Neil" },
+
+          { "id": 25, "file": "Group_25.jpg", "caption": "Elaine & Regina at graduation" },
+          { "id": 26, "file": "Group_26.jpg", "caption": "Family at gallery opening" },
+          { "id": 27, "file": "Group_27.jpg", "caption": "Grand Canyon" },
+
+          { "id": 28, "file": "Group_28.jpg", "caption": "Palm Canyon near Palm Springs" },
+          { "id": 29, "file": "Group_29.jpg", "caption": "Palm Canyon" },
+          { "id": 30, "file": "Group_30.jpg", "caption": "San Diego" }
+        ]
+      }
+    ]
+  }
+]

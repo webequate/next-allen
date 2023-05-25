@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+.bruno {
+  font-family: 'Bruno Ace', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-weight: 400;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; */
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Scroll to top style */
+.scrollToTop {
+	@apply bg-accent-light;
+	@apply text-white;
+	position: fixed;
+	width: 100%;
+	align-items: center;
+	height: 20px;
+	justify-content: center;
+	z-index: 999;
+	cursor: pointer;
+	animation: fadeIn 0.3s;
+	transition: opacity 0.4s;
+	opacity: 1;
+}
+
+.scrollToTop:hover {
+	opacity: 1;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0.5;
+	}
+}
+
+@layer components {
+  /* Primary navigation */
+  .nav-primary {
+    @apply flex items-center text-sm md:text-lg font-semibold rounded-full text-dark-2 dark:text-light-2 bg-light-1 dark:bg-dark-1 ring-1 ring-dark-3 dark:ring-light-3 px-3 mx-6;
+  }
+  .nav-primary a {
+    @apply hover:text-accent-dark dark:hover:text-accent-light mx-2 md:mx-4 py-1 md:py-2 transition duration-300;
+  }
+  .nav-primary a.active {
+    @apply text-accent-dark dark:text-accent-light;
+  }
+  /* Secondary navigation */
+  .nav-secondary {
+    @apply flex text-sm font-semibold text-dark-2 dark:text-light-2 rounded-full px-3 mx-6 bg-light-1 dark:bg-dark-1 ring-1 ring-dark-3 dark:ring-light-3;
+  }
+  .nav-secondary a {
+    @apply hover:text-accent-dark dark:hover:text-accent-light sm:mx-4 sm:py-2 transition duration-300;
+  }
+  /* Mobile navigation */
+  .nav-mobile {
+    @apply block overflow-hidden max-h-0 text-lg text-center m-0 justify-between items-center transition-all duration-500 ease-in-out;
+  }
+  .nav-mobile.show {
+    @apply max-h-[300px];
+  }
+  .nav-mobile a {
+    @apply block text-dark-2 dark:text-light-2 hover:text-accent-light dark:hover:text-accent-light py-2 border-b-2 md:border-b-0 border-dark-3 dark:border-light-3;
+  }
+  .nav-mobile a.active {
+    @apply text-accent-light dark:text-accent-light;
+  }
+}
+
+/* Prevent layout from shifting when scrollbar appears */
+html {
+  scrollbar-gutter: stable both-edges;
+}

@@ -1,0 +1,1793 @@
+[
+  {
+    "id": "switzerland",
+    "title": "Switzerland 1998-99",
+    "cover": "switzerland.jpg",
+    "description": "Photos scanned from the original prints of my year abroad in Switzerland.",
+    "sections": [
+      {
+        "heading": "Year in Switzerland",
+        "photos": [
+          { "id": 1, "file": "File_01.jpg", "caption": "Geneva" },
+          { "id": 2, "file": "File_54.jpg", "caption": "First Swiss hike" },
+          { "id": 3, "file": "File_49.jpg", "caption": "More hiking" },
+
+          { "id": 4, "file": "File_50.jpg", "caption": "Lake Starnberg, Germany" },
+          { "id": 5, "file": "File_51.jpg", "caption": "Gruyere" },
+          { "id": 6, "file": "File_02.jpg", "caption": "Near Gruyere" },
+
+          { "id": 7, "file": "File_03.jpg", "caption": "Interlaken" },
+          { "id": 8, "file": "File_04.jpg", "caption": "Grindelwald" },
+          { "id": 9, "file": "File_52.jpg", "caption": "Kandersteg" },
+
+          { "id": 10, "file": "File_53.jpg", "caption": "Evian, France" },
+          { "id": 11, "file": "File_05.jpg", "caption": "Verbier" },
+          { "id": 12, "file": "File_06.jpg", "caption": "Zermatt" },
+
+          { "id": 13, "file": "File_07.jpg", "caption": "Barcelona, Spain" },
+          { "id": 14, "file": "File_08.jpg", "caption": "Murcia, Spain" },
+          { "id": 15, "file": "File_09.jpg", "caption": "Nice, France" },
+
+          { "id": 16, "file": "File_10.jpg", "caption": "Lausanne" },
+          { "id": 17, "file": "File_11.jpg", "caption": "Lausanne" },
+          { "id": 18, "file": "File_12.jpg", "caption": "Lausanne" },
+
+          { "id": 19, "file": "File_13.jpg", "caption": "Angela, Klaus, Karin, Roman, and Christine" },
+          { "id": 20, "file": "File_14.jpg", "caption": "Vienna, Austria" },
+          { "id": 21, "file": "File_15.jpg", "caption": "Hundertwasser House" },
+
+          { "id": 22, "file": "File_16.jpg", "caption": "Vienna, Austria" },
+          { "id": 23, "file": "File_17.jpg", "caption": "Big Ben, London" },
+          { "id": 24, "file": "File_18.jpg", "caption": "Cambridge, England" },
+
+          { "id": 25, "file": "File_19.jpg", "caption": "Sion" },
+          { "id": 26, "file": "File_20.jpg", "caption": "Lyon, France" },
+          { "id": 27, "file": "File_21.jpg", "caption": "Milan, Italy" },
+
+          { "id": 28, "file": "File_22.jpg", "caption": "Milan, Italy" },
+          { "id": 29, "file": "File_23.jpg", "caption": "Swiss Guard monument, Luzern" },
+          { "id": 30, "file": "File_24.jpg", "caption": "Luzern" },
+
+          { "id": 31, "file": "File_25.jpg", "caption": "Rhiannon, Clare, Allen, and Helga in Zurich" },
+          { "id": 32, "file": "File_26.jpg", "caption": "Zurich" },
+          { "id": 33, "file": "File_27.jpg", "caption": "Salzburg, Austria" },
+
+          { "id": 34, "file": "File_28.jpg", "caption": "Salzburg" },
+          { "id": 35, "file": "File_29.jpg", "caption": "Salzburg" },
+          { "id": 36, "file": "File_30.jpg", "caption": "Salzburg" },
+
+          { "id": 37, "file": "File_31.jpg", "caption": "Karin und Katze" },
+          { "id": 38, "file": "File_32.jpg", "caption": "Pizza Hut in Lausanne" },
+          { "id": 39, "file": "File_33.jpg", "caption": "Amanda, Hattie, Jessica" },
+
+          { "id": 40, "file": "File_34.jpg", "caption": "Allen, Klaus, Alicia on Lake Geneva" },
+          { "id": 41, "file": "File_35.jpg", "caption": "View from my balcony, Lausanne" },
+          { "id": 42, "file": "File_38.jpg", "caption": "Chateau de Chillon, Montreux" },
+
+          { "id": 43, "file": "File_36.jpg", "caption": "Lake Geneva view from Vevey" },
+          { "id": 44, "file": "File_37.jpg", "caption": "Continued panorama" },
+          { "id": 45, "file": "File_39.jpg", "caption": "Cute cows near Engelberg" },
+
+          { "id": 46, "file": "File_40.jpg", "caption": "Threatening cows near Engelberg" },
+          { "id": 47, "file": "File_41.jpg", "caption": "Engelberg hiking sign" },
+          { "id": 48, "file": "File_42.jpg", "caption": "EPFL, Lausanne" },
+
+          { "id": 49, "file": "File_43.jpg", "caption": "St. Tropez, France" },
+          { "id": 50, "file": "File_44.jpg", "caption": "St. Tropez" },
+          { "id": 51, "file": "File_45.jpg", "caption": "Cote d'Azur, France" },
+
+          { "id": 52, "file": "File_46.jpg", "caption": "Toulon, France" },
+          { "id": 53, "file": "File_47.jpg", "caption": "Marseille, France" },
+          { "id": 54, "file": "File_48.jpg", "caption": "Sunset in Sion" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "album2",
+    "title": "July 1999 - July 2002",
+    "cover": "2001.jpg",
+    "description": "Photos scanned from the original prints before I had a digital camera.",
+    "sections": [
+      {
+        "heading": "July 1999 - July 2022",
+        "photos": [
+          { "id": 1, "file": "Group_01.jpg", "caption": "View near Grand Tetons" },
+          { "id": 2, "file": "Group_02.jpg", "caption": "Anna at Grand Tetons" },
+          { "id": 3, "file": "Group_03.jpg", "caption": "Yellowstone" },
+
+          { "id": 4, "file": "Group_04.jpg", "caption": "Yellowstone" },
+          { "id": 5, "file": "Group_05.jpg", "caption": "View from CMU" },
+          { "id": 6, "file": "Group_06.jpg", "caption": "Fall colors" },
+
+          { "id": 7, "file": "Group_07.jpg", "caption": "Skiing at Vail, Colorado" },
+          { "id": 8, "file": "Group_08.jpg", "caption": "Stanford" },
+          { "id": 9, "file": "Group_09.jpg", "caption": "Maria on top of World Trade Center" },
+
+          { "id": 10, "file": "Group_10.jpg", "caption": "Allen on crutches in Seattle" },
+          { "id": 11, "file": "Group_11.jpg", "caption": "Apartment in Squirrel Hill" },
+          { "id": 12, "file": "Group_13.jpg", "caption": "Louis" },
+
+          { "id": 13, "file": "Group_12.jpg", "caption": "Richard, Maria, and Anastasia" },
+          { "id": 14, "file": "Group_14.jpg", "caption": "Imad, Mohit, Dave, Merle, Arvind" },
+          { "id": 15, "file": "Group_15.jpg", "caption": "Golden Gate Bridge" },
+
+          { "id": 16, "file": "Group_16.jpg", "caption": "Maria playing Tetris" },
+          { "id": 17, "file": "Group_17.jpg", "caption": "View from my apartment in Fairfax" },
+          { "id": 18, "file": "Group_18.jpg", "caption": "My VW Jetta VR6" },
+
+          { "id": 19, "file": "Group_19.jpg", "caption": "Robin, Allen, and Karin in Germany" },
+          { "id": 20, "file": "Group_20.jpg", "caption": "Christine in Toronto" },
+          { "id": 21, "file": "Group_21.jpg", "caption": "Pennsylvania woods" },
+
+          { "id": 22, "file": "Group_22.jpg", "caption": "Camping with the bunch" },
+          { "id": 23, "file": "Group_23.jpg", "caption": "Colorado Springs" },
+          { "id": 24, "file": "Group_24.jpg", "caption": "Arvind, Robin, Sanjay, Neil" },
+
+          { "id": 25, "file": "Group_25.jpg", "caption": "Elaine & Regina at graduation" },
+          { "id": 26, "file": "Group_26.jpg", "caption": "Family at gallery opening" },
+          { "id": 27, "file": "Group_27.jpg", "caption": "Grand Canyon" },
+
+          { "id": 28, "file": "Group_28.jpg", "caption": "Palm Canyon near Palm Springs" },
+          { "id": 29, "file": "Group_29.jpg", "caption": "Palm Canyon" },
+          { "id": 30, "file": "Group_30.jpg", "caption": "San Diego" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "germany-switzerland",
+    "title": "Germany & Switzerland",
+    "cover": "germanyswitz.jpg",
+    "description": "Photos from my trip to Germany and Switzerland in May of 2003.",
+    "sections": [
+      {
+        "heading": "Germany & Switzerland",
+        "photos": [
+          { "file": "P1010002.jpg", "caption": "Karin and Robin" },
+          { "file": "P1010003.jpg", "caption": "Frankfurt square" },
+          { "file": "P1010006.jpg", "caption": "Frankfurt" },
+
+          { "file": "P1010014.jpg", "caption": "Darmstadt Biergarten" },
+          { "file": "P1010031.jpg", "caption": "Near the Nurburgring" },
+          { "file": "P1010042.jpg", "caption": "Christine bearing water" },
+
+          { "file": "P1010045.jpg", "caption": "Christine's 850ci" },
+          { "file": "P1010051.jpg", "caption": "Robin riding a horse" },
+          { "file": "P1010053.jpg", "caption": "Lausanne swans and ducks" },
+
+          { "file": "P1010058.jpg", "caption": "Hotel d'Ouchy" },
+          { "file": "P1010067.jpg", "caption": "Old Town Lausanne" },
+          { "file": "P1010069.jpg", "caption": "Lausanne Cathedral" },
+
+          { "file": "P1010072.jpg", "caption": "Lausanne roofs" },
+          { "file": "P1010073.jpg", "caption": "Lausanne view" },
+          { "file": "P1010075.jpg", "caption": "Cathedral stained glass" },
+
+          { "file": "P1010076.jpg", "caption": "Cathedral interior" },
+          { "file": "P1010083.jpg", "caption": "Statue on chateau wall" },
+          { "file": "P1010089.jpg", "caption": "Lausanne view w/ cathedral" },
+
+          { "file": "P1010093.jpg", "caption": "G8 Summit protests in Geneva" },
+          { "file": "P1010097.jpg", "caption": "Geneva fountain" },
+          { "file": "P1010101.jpg", "caption": "Flower clock" },
+
+          { "file": "P21010051.jpg", "caption": "Restaurant for meat-lovers" },
+          { "file": "P21010056.jpg", "caption": "Old Town Geneva" },
+          { "file": "P21010060.jpg", "caption": "Bar in Geneva" },
+
+          { "file": "P21010064.jpg", "caption": "Robin's S2000" },
+          { "file": "P21010068.jpg", "caption": "Vineyards along Lake Geneva" },
+          { "file": "P21010072.jpg", "caption": "Heading into the Swiss Alps" },
+
+          { "file": "P21010075.jpg", "caption": "Lunch break" },
+          { "file": "P21010084.jpg", "caption": "Driving high mountain pass" },
+          { "file": "P21010097.jpg", "caption": "Near top of pass" },
+
+          { "file": "P21010101.jpg", "caption": "Random Lamborghini and Ferrari" },
+          { "file": "P21010108.jpg", "caption": "Famous bridge in Lucerne" },
+          { "file": "P21010111.jpg", "caption": "My own sign" },
+
+          { "file": "P31010006.jpg", "caption": "Allen and Klaus" },
+          { "file": "P31010001.jpg", "caption": "Aachen at twilight" },
+          { "file": "P31010008.jpg", "caption": "Post-BBQ in Cologne" }
+        ]        
+      }
+    ]
+  },
+  {
+    "id": "colorado",
+    "title": "Colorado",
+    "cover": "colorado.jpg",
+    "description": "Photos taken during my trip home to Colorado in 2003.",
+    "sections": [
+      {
+        "heading": "Colorado",
+        "photos": [
+          { "file": "PC250041.jpg", "caption": "Allen at Broadmoor Hotel" },
+          { "file": "PC250045.jpg", "caption": "Sister and cousins" },
+          { "file": "PC250033.jpg", "caption": "Cousins" },
+
+          { "file": "PC250027.jpg", "caption": "St. Nick" },
+          { "file": "PC280034.jpg", "caption": "Hike at Waldo Canyon" },
+          { "file": "CIMG0214.jpg", "caption": "Trivial Pursuit w/ family" },
+
+          { "file": "CIMG0250.jpg", "caption": "Cyclops tree" },
+          { "file": "CIMG0251.jpg", "caption": "Family on hike" },
+          { "file": "CIMG0243b.jpg", "caption": "Aspen tree" },
+
+          { "file": "CIMG0268.jpg", "caption": "Dad" },
+          { "file": "CIMG0269.jpg", "caption": "Sister Anna" },
+          { "file": "CIMG0270.jpg", "caption": "Mom" },
+
+          { "file": "CIMG0275.jpg", "caption": "Dad at Senor Manuel's restaurant" },
+          { "file": "CIMG0276.jpg", "caption": "Anna at restaurant" },
+          { "file": "CIMG0286.jpg", "caption": "Ute Valley Park" },
+
+          { "file": "CIMG0289.jpg", "caption": "Ute Valley" },
+          { "file": "CIMG0288.jpg", "caption": "Allen" },
+          { "file": "CIMG0290.jpg", "caption": "Walking in Ute Valley" },
+
+          { "file": "CIMG0327.jpg", "caption": "Playdough sculptures" },
+          { "file": "CIMG0316.jpg", "caption": "Stonehenge view" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pittsburgh-2003",
+    "title": "Pittsburgh 2003",
+    "cover": "pittsburgh03.jpg",
+    "description": "Photos taken during my trip to Pittsburgh for CMU Carnival in April 2003.",
+    "sections": [
+      {
+        "heading": "Pittsburgh 2003",
+        "photos": [
+          { "file": "P1010036.jpg", "caption": "Merle, Rebecca, Arvind, Brandon" },
+          { "file": "P1010044.jpg", "caption": "Jeff driving his MR2 Spyder" },
+          { "file": "P1010051.jpg", "caption": "MR2 being tailed by M3" },
+
+          { "file": "P1010056.jpg", "caption": "Church reflected in SEI" },
+          { "file": "P1010057.jpg", "caption": "Church on Fifth Avenue" },
+          { "file": "P1010058.jpg", "caption": "Crew eating at YumWok" },
+
+          { "file": "P1010059.jpg", "caption": "Club Matrix" },
+          { "file": "P1010064.jpg", "caption": "Club Liquid at Matrix" },
+          { "file": "P1010066.jpg", "caption": "Erin and Val" },
+
+          { "file": "P1010067.jpg", "caption": "Chris hitting on a blonde" },
+          { "file": "P1010072.jpg", "caption": "Brandon driving his '78 Olds" },
+          { "file": "P1010087.jpg", "caption": "Chris and Masha" },
+
+          { "file": "P1010088.jpg", "caption": "Polina and Allen" },
+          { "file": "P4110006.jpg", "caption": "Spaghetti Warehouse" },
+          { "file": "P4110015.jpg", "caption": "Sharp Edge Brewery" },
+
+          { "file": "P4110022.jpg", "caption": "Spy Nightclub" },
+          { "file": "P4110025.jpg", "caption": "Charlie and Jeff" },
+          { "file": "P21010006.jpg", "caption": "Cathedral of Learning" },
+
+          { "file": "P21010014.jpg", "caption": "Dasha" },
+          { "file": "P21010015.jpg", "caption": "St. Paul's Cathedral" }
+        ]                
+      }
+    ]
+  },
+  {
+    "id": "pittsburgh-2004",
+    "title": "Pittsburgh 2004",
+    "cover": "pittsburgh04.jpg",
+    "description": "Photos taken during my trip to Pittsburgh for CMU Carnival in April 2004.",
+    "sections": [
+      {
+        "heading": "Pittsburgh 2004",
+        "photos": [
+          { "file": "CIMG0569.jpg", "caption": "Merle and Dasha" },
+          { "file": "CIMG0577.jpg", "caption": "Charlie's porch" },
+          { "file": "CIMG0581.jpg", "caption": "Merle, Jeff, Arvind, Laura, Dasha" },
+
+          { "file": "CIMG0582.jpg", "caption": "Night view of downtown" },
+          { "file": "CIMG0584.jpg", "caption": "Dinner at Penn Brewery" },
+          { "file": "CIMG0586.jpg", "caption": "Cosmic Bowling" },
+
+          { "file": "CIMG0589.jpg", "caption": "Riced out car at Pep Boys" },
+          { "file": "CIMG0590.jpg", "caption": "BJ likes Hooters girls" },
+          { "file": "CIMG0596.jpg", "caption": "Allen, Dahsa, Robin" },
+
+          { "file": "CIMG0597.jpg", "caption": "Beata doesn't like cameras" },
+          { "file": "CIMG0603.jpg", "caption": "Motorcycle accident into Merle's car" },
+          { "file": "CIMG0606.jpg", "caption": "Fireworks from Beeler" },
+
+          { "file": "CIMG0631.jpg", "caption": "Club Touch in the Strip District" },
+          { "file": "CIMG0635.jpg", "caption": "Brandon, Arvind, Robin outside Touch" },
+          { "file": "CIMG0636.jpg", "caption": "Chris outside Touch" },
+
+          { "file": "CIMG0640.jpg", "caption": "Erin and Robin at the Point" },
+          { "file": "CIMG0643.jpg", "caption": "Brandon" },
+          { "file": "CIMG0648.jpg", "caption": "Jeff attempting a handstand" },
+
+          { "file": "CIMG0650.jpg", "caption": "This is Merle" },
+          { "file": "CIMG0654.jpg", "caption": "Merle climbing a tree" },
+          { "file": "CIMG0657.jpg", "caption": "Leaving the Point" },
+
+          { "file": "CIMG0662.jpg", "caption": "Downtown Pittsburgh" },
+          { "file": "CIMG0665.jpg", "caption": "PPG Tower" },
+          { "file": "CIMG0670.jpg", "caption": "PPG Place" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "western-us",
+    "title": "Western US",
+    "cover": "westernus.jpg",
+    "description": "Photos from the rest of California, Arizona, and New Mexico.",
+    "sections": [
+      {
+        "heading": "Western US (CA, AZ, NM)",
+        "photos": [
+          { "file": "P1010013.jpg", "caption": "Hike in Arizona desert" },
+          { "file": "P1010011.jpg", "caption": "Huge beetle" },
+          { "file": "P1010012.jpg", "caption": "Arizona Cacti" },
+
+          { "file": "P1010020.jpg", "caption": "Allen and Dad at lunch" },
+          { "file": "P1010022.jpg", "caption": "Sedona, Arizona" },
+          { "file": "P1010023.jpg", "caption": "View from our motel balcony" },
+
+          { "file": "P1010025.jpg", "caption": "Family and friends at gallery opening" },
+          { "file": "P1010027.jpg", "caption": "Allen and Dad" },
+          { "file": "P1010029.jpg", "caption": "Mom and sister Anna" },
+
+          { "file": "P1010031.jpg", "caption": "Dinner" },
+          { "file": "P1010036.jpg", "caption": "My family" },
+          { "file": "P1010047.jpg", "caption": "Hike in Sedona" },
+
+          { "file": "P2220028.jpg", "caption": "Joshua Tree national park, California" },
+          { "file": "P2220036.jpg", "caption": "Joshua Tree" },
+          { "file": "P2220037.jpg", "caption": "My old VW Jetta VR6" },
+
+          { "file": "P2220047.jpg", "caption": "Joshua Tree park" },
+          { "file": "P2230053.jpg", "caption": "Mission at San Juan Capistrano, CA" },
+          { "file": "P2230054.jpg", "caption": "San Juan Capistrano" },
+
+          { "file": "CIMG0350.jpg", "caption": "Anna" },
+          { "file": "CIMG0351.jpg", "caption": "Near Palm Springs, CA" },
+          { "file": "CIMG0388.jpg", "caption": "Adagio Galleries, Palm Springs" },
+
+          { "file": "CIMG0398.jpg", "caption": "Painting by Roger Hayden Johnson" },
+          { "file": "CIMG0405.jpg", "caption": "Gallery window" },
+          { "file": "CIMG0414.jpg", "caption": "Behind Adagio Galleries" },
+
+          { "file": "CIMG0425.jpg", "caption": "Colorful flowers" },
+          { "file": "CIMG0447.jpg", "caption": "Palm Springs strip at night" },
+          { "file": "CIMG0450.jpg", "caption": "Japanese restaurant" },
+
+          { "file": "CIMG0452.jpg", "caption": "Anna and Dad" },
+          { "file": "CIMG0453.jpg", "caption": "Twine palms" },
+          { "file": "CIMG0469.jpg", "caption": "Mom and Anna at gallery" },
+
+          { "file": "CIMG0477.jpg", "caption": "Bullmoose sculpture" },
+          { "file": "CIMG0480.jpg", "caption": "Chihuly at a Palm Springs gallery" },
+          { "file": "CIMG0484.jpg", "caption": "Another Chihuly" },
+
+          { "file": "CIMG0488.jpg", "caption": "Another gallery piece" },
+          { "file": "CIMG0495.jpg", "caption": "Mom on patio of gallery" },
+          { "file": "CIMG0497.jpg", "caption": "View from patio" },
+
+          { "file": "CIMG0753.jpg", "caption": "Bullm00se in Santa Fe, NM" },
+          { "file": "CIMG0756.jpg", "caption": "Santa Fe" },
+          { "file": "CIMG0759.jpg", "caption": "La Fonda hotel" },
+
+          { "file": "CIMG0761.jpg", "caption": "A gallery in Santa Fe" },
+          { "file": "CIMG0767.jpg", "caption": "One of my dad's galleries" },
+          { "file": "CIMG0780.jpg", "caption": "Santa Fe church" },
+
+          { "file": "CIMG0786.jpg", "caption": "Restaurant in the La Fonda" },
+          { "file": "CIMG0791.jpg", "caption": "Mall ceiling" },
+          { "file": "CIMG0792.jpg", "caption": "Adobe gallery" },
+
+          { "file": "CIMG0858.jpg", "caption": "Allen and Anna in gallery courtyard" },
+          { "file": "CIMG0860.jpg", "caption": "Allen" },
+          { "file": "CIMG0865.jpg", "caption": "Adobe and sky" },
+
+          { "file": "CIMG0873.jpg", "caption": "Allen and Anna in gallery" },
+          { "file": "CIMG0877.jpg", "caption": "Dad's gallery opening" },
+          { "file": "CIMG0881.jpg", "caption": "Gallery opening" }
+          ]        
+      }
+    ]
+  },
+  {
+    "id": "san-diego",
+    "title": "San Diego",
+    "cover": "sandiego.jpg",
+    "description": "Photos taken in San Diego and vicinity during the two years I lived there (Aug '02 - Oct '04).",
+    "sections": [
+      {
+        "heading": "San Diego",
+        "photos": [
+          { "file": "P1010010.jpg", "caption": "View from deck at night" },
+          { "file": "PC220015.jpg", "caption": "Seth and Prasad" },
+          { "file": "PC300036.jpg", "caption": "Parents" },
+      
+          { "file": "P1040050.jpg", "caption": "View from Torrey Pines" },
+          { "file": "P1040054.jpg", "caption": "Torrey Pines sunset" },
+          { "file": "P1120061.jpg", "caption": "Jamie and Allen" },
+      
+          { "file": "P1260003.jpg", "caption": "Downtown night before Superbowl" },
+          { "file": "P2020014.jpg", "caption": "Hike with Robin and Lendy" },
+          { "file": "P2020015.jpg", "caption": "Lendy" },
+      
+          { "file": "P2050023.jpg", "caption": "View from entrance to my building" },
+          { "file": "P3220069.jpg", "caption": "Club Montage" },
+          { "file": "P3220073.jpg", "caption": "Club Montage" },
+      
+          { "file": "P4040002.jpg", "caption": "Torrey Pines glider port" },
+          { "file": "P4040011.jpg", "caption": "View of La Jolla from glider port" },
+          { "file": "P4040012.jpg", "caption": "La Jolla" },
+      
+          { "file": "P4040014.jpg", "caption": "La Valencia hotel in La Jolla" },
+          { "file": "P4040018.jpg", "caption": "La Jolla shores" },
+          { "file": "P4040020.jpg", "caption": "La Jolla" },
+      
+          { "file": "P4040021.jpg", "caption": "Seals in La Jolla Cove" },
+          { "file": "P4040023.jpg", "caption": "La Jolla" },
+          { "file": "P4040039.jpg", "caption": "Vijay and Allen" },
+      
+          { "file": "P4050004.jpg", "caption": "Hotel del Coronado" },
+          { "file": "P4050008.jpg", "caption": "Jenna at Coronado" },
+          { "file": "P4050010.jpg", "caption": "Downtown SD from Coronado" },
+      
+          { "file": "P4060014.jpg", "caption": "View from my patio" },
+          { "file": "P4060019.jpg", "caption": "Prasad on the patio" },
+          { "file": "P4060020.jpg", "caption": "My living room" },
+      
+          { "file": "P4060032.jpg", "caption": "Solana Beach sunset" },
+          { "file": "P4060038.jpg", "caption": "Solana Beach" },
+          { "file": "3Pics002.jpg", "caption": "Allen at Coachella festival" },
+      
+          { "file": "A4Montage.jpg", "caption": "My Audi A4 2.8 Quattro" },
+          { "file": "CIMG0079.jpg", "caption": "View from office w/ apts in distance" },
+          { "file": "CIMG0081.jpg", "caption": "My office" },
+      
+          { "file": "CIMG0112.jpg", "caption": "Work parking lot during fires" },
+          { "file": "CIMG0131.jpg", "caption": "24 hours later" },
+          { "file": "CIMG0507.jpg", "caption": "My Gary Fisher mountain bike" },
+      
+          { "file": "CIMG0523.jpg", "caption": "Prasad during move to new condo" },
+          { "file": "CIMG0542.jpg", "caption": "Desserts at Coronado brunch" },
+          { "file": "CIMG0546.jpg", "caption": "Crab on beach near hotel" },
+      
+          { "file": "CIMG0558.jpg", "caption": "Casa de Bandini mexican restaurant" },
+          { "file": "CIMG0567.jpg", "caption": "Santa Monica, Los Angeles" },
+          { "file": "CIMG0700.jpg", "caption": "Navy ships in San Diego harbor" },
+      
+          { "file": "CIMG0707.jpg", "caption": "Typical gas prices" },
+          { "file": "CIMG0708.jpg", "caption": "My office complex" },
+          { "file": "CIMG0712.jpg", "caption": "My office complex entry" },
+      
+          { "file": "CIMG0718.jpg", "caption": "Belly Up in Solana Beach" },
+          { "file": "CIMG0716.jpg", "caption": "The Von Bondies outside the venue" },
+          { "file": "CIMG0720.jpg", "caption": "Entry to the concert venue" },
+      
+          { "file": "CIMG0730.jpg", "caption": "The Von Bondies performing" },
+          { "file": "CIMG0736.jpg", "caption": "The Cinema" },
+          { "file": "CIMG0750.jpg", "caption": "The pool in my complex" },
+      
+          { "file": "CIMG0922.jpg", "caption": "Cruising through Mission Beach" },
+          { "file": "CIMG0934.jpg", "caption": "Erin and John's poker winnings" },
+          { "file": "CIMG0936.jpg", "caption": "Jared" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "europe-2",
+    "title": "Europe 2004 (2 of 2)",
+    "cover": "europe2.jpg",
+    "description": "More photos from my three week trip through Western Europe in the summer of 2004.",
+    "sections": [
+      {
+        "heading": "Barcelona, Spain",
+        "photos": [
+          { "file": "CIMG1497.jpg", "caption": "La Sagrada Familia" },
+          { "file": "CIMG1502.jpg", "caption": "Gaudi's Sagrada Familia" },
+          { "file": "CIMG1504.jpg", "caption": "Barcelona restaurant" },
+  
+          { "file": "CIMG1509.jpg", "caption": "View of Barcelona" },
+          { "file": "CIMG1510.jpg", "caption": "Inside Museum of Catalonian Art" },
+          { "file": "CIMG1516.jpg", "caption": "Barcelona '92 Olympic Park" }
+        ]
+      },
+      {
+        "heading": "Girona, Spain",
+        "photos": [
+          { "file": "CIMG1528.jpg", "caption": "Girona, Spain" },
+          { "file": "CIMG1533.jpg", "caption": "Girona cathedral" },
+          { "file": "CIMG1541.jpg", "caption": "Cathedral interior" },
+  
+          { "file": "CIMG1557.jpg", "caption": "Cathedral exterior" },
+          { "file": "CIMG1561.jpg", "caption": "Girona streets" },
+          { "file": "CIMG1563.jpg", "caption": "Girona" }
+        ]
+      },
+      {
+        "heading": "France",
+        "photos": [
+          { "file": "CIMG1568.jpg", "caption": "Arena in Nimes, France" },
+          { "file": "CIMG1573.jpg", "caption": "Nimes arena" },
+          { "file": "CIMG1579.jpg", "caption": "Robin in Nimes" },
+  
+          { "file": "CIMG1589.jpg", "caption": "South of France" },
+          { "file": "CIMG1596.jpg", "caption": "St. Tropez, France" },
+          { "file": "CIMG1599.jpg", "caption": "St. Tropez" }
+        ]
+      },
+      {
+        "heading": "Monte Carlo",
+        "photos": [
+          { "file": "CIMG1616.jpg", "caption": "Monte Carlo yachts" },
+          { "file": "CIMG1628.jpg", "caption": "Monte Carlo Casino" },
+          { "file": "CIMG1631.jpg", "caption": "Shelby and Ferraris by casino" },
+  
+          { "file": "CIMG1633.jpg", "caption": "Bentley Dealership" },
+          { "file": "CIMG1634.jpg", "caption": "Lamborghini and Rolls Royce" },
+          { "file": "CIMG1641.jpg", "caption": "Mercedes SLR McLaren" }
+        ]
+      },
+      {
+        "heading": "Switzerland",
+        "photos": [
+          { "file": "CIMG1652.jpg", "caption": "Near Mont Blanc" },
+          { "file": "CIMG1663.jpg", "caption": "Museum at CERN" },
+          { "file": "CIMG1668.jpg", "caption": "Closeup" },
+  
+          { "file": "CIMG1677.jpg", "caption": "Swiss switchback" },
+          { "file": "CIMG1682.jpg", "caption": "Swiss hike" },
+          { "file": "CIMG1686.jpg", "caption": "View from hike" },
+  
+          { "file": "CIMG1692.jpg", "caption": "Another view" },
+          { "file": "CIMG1701.jpg", "caption": "Swiss glacier" },
+          { "file": "CIMG1719.jpg", "caption": "Inside ice grotto" },
+  
+          { "file": "CIMG1744.jpg", "caption": "Mountain lake" },
+          { "file": "CIMG1746.jpg", "caption": "Rockslide" },
+          { "file": "CIMG1762.jpg", "caption": "View from Schilthorn" },
+  
+          { "file": "CIMG1774.jpg", "caption": "Schilthorn revolving restaurant" },
+          { "file": "CIMG1777.jpg", "caption": "Robin and Merle" },
+          { "file": "CIMG1779.jpg", "caption": "Inside restaurant" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "europe-1",
+    "title": "Europe 2004 (1 of 2)",
+    "cover": "europe1.jpg",
+    "description": "Photos from my three week trip through Western Europe in the summer of 2004.",
+    "sections": [
+      {
+        "heading": "Cologne, Germany",
+        "photos": [
+          { "file": "CIMG0949.jpg", "caption": "Stove at Robin's pad" },
+          { "file": "CIMG0950.jpg", "caption": "Cologne Dom cathedral" },
+          { "file": "CIMG0962.jpg", "caption": "Inside cathedral" },
+  
+          { "file": "CIMG0964.jpg", "caption": "More stained glass" },
+          { "file": "CIMG0968.jpg", "caption": "Floor of cathedral" },
+          { "file": "CIMG0976.jpg", "caption": "Top of Dom cathedral" }
+        ]
+      },
+      {
+        "heading": "Nature One, Germany",
+        "photos": [
+          { "file": "CIMG0988.jpg", "caption": "Arrival at Nature One music festival" },
+          { "file": "CIMG0994.jpg", "caption": "Nature One camping" },
+          { "file": "CIMG0996.jpg", "caption": "Walking to the venue area" },
+  
+          { "file": "CIMG1001.jpg", "caption": "Nature One" },
+          { "file": "CIMG1005.jpg", "caption": "Thunderdome" },
+          { "file": "CIMG1006.jpg", "caption": "Cocoon Club" },
+  
+          { "file": "CIMG1011.jpg", "caption": "Blank & Jones" },
+          { "file": "CIMG1015.jpg", "caption": "Main outdoor stage" },
+          { "file": "CIMG1019.jpg", "caption": "Robin w/ glowsticks" },
+  
+          { "file": "CIMG1028.jpg", "caption": "Main Nature One stage" },
+          { "file": "CIMG1037.jpg", "caption": "Main stage again" },
+          { "file": "CIMG1047.jpg", "caption": "Ferry Corsten" },
+  
+          { "file": "CIMG1061.jpg", "caption": "Nature One" },
+          { "file": "CIMG1094.jpg", "caption": "Fireworks at Nature One" },
+          { "file": "CIMG1109.jpg", "caption": "" }
+        ]
+      },
+      {
+        "heading": "Nurburgring, Germany",
+        "photos": [
+          { "file": "CIMG1115.jpg", "caption": "Porsche Speedster at Nurburgring" },
+          { "file": "CIMG1119.jpg", "caption": "Adenau" },
+          { "file": "CIMG1128.jpg", "caption": "Race car at Nissan store" },
+  
+          { "file": "CIMG1134.jpg", "caption": "Mercedes SL65 AMG and Porsche GT3" },
+          { "file": "CIMG1136.jpg", "caption": "Robin in Till's racing Vette" },
+          { "file": "CIMG1143.jpg", "caption": "Walk in forest near the Ring" }
+        ]
+      },
+      {
+        "heading": "Paris, France",
+        "photos": [
+          { "file": "CIMG1143.jpg", "caption": "Walk in forest near the Ring" },
+          { "file": "CIMG1165.jpg", "caption": "Louvre Gallery, Paris" },
+          { "file": "CIMG1169.jpg", "caption": "Louvre" },
+  
+          { "file": "CIMG1175.jpg", "caption": "Louvre courtyard" },
+          { "file": "CIMG1187.jpg", "caption": "Louvre" },
+          { "file": "CIMG1203.jpg", "caption": "L'Arc de Triomphe, Paris" },
+  
+          { "file": "CIMG1206.jpg", "caption": "L'Arc de Triomphe" },
+          { "file": "CIMG1211.jpg", "caption": "L'Arc de Triomphe" },
+          { "file": "CIMG1212.jpg", "caption": "L'Arc de Triomphe" },
+  
+          { "file": "CIMG1222.jpg", "caption": "Eiffel Tower, Paris" },
+          { "file": "CIMG1236.jpg", "caption": "Eiffel Tower, dusk" },
+          { "file": "CIMG1239.jpg", "caption": "Driving through France" }
+        ]
+      },
+      {
+        "heading": "Ibiza, Spain",
+        "photos": [
+          { "file": "CIMG1250.jpg", "caption": "Our ferry to Ibiza, Spain" },
+          { "file": "CIMG1254.jpg", "caption": "Barcelona, waiting for ferry" },
+          { "file": "CIMG1278.jpg", "caption": "Ibiza Old Town entrance" },
+  
+          { "file": "CIMG1282.jpg", "caption": "Aiming cannon at an airplane" },
+          { "file": "CIMG1303.jpg", "caption": "Port of Ibiza Town" },
+          { "file": "CIMG1311.jpg", "caption": "Old Town Ibiza" },
+  
+          { "file": "CIMG1313.jpg", "caption": "More Old Town" },
+          { "file": "CIMG1327.jpg", "caption": "Ibiza, the White Isle" },
+          { "file": "CIMG1333.jpg", "caption": "Ibiza coastline" },
+  
+          { "file": "CIMG1337.jpg", "caption": "More coastline" },
+          { "file": "CIMG1347.jpg", "caption": "Port in Western Ibiza" },
+          { "file": "CIMG1361.jpg", "caption": "Our rental Seat Leon" },
+  
+          { "file": "CIMG1363.jpg", "caption": "Beach near Ibiza Town" },
+          { "file": "CIMG1375.jpg", "caption": "Ibiza Town port" },
+          { "file": "CIMG1378.jpg", "caption": "Cafe Mambo, Ibiza" },
+  
+          { "file": "CIMG1383.jpg", "caption": "Cafe Mambo patio" },
+          { "file": "CIMG1394.jpg", "caption": "View from patio" },
+          { "file": "CIMG1405.jpg", "caption": "Cafe del Mar, Ibiza" },
+  
+          { "file": "CIMG1424.jpg", "caption": "Legendary San Antonio sunset" },
+          { "file": "CIMG1459.jpg", "caption": "Cafe Mambo just after sunset" },
+          { "file": "CIMG1476.jpg", "caption": "Privilege, biggest club in the world!" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pittsburgh-2",
+    "title": "Pittsburgh (2 of 2)",
+    "cover": "pittsburghpresent2.jpg",
+    "description": "More photos taken after I moved back to Pittsburgh.",
+    "sections": [
+      {
+        "heading": "Summertime",
+        "photos": [
+          { "file": "03-05-05_2339.jpg", "caption": "Battle of the Bands" },
+          { "file": "03-16-05_1903.jpg", "caption": "At my computer" },
+          { "file": "05-30-05_2033.jpg", "caption": "Sunset at Southside Works" },
+  
+          { "file": "06-25-05_2209.jpg", "caption": "Hard Rock Cafe at Station Square" },
+          { "file": "06-25-05_2144.jpg", "caption": "Jeff and a Hooters waitress" },
+          { "file": "07-04-05_0206.jpg", "caption": "Wear White Party at Deja Vu" },
+  
+          { "file": "CIMG2621.jpg", "caption": "Downtown on July 4" },
+          { "file": "CIMG2628.jpg", "caption": "Purple People Eater, Allen, & Ivan" },
+          { "file": "CIMG2581.jpg", "caption": "Allen looking out the window" },
+  
+          { "file": "07-06-05_2325.jpg", "caption": "Club Moda in Cleveland" },
+          { "file": "07-07-05_0146.jpg", "caption": "Ferry Corsten in the DJ booth" },
+          { "file": "07-07-05_0306.jpg", "caption": "During Ferry's set" },
+  
+          { "file": "07-07-05_0120.jpg", "caption": "Crowd during Oakenfold's set" },
+          { "file": "07-07-05_0420.jpg", "caption": "DJ Ferry Corsten & Allen" },
+          { "file": "CIMG2631.jpg", "caption": "Beautiful clouds at outdoor rave" },
+  
+          { "file": "P1010486.jpg", "caption": "Allen, Leesa, and Laura" },
+          { "file": "Trinity-at-work.jpg", "caption": "Leesa on the decks" },
+          { "file": "P1010487.jpg", "caption": "Kelly, Laura, Allen, & Leesa" },
+  
+          { "file": "08-06-05_2030.jpg", "caption": "Rolling Rock Town Fair" },
+          { "file": "08-17-05_2358.jpg", "caption": "Polina & Piyush at Boardwalk" },
+          { "file": "08-27-05_0419.jpg", "caption": "Marcin" }
+        ]
+      },
+      {
+        "heading": "NYC Trip",
+        "photos": [
+          { "file": "09-16-05_1921.jpg", "caption": "Ultra NY concert in Central Park" },
+          { "file": "09-16-05_2001.jpg", "caption": "Paul Oakenfold on the decks" },
+          { "file": "09-16-05_2035.jpg", "caption": "The Chemical Brothers live show" },
+  
+          { "file": "CIMG2664.jpg", "caption": "Jamie and Rachel" },
+          { "file": "CIMG2666.jpg", "caption": "Nikki and John" },
+          { "file": "CIMG2672.jpg", "caption": "Jamie and Allen" },
+  
+          { "file": "CIMG2673.jpg", "caption": "Colorful hotel" },
+          { "file": "CIMG2677.jpg", "caption": "Elaine at Brazilian restaurant" },
+          { "file": "CIMG2687.jpg", "caption": "Back in Pittsburgh" }
+        ]
+      },
+      {
+        "heading": "Baltimore Trip",
+        "photos": [
+          { "file": "DSCN0286.jpg", "caption": "Mom, Allen, and Anna at Baltimore's Inner Harbor" },
+          { "file": "DSCN0294.jpg", "caption": "Anna at Chestertown, Maryland" },
+          { "file": "DSCN0296.jpg", "caption": "Anna at her painting easel" },
+  
+          { "file": "DSCN0309.jpg", "caption": "National Aquarium in Baltimore" },
+          { "file": "DSCN0312.jpg", "caption": "Big blue fish" },
+          { "file": "DSCN0316.jpg", "caption": "Various marine life" },
+  
+          { "file": "DSCN0321.jpg", "caption": "Rockfish" },
+          { "file": "DSCN0325.jpg", "caption": "Finding Nemo fish" },
+          { "file": "DSCN0329.jpg", "caption": "Alligator" },
+  
+          { "file": "DSCN0332.jpg", "caption": "Lick my frog" },
+          { "file": "DSCN0339.jpg", "caption": "Large arachnid" },
+          { "file": "DSCN0340.jpg", "caption": "Hiding snake" },
+  
+          { "file": "DSCN0343.jpg", "caption": "Above escalator" },
+          { "file": "DSCN0348.jpg", "caption": "Bottom of escalator" },
+          { "file": "DSCN0351.jpg", "caption": "Baltimore Inner Harbor" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pittsburgh-1",
+    "title": "Pittsburgh (1 of 2)",
+    "cover": "pittsburghpresent.jpg",
+    "description": "Photos taken after I moved back to Pittsburgh in October of 2004.",
+    "sections": [
+      {
+        "heading": "Pittsburgh",
+        "photos": [
+          { "file": "CIMG1822.jpg", "caption": "CMU Homecoming" },
+          { "file": "CIMG1831.jpg", "caption": "Bullm00se" },
+          { "file": "CIMG1840.jpg", "caption": "Club Sanctuary in the Strip" },
+  
+          { "file": "CIMG1892.jpg", "caption": "My apartment building" },
+          { "file": "CIMG1912.jpg", "caption": "Natasha at Starbucks" },
+          { "file": "CIMG1918.jpg", "caption": "Waterfront" },
+  
+          { "file": "CIMG1921.jpg", "caption": "Fall colors at CMU" },
+          { "file": "CIMG1946.jpg", "caption": "Halloween decorations in Squill" },
+          { "file": "CIMG1955.jpg", "caption": "Leaves in Squirrel Hill" },
+  
+          { "file": "CIMG1999.jpg", "caption": "Light-Up Night downtown" },
+          { "file": "6a.jpg", "caption": "Natasha, Allen, and Dasha before ice skating" },
+          { "file": "CIMG2007.jpg", "caption": "Natasha, Jumel, Anna, and Dasha at Thanksgiving" }
+        ]
+      },
+      {
+        "heading": "Colorado Trip",
+        "photos": [
+          { "file": "CIMG2020.jpg", "caption": "Snowshoeing near Breckenridge, CO" },
+          { "file": "CIMG2022.jpg", "caption": "Becky and Anna" },
+          { "file": "CIMG2026.jpg", "caption": "Lens flare" },
+  
+          { "file": "CIMG2028.jpg", "caption": "Snowy back yard in Colorado" },
+          { "file": "CIMG2032.jpg", "caption": "View from yard" },
+          { "file": "CIMG2036.jpg", "caption": "Flying to Minneapolis on way to Iowa" }
+        ]
+      },
+      {
+        "heading": "Boston Trip",
+        "photos": [
+          { "file": "CIMG2056.jpg", "caption": "Dasha and Merle at Harvard" },
+          { "file": "CIMG2071.jpg", "caption": "Merle" },
+          { "file": "CIMG2073.jpg", "caption": "Dasha" },
+  
+          { "file": "CIMG2081.jpg", "caption": "Harvard" },
+          { "file": "CIMG2085.jpg", "caption": "MIT" },
+          { "file": "CIMG2094.jpg", "caption": "Inside MIT" },
+  
+          { "file": "CIMG2095.jpg", "caption": "Boston, Charles River at twilight" },
+          { "file": "CIMG2103.jpg", "caption": "Fire truck, obviously" },
+          { "file": "CIMG2111.jpg", "caption": "New Year's Eve parade" },
+  
+          { "file": "CIMG2135.jpg", "caption": "Sanjay, Rupal, & Alicia" },
+          { "file": "CIMG2140.jpg", "caption": "Quick stop in Hartford, Connecticut" },
+          { "file": "CIMG2222.jpg", "caption": "Tequila Willies in the Strip" }
+        ]
+      },
+      {
+      "heading": "Pittsburgh Auto Show",
+        "photos": [
+          { "file": "CIMG2150.jpg", "caption": "Aston Martin at Pittsburgh Auto Show" },
+          { "file": "CIMG2161.jpg", "caption": "Volvo race car" },
+          { "file": "CIMG2174.jpg", "caption": "Two Lotus Elise" },
+    
+          { "file": "CIMG2181.jpg", "caption": "Ford GT" },
+          { "file": "CIMG2190.jpg", "caption": "Jeff in a Vette" },
+          { "file": "CIMG2201.jpg", "caption": "Chrysler ME4-12 prototype" }
+        ]
+      },
+      {
+        "heading": "NYC Trip",
+        "photos": [
+          { "file": "02-26-05_1555.jpg", "caption": "Gates exhibition in Central Park" },
+          { "file": "02-26-05_1811.jpg", "caption": "New York City" },
+          { "file": "02-27-05_0339.jpg", "caption": "Roger Sanchez at Crobar" },
+    
+          { "file": "CIMG2251.jpg", "caption": "Golden Arches in Times Square" },
+          { "file": "CIMG2266.jpg", "caption": "Times Square" },
+          { "file": "CIMG2269.jpg", "caption": "Times Square, reverse angle" }
+        ]
+      },
+      {
+        "heading": "Carnival Weekend",
+        "photos": [
+          { "file": "CIMG2444.jpg", "caption": "'See Who's Here' event at PHI-Bar" },
+          { "file": "CIMG2456.jpg", "caption": "Walnut Street view from Doc's" },
+          { "file": "CIMG2463.jpg", "caption": "Jeff, Sanjay, Dasha at Spaghetti Warehouse" }
+        ]
+      },
+      {
+        "heading": "St. Louis Trip",
+        "photos": [
+          { "file": "CIMG2502.jpg", "caption": "Washington University" },
+          { "file": "CIMG2515.jpg", "caption": "Anna is a college graduate!" },
+          { "file": "Forest-Park---St.jpg", "caption": "Family at World's Fair area" }
+        ]
+      },
+      {
+        "heading": "Washington DC Trip",
+        "photos": [
+          { "file": "natasha1.jpg", "caption": "Natasha's international party" },
+          { "file": "natasha2.jpg", "caption": "Chatting" },
+          { "file": "natasha7.jpg", "caption": "More chatting" },
+  
+          { "file": "CIMG2527.jpg", "caption": "Dasha, the bad cowgirl" },
+          { "file": "natasha6.jpg", "caption": "Natasha and Allen at the beach" },
+          { "file": "natasha4.jpg", "caption": "Gang at the beach at Annapolis" },
+  
+          { "file": "CIMG2559.jpg", "caption": "mErle court, where mErle rules" },
+          { "file": "CIMG2564.jpg", "caption": "Funky TGI Friday's ceiling" },
+          { "file": "natasha3.jpg", "caption": "Dinner at Fridays after the beach" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "canon-2",
+    "title": "Pittsburgh 2006",
+    "cover": "canon2.jpg",
+    "description": "Photos taken during the Spring and Summer of 2006.",
+    "sections": [
+      {
+        "heading": "Tracy",
+        "photos": [
+          { "file": "TMS.jpg", "caption": "Tracy's self-shot photo" },
+          { "file": "IMG_1390.jpg", "caption": "Tracy's cat" },
+          { "file": "TR_02.jpg", "caption": "Tracy at Mynt" }
+        ]
+      },
+      {
+        "heading": "Walk in Frick Park",
+        "photos": [
+          { "file": "IMG_1191.jpg", "caption": "View from trailhead" },
+          { "file": "IMG_1200.jpg", "caption": "Along the trail" },
+          { "file": "IMG_1201.jpg", "caption": "Springtime flowering trees" }
+        ]
+      },
+      {
+        "heading": "Weekend in Cleveland",
+        "photos": [
+          { "file": "CIMG3196.jpg", "caption": "Sarah & Kelly" },
+          { "file": "CIMG3199.jpg", "caption": "DJ at May Daze" },
+          { "file": "CIMG3200.jpg", "caption": "Eerie night shot" }
+        ]
+      },
+      {
+        "heading": "Koolaid 2",
+        "photos": [
+          { "file": "IMG_1227.jpg", "caption": "Random ravers on patio" },
+          { "file": "IMG_1265.jpg", "caption": "Dance floor" },
+          { "file": "IMG_1268.jpg", "caption": "DJ Venom" },
+  
+          { "file": "IMG_1292.jpg", "caption": "PNC Park & Heinz Field" },
+          { "file": "IMG_1289.jpg", "caption": "Downtown Pittsburgh" },
+          { "file": "IMG_1296.jpg", "caption": "Another view from patio" }
+        ]
+      },
+      {
+        "heading": "Early Summer",
+        "photos": [
+          { "file": "Image0004.jpg", "caption": "Allen in  his captain's chair" },
+          { "file": "IMG_1320.jpg", "caption": "Spike, Tracy & Allen" },
+          { "file": "IMG_1319.jpg", "caption": "Tracy & Allen" },
+  
+          { "file": "IMG_1330.jpg", "caption": "Tracy's psychiatrist pose" },
+          { "file": "IMG_1328.jpg", "caption": "Oleg & Spike" },
+          { "file": "IMG_1333.jpg", "caption": "Rea" }
+        ]
+      },
+      {
+        "heading": "More Frick Park",
+        "photos": [
+          { "file": "panotracyhouse2.jpg", "caption": "Tracy's dining room panorama" },
+          { "file": "IMG_1397.jpg", "caption": "Along the trail" },
+          { "file": "IMG_1400.jpg", "caption": "Vine Person" },
+  
+          { "file": "IMG_1401.jpg", "caption": "View up through trees" },
+          { "file": "IMG_1411.jpg", "caption": "Tracy at playground" }
+        ]
+      },
+      {
+        "heading": "Frequency Fest",
+        "photos": [
+          { "file": "IMG_1444.jpg", "caption": "Brian spinning while Sarah watches" },
+          { "file": "IMG_1448.jpg", "caption": "Dog by neighboring tent" },
+          { "file": "IMG_1450.jpg", "caption": "Chilling in the campground" }
+        ]
+      },
+      {
+        "heading": "West Virginia",
+        "photos": [
+          { "file": "IMG_1481.jpg", "caption": "Blackwater Falls" },
+          { "file": "IMG_1488.jpg", "caption": "Tracy" },
+          { "file": "IMG_1490.jpg", "caption": "View from lookout point" },
+  
+          { "file": "IMG_1501.jpg", "caption": "John Deer(e)" },
+          { "file": "IMG_1495.jpg", "caption": "Digital waterfall" },
+          { "file": "IMG_1509.jpg", "caption": "Twine butterflies" },
+  
+          { "file": "IMG_1514.jpg", "caption": "Valley Falls park" },
+          { "file": "IMG_1516.jpg", "caption": "Tracy reading about the old mill" },
+          { "file": "IMG_1529.jpg", "caption": "Downriver view" },
+  
+          { "file": "IMG_1530.jpg", "caption": "Closeup of rapids section" },
+          { "file": "IMG_1539.jpg", "caption": "Hanging out near the river" },
+          { "file": "IMG_1542.jpg", "caption": "Calm waters on the river's edge" }
+        ]
+      },
+      {
+        "heading": "Privé Ultralounge",
+        "photos": [
+          { "file": "feelgood1.jpg", "caption": "Tracy, Allen, & Rea" },
+          { "file": "feelgood2.jpg", "caption": "Ignoring the camera" },
+          { "file": "feelgood3.jpg", "caption": "Tracy & Allen" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "canon-1",
+    "title": "Winter 2005-06",
+    "cover": "canon.jpg",
+    "description": "Photos taken during the winter of 2005-06.",
+    "sections": [
+      {
+        "heading": "Wintertime in Pittsburgh",
+        "photos": [
+          { "file": "IMG_0173.jpg", "caption": "Spike, Allen, and Rita" },
+          { "file": "IMG_0011.jpg", "caption": "Rita" },
+          { "file": "IMG_0012.jpg", "caption": "Matt and Lisa" },
+  
+          { "file": "IMG_0311.jpg", "caption": "Spike ready for U-Haul" },
+          { "file": "IMG_0122.jpg", "caption": "Signpost behind my building" },
+          { "file": "IMG_0338.jpg", "caption": "Red Bull, the drink of champions" },
+  
+          { "file": "IMG_0331.jpg", "caption": "Spike aka DJ ETek at WRCT" },
+          { "file": "IMG_0316.jpg", "caption": "Masks in University Center basement" },
+          { "file": "IMG_0390.jpg", "caption": "Rockstar indeed!" }
+          ]
+      },
+      {
+        "heading": "Around Thanksgiving",
+        "photos": [
+          { "file": "IMG_0409.jpg", "caption": "Yves Jean & Spike" },
+          { "file": "IMG_0412.jpg", "caption": "Sara, Steph, and Jess" },
+          { "file": "IMG_0427.jpg", "caption": "Rita, Spike, and Allen" }
+        ]
+      },
+      {
+        "heading": "Visit to Spike's Place",
+        "photos": [
+          { "file": "IMG_0552.jpg", "caption": "Lake near Spike's house" },
+          { "file": "IMG_0583.jpg", "caption": "Spike's dog, Belle" },
+          { "file": "IMG_0582.jpg", "caption": "Cute puppy" }
+        ]
+      },
+      {
+        "heading": "Late-Night Snow",
+        "photos": [
+          { "file": "IMG_0609.jpg", "caption": "Late-night walk in new snow" },
+          { "file": "IMG_0633.jpg", "caption": "Stephen Foster Memorial" },
+          { "file": "IMG_0625.jpg", "caption": "Cathedral of Learning, Pitt" },
+  
+          { "file": "IMG_0678.jpg", "caption": "University Center, CMU" },
+          { "file": "IMG_0640.jpg", "caption": "Heinz Chapel" },
+          { "file": "IMG_0686.jpg", "caption": "Douglas Cooper mural, CMU" }
+        ]
+      },
+      {
+        "heading": "Chilling with Friends",
+        "photos": [
+          { "file": "ColoradoXmas1-001.jpg", "caption": "Rita grabbing a bite" },
+          { "file": "IMG_0589.jpg", "caption": "Laura shunning furniture" },
+          { "file": "ColoradoXmas1-002.jpg", "caption": "Greg during his visit" }
+        ]
+      },
+      {
+        "heading": "Ute Valley Park, CO",
+        "photos": [
+          { "file": "ColoradoXmas1-020.jpg", "caption": "Walking in Ute Valley Park" },
+          { "file": "ColoradoXmas1-037.jpg", "caption": "Wood" },
+          { "file": "ColoradoXmas1-063.jpg", "caption": "Ute Valley" }
+        ]
+      },
+      {
+        "heading": "Garden of the Gods, CO",
+        "photos": [
+          { "file": "IMG_0831.jpg", "caption": "Climbers" },
+          { "file": "IMG_0841.jpg", "caption": "Mom & Anna watching climbers" },
+          { "file": "IMG_0843.jpg", "caption": "Pikes Peak on the horizon" },
+  
+          { "file": "IMG_0873.jpg", "caption": "Anna following roadside instructions" },
+          { "file": "IMG_0854.jpg", "caption": "That little red speck is a climber" },
+          { "file": "IMG_0878.jpg", "caption": "Acting goofy" },
+  
+          { "file": "GardenOfTheGods.jpg", "caption": "Garden of the Gods panoramic photo", "span": "3" }
+        ]
+      },
+      {
+        "heading": "Estes Park, CO",
+        "photos": [
+          { "file": "IMG_0892.jpg", "caption": "One of many roadside elk" },
+          { "file": "IMG_0897.jpg", "caption": "Elk on way back from skiing" },
+          { "file": "IMG_0915.jpg", "caption": "Elk caught in flash" },
+  
+          { "file": "IMG_0924.jpg", "caption": "Cousins" },
+          { "file": "IMG_0940.jpg", "caption": "Immediate family" },
+          { "file": "IMG_0951.jpg", "caption": "Christmas morning" },
+  
+          { "file": "IMG_0963.jpg", "caption": "Rocky Mountain National Park" },
+          { "file": "IMG_0966.jpg", "caption": "Another view" },
+          { "file": "IMG_0969.jpg", "caption": "Rocks and twin trees" },
+  
+          { "file": "RockyMountainNationalPark.jpg", "caption": "Rocky Mountain National Park panorama", "span": "3" },
+  
+          { "file": "stanleypanorama.jpg", "caption": "Stanley Hotel, basis for Stephen King's 'The Shining'", "span": "3" }
+        ]
+      },
+      {
+        "heading": "New Year's Eve",
+        "photos": [
+          { "file": "CIMG2724.jpg", "caption": "Rita & Spike" },
+          { "file": "CIMG2740.jpg", "caption": "Matt & Lisa" },
+          { "file": "CIMG2760.jpg", "caption": "Dave, Spike, & Marcin" }
+        ]
+      },
+      {
+        "heading": "Firehouse Lounge",
+        "photos": [
+          { "file": "IMG_1071.jpg", "caption": "Firehouse Lounge" },
+          { "file": "IMG_1072.jpg", "caption": "Piyush & Polina" },
+          { "file": "IMG_1083.jpg", "caption": "Merle bustin' loose" }
+        ]
+      },
+      {
+        "heading": "DJ Icey Show",
+        "photos": [
+          { "file": "CIMG2876.jpg", "caption": "Melissa & Spike" },
+          { "file": "CIMG2893.jpg", "caption": "Crowd at Bash" },
+          { "file": "CIMG2904.jpg", "caption": "DJ Icey on the decks" },
+  
+          { "file": "CIMG2908.jpg", "caption": "Double Melissa / Double Allen" },
+          { "file": "CIMG2948.jpg", "caption": "Club Bash" },
+          { "file": "CIMG2958.jpg", "caption": "Merle, Spike, & Allen" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "west-coast-trip",
+    "title": "West Coast Trip",
+    "cover": "westcoast.jpg",
+    "description": "Photos from my trip to the West Coast, from Seattle to the Bay Area.",
+    "sections": [
+      {
+        "heading": "West Coast Trip",
+        "photos": [
+          { "file": "2003_0323Seattle0002b.jpg", "caption": "Allen in Seattle" },
+          { "file": "2003_0323Seattle0009.jpg", "caption": "Seattle skyline from ferry" },
+          { "file": "IMG_1553B.jpg", "caption": "Tracy on the pier" },
+  
+          { "file": "IMG_1579.jpg", "caption": "Allen &amp; Tracy in Kitsap for Arvind & Laura's wedding" },
+          { "file": "IMG_1571.jpg", "caption": "Groomsmen Harish, Chris, Charlie, & Robin" },
+          { "file": "IMG_1597.jpg", "caption": "Arvind & Laura" },
+  
+          { "file": "IMG_1581.jpg", "caption": "Farm Kitchen flowers" },
+          { "file": "IMG_1584.jpg", "caption": "Farm Kitchen horse" },
+          { "file": "IMG_1557.jpg", "caption": "Poulsbo" },
+  
+          { "file": "IMG_1629.jpg", "caption": "Rental Mustang convertible" },
+          { "file": "IMG_1612.jpg", "caption": "Robin driving his rental Stang" },
+          { "file": "IMG_1622.jpg", "caption": "Mount St Helens area" },
+  
+          { "file": "IMG_1641.jpg", "caption": "Beach on Oregon coast" },
+          { "file": "IMG_1654.jpg", "caption": "Oregon Coast" },
+          { "file": "IMG_1652.jpg", "caption": "Walking in the muck" },
+  
+          { "file": "IMG_1679.jpg", "caption": "Tracy & Allen on Oregon Coast", "span": "3" },
+  
+          { "file": "IMG_1663.jpg", "caption": "Beach & cliffs" },
+          { "file": "IMG_1687.jpg", "caption": "Devil's Churn" },
+          { "file": "IMG_1711.jpg", "caption": "Mount Shasta" },
+  
+          { "file": "IMG_1720.jpg", "caption": "Sunset in Davis, CA" },
+          { "file": "IMG_1726.jpg", "caption": "Crossing the Golden Gate Bridge" },
+          { "file": "IMG_1782.jpg", "caption": "Sunset at Stinson Beach" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fall-2006",
+    "title": "Fall 2006 - Spring 2007",
+    "cover": "steveporter.jpg",
+    "description": "Photos from Fall 2006 through Spring 2007.",
+    "sections": [
+      {
+        "heading": "Autumn",
+        "photos": [
+          { "file": "IMG_1470.jpg", "caption": "Nearby house fire" },
+          { "file": "IMG_1793.jpg", "caption": "Fall colors at Boyce Park" },
+          { "file": "IMG_1836.jpg", "caption": "Tracy enjoying the leaves" },
+  
+          { "file": "IMG_1843.jpg", "caption": "Downtown from Point State Park" },
+          { "file": "IMG_1806.jpg", "caption": "Fountain at the Point w/ rainbow" },
+          { "file": "IMG_1832.jpg", "caption": "Point State Park" },
+  
+          { "file": "PointPanorama.jpg", "caption": "Panorama at the Point", "span": "3" }
+        ]
+      },
+      {
+        "heading": "Halloween Party",
+        "photos": [
+          { "file": "halloween01.jpg", "caption": "Rea, Allen, & Tracy" },
+          { "file": "halloween04.jpg", "caption": "Paul & Denae" },
+          { "file": "halloween03.jpg", "caption": "Rea, Armon, & Gretchen" }
+        ]
+      },
+      {
+        "heading": "DJ Dan Show",
+        "photos": [
+          { "file": "IMG_1886.jpg", "caption": "Oleg & Tracy" },
+          { "file": "IMG_1887.jpg", "caption": "Allen & Oleg" },
+          { "file": "IMG_1889.jpg", "caption": "Tracy & Allen" }
+        ]
+      },
+      {
+        "heading": "Thanksgiving in Colorado",
+        "photos": [
+          { "file": "IMG_1915.jpg", "caption": "Rocky Mountain National Park" },
+          { "file": "IMG_1912.jpg", "caption": "Frozen stream" },
+          { "file": "IMG_1909.jpg", "caption": "Tracy" },
+  
+          { "file": "IMG_1902.jpg", "caption": "Big horn sheep" },
+          { "file": "IMG_1947.jpg", "caption": "Hiking" },
+          { "file": "IMG_1940.jpg", "caption": "Less fortunate big horn sheep" },
+  
+          { "file": "IMG_1951.jpg", "caption": "Allen w/ tree growing out of head & Tracy" },
+          { "file": "IMG_1954.jpg", "caption": "Anna on the rocks" },
+          { "file": "IMG_1956.jpg", "caption": "Anna & Allen" },
+  
+          { "file": "IMG_1958.jpg", "caption": "Parents' remodeled kitchen" },
+          { "file": "IMG_1975.jpg", "caption": "Back yard" },
+          { "file": "IMG_1985.jpg", "caption": "Allen & Tracy" },
+  
+          { "file": "IMG_1992.jpg", "caption": "Garden of the Gods rock" },
+          { "file": "IMG_2001.jpg", "caption": "Resilient Tree" },
+          { "file": "IMG_1989.jpg", "caption": "Pikes Peak view" },
+  
+          { "file": "PanoramaGoG1.jpg", "caption": "Garden of the Gods panorama", "span": "3" },
+  
+          { "file": "IMG_2050.jpg", "caption": "Statue" },
+          { "file": "IMG_2052.jpg", "caption": "Allen & Tracy" },
+          { "file": "IMG_2075.jpg", "caption": "The Broadmoor hotel" },
+  
+          { "file": "PanoramaBroadmoor1.jpg", "caption": "Broadmoor panorama", "span": "3" }
+        ]
+      },
+      {
+        "heading": "Bring it Back",
+        "photos": [
+          { "file": "IMG_1857.jpg", "caption": "HR, SarahBear, Brian & Teardrop" },
+          { "file": "IMG_1866.jpg", "caption": "DJ on the decks" },
+          { "file": "IMG_1867.jpg", "caption": "Jungle Mike, Will & Sarah" },
+  
+          { "file": "IMG_1870.jpg", "caption": "Glowstick dude & Etch" },
+          { "file": "IMG_1873.jpg", "caption": "Tyler" },
+          { "file": "IMG_1876.jpg", "caption": "Raver girl & Murdzak" }
+        ]
+      },
+      {
+        "heading": "Phipps Conservatory",
+        "photos": [
+          { "file": "IMG_2084.jpg", "caption": "Phipps Christmas show" },
+          { "file": "IMG_2095.jpg", "caption": "Thailand exhibit" },
+          { "file": "IMG_2121.jpg", "caption": "Peacock room" },
+  
+          { "file": "IMG_2102.jpg", "caption": "Cactus tree" },
+          { "file": "IMG_2111.jpg", "caption": "Another room" },
+          { "file": "IMG_2090.jpg", "caption": "Christmas tree and flowers" }
+        ]
+      },
+      {
+        "heading": "Dieselboy Show",
+        "photos": [
+          { "file": "CIMG3251.jpg", "caption": "Dieselboy DnB show" },
+          { "file": "CIMG3237.jpg", "caption": "Allen & Tracy" },
+          { "file": "CIMG3256.jpg", "caption": "More lights" }
+        ]
+      },
+      {
+        "heading": "Palm Bar",
+        "photos": [
+          { "file": "TracyAllen.jpg", "caption": "Tracy & Allen on New Year's Eve" },
+          { "file": "CIMG3261.jpg", "caption": "Matt Monroe on the decks" },
+          { "file": "CIMG3262.jpg", "caption": "First floor crowd" },
+  
+          { "file": "CIMG3271.jpg", "caption": "Oleg, Tracy & Amanda" },
+          { "file": "CIMG3266.jpg", "caption": "Naoko & Dan" },
+          { "file": "CIMG3272.jpg", "caption": "Tracy & Jen" }
+        ]
+      },
+      {
+        "heading": "Steve Porter Show",
+        "photos": [
+          { "file": "AllenTracy.jpg", "caption": "Tracy & Allen in the VIP" },
+          { "file": "CIMG3393.jpg", "caption": "DJ Steve Porter" },
+          { "file": "DoriSpike.jpg", "caption": "Dori & Spike" }
+        ]
+      },
+      {
+        "heading": "NYC Trip",
+        "photos": [
+          { "file": "DSCF1131.jpg", "caption": "Crobar" },
+          { "file": "DSCF1103.jpg", "caption": "Tracy, Elise, & Allen" },
+          { "file": "DSCF1138.jpg", "caption": "Lasers at Crobar" }
+        ]
+      },
+      {
+        "heading": "Palm Bar",
+        "photos": [
+          { "file": "411907228_631cb0f56f_o.jpg", "caption": "Tracy & Allen" },
+          { "file": "427677590_905b26bd84_o.jpg", "caption": "St. Patty's Day" }
+        ]
+      },
+      {
+        "heading": "Pittsburgh Auto Show",
+        "photos": [
+          { "file": "IMG_2221.jpg", "caption": "Audi R8" },
+          { "file": "IMG_2226.jpg", "caption": "Ethanol Racer" },
+          { "file": "IMG_2228.jpg", "caption": "Lotus Elise x 3" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "summer-2007",
+    "title": "Summer 2007",
+    "cover": "alcatraz.jpg",
+    "description": "Photos from the summer of 2007.",
+    "sections": [
+      {
+        "heading": "California in May",
+        "photos": [
+          { "file": "IMG_2237.jpg", "caption": "Berkeley" },
+          { "file": "IMG_2239.jpg", "caption": "Wedding at Testarossa Vineyards" },
+          { "file": "IMG_2263.jpg", "caption": "Vanessa, Tracy, & Allen" },
+  
+          { "file": "IMG_2280.jpg", "caption": "Cruise to Alcatraz Island" },
+          { "file": "IMG_2298.jpg", "caption": "Arrival at The Rock" },
+          { "file": "IMG_2299.jpg", "caption": "Vintage firetruck" },
+  
+          { "file": "IMG_2305.jpg", "caption": "Alcatraz Island" },
+          { "file": "IMG_2310.jpg", "caption": "Alcatraz prison cell" },
+          { "file": "IMG_2340.jpg", "caption": "San Francisco view from Alcatraz" },
+  
+          { "file": "IMG_2332.jpg", "caption": "This bird made the strangest noise" },
+          { "file": "IMG_2312.jpg", "caption": "Cell block ceiling" },
+          { "file": "IMG_2348.jpg", "caption": "Seagull closeup" }
+        ]
+      },
+      {
+        "heading": "A Weekend in June",
+        "photos": [
+          { "file": "IMG_2377.jpg", "caption": "Bethany & Greg's wedding" },
+          { "file": "IMG_2386.jpg", "caption": "The family" },
+          { "file": "CIMG3420.jpg", "caption": "Tracy" }
+        ]
+      },
+      {
+        "heading": "Montreal",
+        "photos": [
+          { "file": "IMG_2402.jpg", "caption": "View from the hotel" },
+          { "file": "IMG_2404.jpg", "caption": "Allen enjoying the view" },
+          { "file": "IMG_2408.jpg", "caption": "Near the hotel" },
+  
+          { "file": "IMG_2406.jpg", "caption": "Marie Reine du Monde" },
+          { "file": "IMG_2419.jpg", "caption": "Clock" },
+          { "file": "IMG_2421.jpg", "caption": "Iroquois statue" },
+  
+          { "file": "IMG_2432.jpg", "caption": "Stained glass" },
+          { "file": "IMG_2424.jpg", "caption": "Cathedral" },
+          { "file": "IMG_2427.jpg", "caption": "Altar" },
+  
+          { "file": "IMG_2449.jpg", "caption": "T-Rex" },
+          { "file": "IMG_2454.jpg", "caption": "Picnik Electronik" },
+          { "file": "IMG_2467.jpg", "caption": "Skyline" },
+  
+          { "file": "IMG_2473.jpg", "caption": "Tracy" },
+          { "file": "IMG_2470.jpg", "caption": "Near the Picnik Electronik" },
+          { "file": "IMG_2483.jpg", "caption": "Biosphere" },
+  
+          { "file": "MontrealPanorama.jpg", "caption": "Panorama in the park", "span": "3" }
+        ]
+      },
+      {
+        "heading": "Harder Beatz & Aloha",
+        "photos": [
+          { "file": "CIMG3443.jpg", "caption": "Jen Lasher" },
+          { "file": "CIMG3446.jpg", "caption": "Crowd at Harder Beatz" },
+          { "file": "IMG_2515.jpg", "caption": "Aloha sunset" },
+  
+          { "file": "IMG_2530.jpg", "caption": "Hooty on the decks" },
+          { "file": "IMG_2528.jpg", "caption": "Fellow Tool fans" },
+          { "file": "IMG_2533.jpg", "caption": "Sarah dancing" }
+        ]
+      },
+      {
+        "heading": "Sandcastle Photoshoot",
+        "photos": [
+          { "file": "CIMG3450.jpg", "caption": "Registering the talent" },
+          { "file": "IMG_2592.jpg", "caption": "Under the mushroom fountain" },
+          { "file": "IMG_2601.jpg", "caption": "Hanging at Sandbar" }
+        ]
+      },
+      {
+        "heading": "Washington DC",
+        "photos": [
+          { "file": "IMG_2629.jpg", "caption": "National Mall" },
+          { "file": "IMG_2621.jpg", "caption": "Washington Monument" },
+          { "file": "IMG_2637.jpg", "caption": "National Museums" },
+  
+          { "file": "IMG_2640.jpg", "caption": "National Tree" },
+          { "file": "IMG_2639.jpg", "caption": "Lincoln Monument" },
+          { "file": "IMG_2649.jpg", "caption": "National Fountain" },
+  
+          { "file": "IMG_2660.jpg", "caption": "National Lens Flare" },
+          { "file": "IMG_2664.jpg", "caption": "National Duck" },
+          { "file": "IMG_2671.jpg", "caption": "National Willows" }
+        ]
+      },
+      {
+        "heading": "Koolaid 3",
+        "photos": [
+          { "file": "IMG_2674.jpg", "caption": "Mike, Roy, & Spike" },
+          { "file": "IMG_2685.jpg", "caption": "Blue-haired blonde" },
+          { "file": "IMG_2678.jpg", "caption": "Afterparty" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fall-2007",
+    "title": "Fall 2007",
+    "cover": "fall2007.jpg",
+    "description": "Photos from the fall of 2007.",
+    "sections": [
+      {
+        "heading": "Hiking",
+        "photos": [
+          { "file": "IMG_2687.jpg", "caption": "Orange Mushrooms" },
+          { "file": "IMG_2696.jpg", "caption": "McConnell's Mill Hike" },
+          { "file": "IMG_2690.jpg", "caption": "Tree Cave" },
+  
+          { "file": "IMG_2704.jpg", "caption": "Roots" },
+          { "file": "IMG_2711.jpg", "caption": "McConnell's Mill" },
+          { "file": "IMG_2715.jpg", "caption": "Merle near the falls" },
+  
+          { "file": "IMG_2719.jpg", "caption": "Colorful cave" },
+          { "file": "IMG_2733.jpg", "caption": "Spike and Kate Moss" },
+          { "file": "IMG_2725.jpg", "caption": "Waterfall" }
+        ]
+      },
+      {
+        "heading": "Halloween Party",
+        "photos": [
+          { "file": "IMG_2774.jpg", "caption": "Lara & Allen" },
+          { "file": "IMG_2740c.jpg", "caption": "Costumes" },
+          { "file": "IMG_2741.jpg", "caption": "Rea & Lara" },
+  
+          { "file": "IMG_2748.jpg", "caption": "Baby Melinda & Lara" },
+          { "file": "IMG_2753.jpg", "caption": "More costumes" },
+          { "file": "IMG_2767.jpg", "caption": "Officers Dan & Naoko" },
+  
+          { "file": "IMG_2778.jpg", "caption": "Allen & Spike" },
+          { "file": "IMG_2775.jpg", "caption": "Austin-madeus" },
+          { "file": "IMG_2779.jpg", "caption": "Lara, Denae, & Julie" }
+        ]
+      },
+      {
+        "heading": "More Having Fun",
+        "photos": [
+          { "file": "IMG_0020.jpg", "caption": "Tokyo at Diesel" },
+          { "file": "IMG_0042.jpg", "caption": "Z Lounge" },
+          { "file": "IMG_0028.jpg", "caption": "Diesel" },
+  
+          { "file": "IMG_0059.jpg", "caption": "Blue Man Group" },
+          { "file": "IMG_0063-topaz.jpg", "caption": "Lara" },
+          { "file": "IMG_0064b-topaz.jpg", "caption": "Self-shot Allen & Lara" },
+  
+          { "file": "IMG_0079.jpg", "caption": "MSTRKRFT at CMU" },
+          { "file": "IMG_0085.jpg", "caption": "Shiny disco ball" },
+          { "file": "IMG_0087.jpg", "caption": "More MSTRKRFT" },
+  
+          { "file": "IMG_0105.jpg", "caption": "Dieselboy at Diesel" },
+          { "file": "IMG_0115.jpg", "caption": "Damian aka Dieselboy" },
+          { "file": "IMG_0108.jpg", "caption": "Diesel has cool lights and stuff" }
+        ]
+      },
+      {
+        "heading": "Thanksgiving Party",
+        "photos": [
+          { "file": "2060245751_c399f5a453_o.jpg", "caption": "Luke Fair concert" },
+          { "file": "2061028258_b42f10360a_o.jpg", "caption": "Lara & Naoko" },
+          { "file": "2060245689_9bcba3cd52_o.jpg", "caption": "Polina & Spike" }
+        ]
+      },
+      {
+        "heading": "Holiday Season",
+        "photos": [
+          { "file": "IMG_0250.jpg", "caption": "Firehouse Lounge" },
+          { "file": "IMG_0255-topaz.jpg", "caption": "Lara at Tramp's Bar & Grille" },
+          { "file": "IMG_0258.jpg", "caption": "Allen enjoying the Stillers game" }
+        ]
+      },
+      {
+        "heading": "Late December",
+        "photos": [
+          { "file": "IMG_3261.jpg", "caption": "Capitol Building, Washington DC" },
+          { "file": "IMG_3268.jpg", "caption": "Kristy, Rea, Lara, & Denae" },
+          { "file": "IMG_3269.jpg", "caption": "Lara &amp; Allen" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "germany-2007",
+    "title": "Germany 2007",
+    "cover": "germany.jpg",
+    "description": "Photos from the summer of 2007.",
+    "sections": [
+      {
+        "heading": "Berlin & Nurnberg",
+        "photos": [
+          { "file": "IMG_2795.jpg", "caption": "Checkpoint Charlie" },
+          { "file": "IMG_2801.jpg", "caption": "Cool restaurant" },
+          { "file": "IMG_2828.jpg", "caption": "Nurnberg Christmas market" },
+  
+          { "file": "IMG_2815.jpg", "caption": "Christkindlmarkt stand" },
+          { "file": "IMG_2814.jpg", "caption": "Crowded!" },
+          { "file": "IMG_2818.jpg", "caption": "Another stand" },
+  
+          { "file": "IMG_2832.jpg", "caption": "Inside the cathedral" },
+          { "file": "IMG_2839.jpg", "caption": "More goods" },
+          { "file": "IMG_2846.jpg", "caption": "Detail" }
+        ]
+      },
+      {
+        "heading": "Bavaria",
+        "photos": [
+          { "file": "IMG_0153.jpg", "caption": "Rental Mercedes diesel" },
+          { "file": "IMG_0187.jpg", "caption": "German restaurant" },
+          { "file": "IMG_0176.jpg", "caption": "Elevator shot" },
+  
+          { "file": "IMG_2868.jpg", "caption": "Bad Tolz" },
+          { "file": "IMG_2869.jpg", "caption": "Bad Tolz" },
+          { "file": "IMG_2878.jpg", "caption": "Bad Tolz" },
+  
+          { "file": "IMG_2860.jpg", "caption": "Hike near Starnberg" },
+          { "file": "IMG_2882.jpg", "caption": "Munich International School" },
+          { "file": "IMG_2884.jpg", "caption": "Cool tunnel" }
+        ]
+      },
+      {
+        "heading": "Munich",
+        "photos": [
+          { "file": "IMG_2889.jpg", "caption": "Art museum" },
+          { "file": "IMG_2898.jpg", "caption": "Albrecht Durer" },
+          { "file": "IMG_2897.jpg", "caption": "Anna and art" },
+  
+          { "file": "IMG_2908.jpg", "caption": "Another painting" },
+          { "file": "IMG_2919.jpg", "caption": "Museums are tiring" },
+          { "file": "IMG_2930.jpg", "caption": "Don't jump!" },
+  
+          { "file": "IMG_2937.jpg", "caption": "Glockenspiel" },
+          { "file": "IMG_2955.jpg", "caption": "Munich" },
+          { "file": "IMG_2959.jpg", "caption": "Glockenspiel at dusk" },
+  
+          { "file": "IMG_2958.jpg", "caption": "Another dusk shot" },
+          { "file": "IMG_2939.jpg", "caption": "Wood and straw goods" },
+          { "file": "IMG_2960.jpg", "caption": "Dragon clinging to wall" }
+        ]
+      },
+      {
+        "heading": "Starnberg",
+        "photos": [
+          { "file": "IMG_2967.jpg", "caption": "Starnberg dock" },
+          { "file": "IMG_3004.jpg", "caption": "Cool shot" },
+          { "file": "IMG_2994.jpg", "caption": "Lake Starnberg shore" }
+        ]
+      },
+      {
+        "heading": "Garmish-Partenkirchen",
+        "photos": [
+          { "file": "IMG_3010.jpg", "caption": "Roadside view" },
+          { "file": "IMG_3023.jpg", "caption": "Reflections in the train" },
+          { "file": "IMG_3031.jpg", "caption": "View from the train ride" },
+  
+          { "file": "IMG_3039.jpg", "caption": "Say this without spitting..." },
+          { "file": "IMG_3046.jpg", "caption": "Zugspitze, tallest peak in Germany" },
+          { "file": "IMG_3047.jpg", "caption": "Cablecar we were about to take" },
+  
+          { "file": "IMG_3051.jpg", "caption": "Zugspitze summit" },
+          { "file": "IMG_3054.jpg", "caption": "View from cablecar" },
+          { "file": "IMG_3056.jpg", "caption": "Cablecar tower" },
+  
+          { "file": "IMG_3058.jpg", "caption": "Surreal ice at summit" },
+          { "file": "IMG_3067.jpg", "caption": "View from next cablecar" },
+          { "file": "IMG_3084.jpg", "caption": "View from Zugspitze" },
+  
+          { "file": "ZugspitzePano.jpg", "caption": "Really long complete 360 degree Zugspitze panorama", "span": "3" }
+        ]
+      },
+      {
+        "heading": "Photos from Mom",
+        "photos": [
+          { "file": "DSCN0721.jpg", "caption": "Hiking near Pocking" },
+          { "file": "DSCN0731.jpg", "caption": "Garmisch" },
+          { "file": "DSCN0752.jpg", "caption": "Zugspitze" },
+  
+          { "file": "DSCN0769.jpg", "caption": "Cake place" },
+          { "file": "DSCN0766.jpg", "caption": "Coffee grinder collection" },
+          { "file": "DSCN0783.jpg", "caption": "Anna & Allen" }
+        ]
+      },
+      {
+        "heading": "More Bavaria",
+        "photos": [
+          { "file": "IMG_3089.jpg", "caption": "Scene made for a photo" },
+          { "file": "IMG_3095.jpg", "caption": "Cat at the cake place" },
+          { "file": "IMG_3107.jpg", "caption": "Another view" },
+  
+          { "file": "IMG_3116.jpg", "caption": "Antique shop window" },
+          { "file": "IMG_3151.jpg", "caption": "Painted clock tower" },
+          { "file": "IMG_3155.jpg", "caption": "Classic shot" },
+  
+          { "file": "IMG_3159.jpg", "caption": "Hiking at Oberamergau" },
+          { "file": "IMG_3189.jpg", "caption": "Tree hugging" },
+          { "file": "IMG_3185.jpg", "caption": "Mossy pond" },
+  
+          { "file": "IMG_3199.jpg", "caption": "In the trees" },
+          { "file": "IMG_3210.jpg", "caption": "Site of another Christkindlmarkt" },
+          { "file": "IMG_3223.jpg", "caption": "Candles in the wind" }
+        ]
+      },
+      {
+        "heading": "Back to Berlin",
+        "photos": [
+          { "file": "IMG_0197.jpg", "caption": "Countryside wind power" },
+          { "file": "IMG_3252.jpg", "caption": "Arriving back in Berlin" },
+          { "file": "IMG_0199.jpg", "caption": "Street demonstration" }
+        ]
+      },
+      {
+        "heading": "Clubbing in Berlin",
+        "photos": [
+          { "file": "IMG_0200.jpg", "caption": "Anna and Sarah in clubbing disguise" },
+          { "file": "IMG_0208.jpg", "caption": "Club Watergate" },
+          { "file": "IMG_0213.jpg", "caption": "Trentemoller & DJ Tom" },
+  
+          { "file": "IMG_0216.jpg", "caption": "Amazing lighting system" },
+          { "file": "IMG_0228.jpg", "caption": "Dancefloor ceiling" },
+          { "file": "IMG_0230.jpg", "caption": "Club Tresor" }
+        ]
+      },
+      {
+        "heading": "Return Flight",
+        "photos": [
+          { "file": "IMG_0241.jpg", "caption": "Airplane window view" },
+          { "file": "IMG_0248.jpg", "caption": "Long and boring, but scenic flight" },
+          { "file": "IMG_0246.jpg", "caption": "Somewhere over Canada" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008",
+    "title": "Welcome to 2008",
+    "cover": "2008.jpg",
+    "description": "Photos beginning on New Year's Eve 2008!",
+    "sections": [
+      {
+        "heading": "New Year's Eve",
+        "photos": [
+          { "file": "2162297632_89504745e1_o-topaz.jpg", "caption": "Chinatown Inn" },
+          { "file": "2169228187_3d1f807e1f_o-topaz.jpg", "caption": "Lara & Stacey" },
+          { "file": "2170023244_c90e975528_o.jpg", "caption": "Oleg" },
+  
+          { "file": "2169228401_5689e61ff0_o.jpg", "caption": "Allen, Merle, & Spike" },
+          { "file": "2170024624_74ecab64ab_o.jpg", "caption": "Allen from Lara's point of view" },
+          { "file": "2169228323_f233b7e01b_o.jpg", "caption": "Naoko & Lara" },
+  
+          { "file": "IMG_0291.jpg", "caption": "Lights!" },
+          { "file": "IMG_0326.jpg", "caption": "Celebration of Lights" },
+          { "file": "IMG_0298.jpg", "caption": "More lights..." }
+        ]
+      },
+      {
+        "heading": "Chihuly Nights at Phipps",
+        "photos": [
+          { "file": "IMG_3274.jpg", "caption": "Chihuly" },
+          { "file": "IMG_3309.jpg", "caption": "Boat of marbles" },
+          { "file": "IMG_3292.jpg", "caption": "Hard candy sculpture" },
+  
+          { "file": "IMG_3312.jpg", "caption": "Mushroom / Jellyfish" },
+          { "file": "IMG_3345.jpg", "caption": "Garden of bowls" },
+          { "file": "IMG_3362.jpg", "caption": "Closeup" },
+  
+          { "file": "IMG_3317-topaz.jpg", "caption": "Lara" },
+          { "file": "IMG_3357.jpg", "caption": "Blue glass bluegrass" },
+          { "file": "IMG_3375.jpg", "caption": "Alien tentacle beast" },
+  
+          { "file": "2193298381_a82ee309d5_o-topaz.jpg", "caption": "Lara" },
+          { "file": "2193299169_bfcda9c132_o-topaz.jpg", "caption": "Lara & Allen in front of the marbles" }
+        ]
+      },
+      {
+        "heading": "Revive at Foundation Room, House of Blues, Cleveland",
+        "photos": [
+          { "file": "2209337405_4346d6b4bc_o.jpg", "caption": "Foundation Room, House of Blues" },
+          { "file": "2209337887_33780788d1_o.jpg", "caption": "Lara & Allen" },
+          { "file": "IMG_0344.jpg", "caption": "Foundation Room" },
+  
+          { "file": "2210131496_7f89d70221_o.jpg", "caption": "Kat & Lara" },
+          { "file": "2210131786_d3a294e06a_o.jpg", "caption": "Allen & Lara in the snow" },
+          { "file": "2210131728_fc13c3e376_o.jpg", "caption": "Lara & Graph" }
+        ]
+      },
+      {
+        "heading": "Superbowl Sunday",
+        "photos": [
+          { "file": "IMG_3380.jpg", "caption": "Lara ready for the Superbowl" },
+          { "file": "IMG_3384.jpg", "caption": "Allen" },
+          { "file": "IMG_3383.jpg", "caption": "Lara" }
+        ]
+      },
+      {
+        "heading": "Marcus Intalex Drum n Bass Show",
+        "photos": [
+          { "file": "2224259665_f900dcf509_o.jpg", "caption": "Mural at the venue" },
+          { "file": "2224259303_4cd04eefa0_o.jpg", "caption": "Lara & Allen" },
+          { "file": "2224259219_99e376216a_o.jpg", "caption": "Erin, Kristy, & Lara" }
+        ]
+      },
+      {
+        "heading": "N.E.R.D. Concert",
+        "photos": [
+          { "file": "2361623619_1d5840a206_o.jpg", "caption": "N.E.R.D & Pharrell at Diesel" },
+          { "file": "2362453286_d5577ec832_o.jpg", "caption": "Allen & Jenn" },
+          { "file": "IMG_0435.jpg", "caption": "N.E.R.D." }
+        ]
+      },
+      {
+        "heading": "Habersham at Z Lounge",
+        "photos": [
+          { "file": "2361635075_5b2c4a0e8d_o.jpg", "caption": "Lara & Allen at Z Lounge" },
+          { "file": "2361636435_4a9feebcaf_o.jpg", "caption": "Lara" },
+          { "file": "2361636561_105379724a_o.jpg", "caption": "Allen" },
+  
+          { "file": "2362467088_d67dee25d5_o.jpg", "caption": "Habersham" },
+          { "file": "2362465706_ed738c94a8_o.jpg", "caption": "Lara & Stacey" },
+          { "file": "2362467458_bfc813a07f_o.jpg", "caption": "Z Lounge" }
+        ]
+      },
+      {
+        "heading": "Easter Sunday",
+        "photos": [
+          { "file": "IMG_0444.jpg", "caption": "Indiana, PA" },
+          { "file": "IMG_0445.jpg", "caption": "Indiana, PA" },
+          { "file": "IMG_0446.jpg", "caption": "Lara & metal vase" }
+        ]
+      },
+      {
+        "heading": "Mill Site Tavern",
+        "photos": [
+          { "file": "IMG_0393.jpg", "caption": "Breakbeat Militia" },
+          { "file": "IMG_0450.jpg", "caption": "Mill Site" },
+          { "file": "IMG_0453.jpg", "caption": "Zelch Brothers" }
+        ]
+      },
+      {
+        "heading": "Washington DC",
+        "photos": [
+          { "file": "IMG_3388.jpg", "caption": "Hyatt Regency" },
+          { "file": "IMG_3391.jpg", "caption": "Chinatown" },
+          { "file": "IMG_3396.jpg", "caption": "Hyatt Regency" },
+  
+          { "file": "2407931845_1b4cf624a4_o.jpg", "caption": "Sasha & Digweed at Ibiza" },
+          { "file": "2407932131_d77cf12b9f_o.jpg", "caption": "Club Ibiza" },
+          { "file": "2408765842_cc7f1248e1_o.jpg", "caption": "Lara & Allen at Ibiza" },
+  
+          { "file": "2408765246_9dbe53117d_o.jpg", "caption": "The sonic cathedral" },
+          { "file": "2408765712_f7f7fa0ca9_o.jpg", "caption": "Sasha & Digweed" },
+          { "file": "2408766160_12a70cd20e_o.jpg", "caption": "Purple haze" },
+  
+          { "file": "IMG_3412.jpg", "caption": "Art" },
+          { "file": "IMG_3416.jpg", "caption": "National Mall facing Capitol" },
+          { "file": "IMG_3425.jpg", "caption": "Smithsonian" },
+  
+          { "file": "IMG_3431.jpg", "caption": "Cherry Blossoms" },
+          { "file": "IMG_3437.jpg", "caption": "Washington Monument" },
+          { "file": "IMG_3440.jpg", "caption": "Jefferson Memorial" },
+  
+          { "file": "IMG_3442.jpg", "caption": "Cherry Trees" },
+          { "file": "IMG_3446.jpg", "caption": "Jefferson across the water" },
+          { "file": "IMG_3449.jpg", "caption": "More Trees" },
+  
+          { "file": "WW2PanoramaA.jpg", "caption": "World War II Memorial panorama", "span": "3" },
+  
+          { "file": "IMG_3460.jpg", "caption": "World War II seal" },
+          { "file": "IMG_3476.jpg", "caption": "Lincoln Monument" },
+          { "file": "IMG_3480.jpg", "caption": "Roof of the Lincoln Monument" },
+  
+          { "file": "IMG_3481.jpg", "caption": "Lincoln" },
+          { "file": "IMG_3485.jpg", "caption": "National Mall from Lincoln Monument" },
+          { "file": "IMG_3486.jpg", "caption": "Capitol and Washington Monument" },
+  
+          { "file": "IMG_3492.jpg", "caption": "Vietnam War statue" },
+          { "file": "IMG_3494.jpg", "caption": "Vietnam Memorial Wall" },
+          { "file": "IMG_3507.jpg", "caption": "Very DC" },
+  
+          { "file": "IMG_3510.jpg", "caption": "The White House" },
+          { "file": "IMG_3516.jpg", "caption": "Blossoms and White House fence" },
+          { "file": "IMG_3518.jpg", "caption": "Sightseeing Bus" }
+        ]
+      },
+      {
+        "heading": "Carnival Weekend",
+        "photos": [
+          { "file": "IMG_0468-topaz.jpg", "caption": "Jenn, Julie, Marcin, Allen, & Lara at Shady Grove" },
+          { "file": "IMG_0470.jpg", "caption": "Shadyside tree" },
+          { "file": "IMG_0474.jpg", "caption": "The Roots concert at CMU" },
+  
+          { "file": "IMG_0491.jpg", "caption": "Amon Tobin poster" },
+          { "file": "IMG_0493.jpg", "caption": "The Roots afterparty" },
+          { "file": "IMG_0498.jpg", "caption": "?uestlove & Spike" }
+        ]
+      }
+    ]
+  }
+]
