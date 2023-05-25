@@ -1,4 +1,5 @@
 // pages/album/[id]/photo/[id].tsx
+console.log("TESTING");
 import { GetStaticProps, GetStaticPaths } from "next";
 import { motion } from "framer-motion";
 import { Album, Section, Photo } from "@/types/photo";
@@ -19,7 +20,7 @@ type Path = {
   params: {
     albumId: string;
     photoId: string;
-  }
+  };
 };
 
 interface PhotoProps {
@@ -31,7 +32,14 @@ interface PhotoProps {
   nextPhoto: Photo | null;
 }
 
-const Photo = ({ albumId, name, socialLinks, photo, prevPhoto, nextPhoto }: PhotoProps) => {
+const Photo = ({
+  albumId,
+  name,
+  socialLinks,
+  photo,
+  prevPhoto,
+  nextPhoto,
+}: PhotoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
 
@@ -68,10 +76,7 @@ const Photo = ({ albumId, name, socialLinks, photo, prevPhoto, nextPhoto }: Phot
   return (
     <div className="mx-auto">
       <Head>
-        <meta
-          property="og:image"
-          content={photo.file}
-        />
+        <meta property="og:image" content={photo.file} />
       </Head>
       <Header socialLink={socialLinks[0]} />
 
@@ -81,22 +86,22 @@ const Photo = ({ albumId, name, socialLinks, photo, prevPhoto, nextPhoto }: Phot
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
       >
         <div className="justify-center text-dark-1 dark:text-light-1">
-          <PhotoHeader
+          {/* <PhotoHeader
             title={photo.caption}
             prevId={prevPhoto?.id}
             nextId={nextPhoto?.id}
             path="posts"
-          />
-          <Image
+          /> */}
+          {/* <Image
             {...handlers}
-            src={photo.file}
+            src={`/img/photos/${albumId}/${photo.file}`}
             alt={photo.caption}
             width={600}
             height={600}
             priority
             className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2"
-          />
-          <PhotoFooter caption={photo.caption} />
+          /> */}
+          {/* <PhotoFooter caption={photo.caption} /> */}
         </div>
       </motion.div>
 
@@ -106,50 +111,64 @@ const Photo = ({ albumId, name, socialLinks, photo, prevPhoto, nextPhoto }: Phot
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  console.log("hello");
   const paths: Path[] = [];
 
   // Loop over all albums
-  albums.forEach(album => {
+  albums.forEach((album) => {
+    console.log("album", album);
     // Loop over all sections in each album
-    album.sections.forEach(section => {
+    album.sections.forEach((section) => {
+      console.log("section", section);
       // Loop over all photos in each section
-      section.photos.forEach(photo => {
+      section.photos.forEach((photo) => {
+        console.log("photo", photo);
         paths.push({
-          params: { 
-            albumId: album.id, 
+          params: {
+            albumId: album.id,
             photoId: photo.id.toString(),
-          }
+          },
         });
       });
     });
   });
+  console.log("paths", paths);
 
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<PhotoProps, { albumId: string; photoId: string }> = async ({ params }) => {
+export const getStaticProps: GetStaticProps<
+  PhotoProps,
+  { albumId: string; photoId: string }
+> = async ({ params }) => {
+  console.log(params);
   if (!params) {
     return { notFound: true };
   }
 
-  const album = albums.find(album => album.id.toString() === params.albumId);
+  const album = albums.find((album) => album.id.toString() === params.albumId);
+  console.log(album);
 
   if (!album) {
     return { notFound: true };
   }
 
-  const photos = album.sections.flatMap(section => section.photos);
+  const photos = album.sections.flatMap((section) => section.photos);
+  console.log(photos);
 
-  const photoIndex = photos.findIndex(p => p.id.toString() === params.photoId);
-
+  const photoIndex = photos.findIndex(
+    (p) => p.id.toString() === params.photoId
+  );
+  console.log(photoIndex);
   if (photoIndex === -1) {
     return { notFound: true };
   }
 
   const photo = photos[photoIndex];
   const prevPhoto = photoIndex > 0 ? photos[photoIndex - 1] : null;
-  const nextPhoto = photoIndex < photos.length - 1 ? photos[photoIndex + 1] : null;
-
+  const nextPhoto =
+    photoIndex < photos.length - 1 ? photos[photoIndex + 1] : null;
+  console.log(photo);
   if (!photo) {
     return { notFound: true };
   }

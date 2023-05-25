@@ -1,4 +1,4 @@
-# Allen's Aliens
+# Allen Johnson
 
 This is a Next.js website, using React, TypeScript, and MongoDB.
 

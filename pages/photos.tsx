@@ -40,7 +40,7 @@ const PhotosPage: NextPage<PhotosPageProps> = ({
                 className="group relative cursor-pointer"
               >
                 <Image
-                  src={album.cover}
+                  src={`/img/album/${album.cover}`}
                   alt={album.title}
                   width={320}
                   height={240}

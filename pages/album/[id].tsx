@@ -22,7 +22,13 @@ interface AlbumPageProps {
   nextAlbum: Album | null;
 }
 
-const AlbumPage = ({ name, socialLinks, album, prevAlbum, nextAlbum }: AlbumPageProps) => {
+const AlbumPage = ({
+  name,
+  socialLinks,
+  album,
+  prevAlbum,
+  nextAlbum,
+}: AlbumPageProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
 
@@ -59,10 +65,7 @@ const AlbumPage = ({ name, socialLinks, album, prevAlbum, nextAlbum }: AlbumPage
   return (
     <div className="mx-auto">
       <Head>
-        <meta
-          property="og:image"
-          content={album.cover}
-        />
+        <meta property="og:image" content={album.cover} />
       </Head>
       <Header socialLink={socialLinks[0]} />
 
@@ -71,12 +74,16 @@ const AlbumPage = ({ name, socialLinks, album, prevAlbum, nextAlbum }: AlbumPage
         animate={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
       >
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 text-light-1 dark:text-light-1">
+        <div className="text-light-1 dark:text-light-1">
           {album.sections.map((section, index) => {
             return (
               <div key={index}>
                 <Heading text={section.heading} />
-                <PhotoGrid key={index} photos={section.photos} path={album.id} />
+                <PhotoGrid
+                  key={index}
+                  photos={section.photos}
+                  path={album.id}
+                />
               </div>
             );
           })}
@@ -96,20 +103,27 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<AlbumPageProps> = async ({ params }) => {
+export const getStaticProps: GetStaticProps<AlbumPageProps> = async ({
+  params,
+}) => {
+  console.log("params", params);
   if (!params) {
     return { notFound: true };
   }
 
-  const albumIndex = albums.findIndex(a => a.id === params.id);
+  const albumIndex = albums.findIndex((a) => a.id === params.id);
+  console.log("albumIndex", albumIndex);
 
-  if (!albumIndex) {
+  if (albumIndex === -1) {
     return { notFound: true };
   }
 
   const album = albums[albumIndex];
   const prevAlbum = albumIndex > 0 ? albums[albumIndex - 1] : null;
-  const nextAlbum = albumIndex < albums.length - 1 ? albums[albumIndex + 1] : null;
+  const nextAlbum =
+    albumIndex < albums.length - 1 ? albums[albumIndex + 1] : null;
+
+  console.log("album", album);
 
   if (!album) {
     return { notFound: true };

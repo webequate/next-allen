@@ -19,7 +19,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({ photos, path }) => {
             className="group relative cursor-pointer"
           >
             <Image
-              src={`/${path}/${photo.file}`}
+              src={`/img/photos/${path}/${photo.file}`}
               alt={photo.caption}
               width={320}
               height={240}

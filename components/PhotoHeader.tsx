@@ -19,7 +19,7 @@ const PhotoHeader: React.FC<PhotoHeaderProps> = ({
     <div className="flex justify-between text-lg sm:text-xl md:text-2xl">
       {prevId ? (
         <Link
-          href={`/${path}/${prevId}`}
+          href={`/album/${path}/photo/${prevId}`}
           title="Previous Photo"
           aria-label="Previous Photo"
           className="mr-2"
@@ -34,7 +34,7 @@ const PhotoHeader: React.FC<PhotoHeaderProps> = ({
       <h2 className="text-center mb-2">{title}</h2>
       {nextId ? (
         <Link
-          href={`/${path}/${nextId}`}
+          href={`/album/${path}/photo/${nextId}`}
           title="Next Photo"
           aria-label="Next Photo"
           className="ml-2"
