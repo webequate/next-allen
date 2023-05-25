@@ -13,7 +13,7 @@ const Album: React.FC<AlbumProps> = ({ sections, path }) => {
     <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 text-light-1 dark:text-light-1">
       {sections.map((section, index) => {
         return (
-          <div>
+          <div key={index}>
             <Heading text={section.heading} />
             <PhotoGrid key={index} photos={section.photos} path={path} />
           </div>

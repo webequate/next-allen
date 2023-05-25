@@ -1,7 +1,7 @@
 // components/ContactForm.tsx
-import Heading from "@/components/Heading";
 import { useState } from "react";
 import { ContactForm as ContactFormData } from "@/interfaces/ContactForm";
+import Heading from "@/components/Heading";
 import FormInput from "@/components/FormInput";
 
 const ContactForm: React.FC = () => {
@@ -12,12 +12,6 @@ const ContactForm: React.FC = () => {
     message: "",
   });
 
-  const [selectedFile, setSelectedFile] = useState<File | null>(null);
-
-  const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedFile(event.target.files![0]);
-  };
-
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -27,17 +21,10 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-
-    const form = new FormData();
-    form.append("name", formData.name);
-    form.append("email", formData.email);
-    form.append("subject", formData.subject);
-    form.append("message", formData.message);
-    if (selectedFile) form.append("file", selectedFile);
-
     const response = await fetch("/api/send-email", {
       method: "POST",
-      body: JSON.stringify(form),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
     });
 
     const result = await response.json();
@@ -57,7 +44,7 @@ const ContactForm: React.FC = () => {
         onSubmit={handleSubmit}
         className="bg-light-1 dark:bg-dark-1 rounded-xl text-left p-6 sm:p-8"
       >
-        <Heading text="Contact Details" />
+        <Heading text="Contact Form" />
         <FormInput
           inputLabel="Full Name"
           labelFor="name"
@@ -116,14 +103,11 @@ const ContactForm: React.FC = () => {
           <button
             type="submit"
             aria-label="Send Message"
-            className="text-light-1 dark:text-light-1 bg-accent-dark dark:bg-accent-dark hover:bg-accent-light dark:hover:bg-accent-light font-general-medium flex justify-center items-center w-40 sm:w-40 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 rounded-lg duration-300"
+            className="text-light-1 dark:text-light-1 bg-accent-dark dark:bg-accent-dark hover:bg-accent-light dark:hover:bg-accent-light font-general-medium flex justify-center items-center w-40 sm:w-40 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 rounded-lg transition duration-300"
           >
             <span className="text-sm sm:text-lg">Send Message</span>
           </button>
         </div>
-        {/* Other form fields */}
-        <input type="file" accept="image/*" onChange={handleImageUpload} />
-        <button type="submit">Send Message</button>
       </form>
     </div>
   );

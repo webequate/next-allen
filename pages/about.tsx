@@ -27,7 +27,6 @@ const AboutPage: NextPage<AboutPageProps> = ({ name, socialLinks }) => {
         <BusinessCard />
 
         <Instructions socialLink={socialLinks[0]} />
-
       </motion.div>
 
       <Footer name={name} socialLinks={socialLinks} />

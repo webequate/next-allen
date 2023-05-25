@@ -24,7 +24,6 @@ type Path = {
 };
 
 interface PhotoProps {
-  albumId: string;
   name: string;
   socialLinks: SocialLink[];
   photo: Photo;
@@ -33,7 +32,6 @@ interface PhotoProps {
 }
 
 const Photo = ({
-  albumId,
   name,
   socialLinks,
   photo,
@@ -55,23 +53,23 @@ const Photo = ({
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  const handlers = useSwipeable({
-    onSwipedLeft: () => {
-      if (!nextPhoto) return;
-      if (isMobile) {
-        router.push(`/album/${albumId}/photo/${nextPhoto?.id}`);
-      }
-    },
-    onSwipedRight: () => {
-      if (!prevPhoto) return;
-      if (isMobile) {
-        router.push(`/album/${albumId}/photo/${prevPhoto?.id}`);
-      }
-    },
-    preventScrollOnSwipe: true,
-    trackTouch: true,
-    trackMouse: false,
-  });
+  // const handlers = useSwipeable({
+  //   onSwipedLeft: () => {
+  //     if (!nextPhoto) return;
+  //     if (isMobile) {
+  //       router.push(`/album/${albumId}/photo/${nextPhoto?.id}`);
+  //     }
+  //   },
+  //   onSwipedRight: () => {
+  //     if (!prevPhoto) return;
+  //     if (isMobile) {
+  //       router.push(`/album/${albumId}/photo/${prevPhoto?.id}`);
+  //     }
+  //   },
+  //   preventScrollOnSwipe: true,
+  //   trackTouch: true,
+  //   trackMouse: false,
+  // });
 
   return (
     <div className="mx-auto">
@@ -137,12 +135,17 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<
-  PhotoProps,
-  { albumId: string; photoId: string }
-> = async ({ params }) => {
+export const getStaticProps: GetStaticProps<PhotoProps> = async ({
+  params,
+}) => {
   console.log(params);
-  if (!params) {
+  if (
+    !params ||
+    Array.isArray(params.albumId) ||
+    !params.albumId ||
+    Array.isArray(params.photoId) ||
+    !params.photoId
+  ) {
     return { notFound: true };
   }
 
@@ -175,7 +178,6 @@ export const getStaticProps: GetStaticProps<
 
   return {
     props: {
-      albumId: params.albumId,
       name: basics.name,
       socialLinks: basics.socialLinks,
       photo: JSON.parse(JSON.stringify(photo)),

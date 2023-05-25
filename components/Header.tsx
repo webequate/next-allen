@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import type { SocialLink } from "@/types/basics";
-import AllensAliens from "@/components/AllensAliens";
+import AllenJohnson from "@/components/AllenJohnson";
 import SocialButton from "@/components/SocialButton";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import Hamburger from "@/components/Hamburger";
@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
         aria-label="Home"
         className="text-dark-1 dark:text-light-1 hover:text-accent-light dark:hover:text-accent-light mt-4 mb-2 sm:mb-2 transition duration-300"
       >
-        <AllensAliens />
+        <AllenJohnson />
       </Link>
 
       <div className="container mx-auto px-0 py-3 mb-2 md:mb-10">
@@ -56,6 +56,13 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
                 className={route === "/about" ? "active" : ""}
               >
                 About
+              </Link>
+              <Link
+                href="/photos"
+                aria-label="Photos"
+                className={route === "/photos" ? "active" : ""}
+              >
+                Photos
               </Link>
               <Link
                 href="/contact"
@@ -93,6 +100,13 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
             className={route === "/about" ? "active" : ""}
           >
             About
+          </Link>
+          <Link
+            href="/photos"
+            aria-label="Photos"
+            className={route === "/photos" ? "active" : ""}
+          >
+            Photos
           </Link>
           <Link
             href="/contact"
