@@ -1,11 +1,12 @@
-// pages/album/[id]/photo/[id].tsx
-console.log("TESTING");
-import { GetStaticProps, GetStaticPaths } from "next";
+// pages/album/[albumId]/photo/[photoId].tsx
+console.log("pages/album/[albumId]/photo/[photoId].tsx");
+import { GetStaticPaths, GetStaticProps } from "next";
+import { ParsedUrlQuery } from "querystring";
 import { motion } from "framer-motion";
-import { Album, Section, Photo } from "@/types/photo";
 import { SocialLink } from "@/types/basics";
+import { Album, Photo, Section } from "@/types/photo";
 import basics from "@/data/basics.json";
-import albums from "@/data/photos-test.json";
+import albums from "@/data/photos.json";
 import Head from "next/head";
 import Header from "@/components/Header";
 import PhotoHeader from "@/components/PhotoHeader";
@@ -16,27 +17,25 @@ import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
 import { useEffect, useState } from "react";
 
-type Path = {
-  params: {
-    albumId: string;
-    photoId: string;
-  };
-};
-
 interface PhotoProps {
-  name: string;
-  socialLinks: SocialLink[];
   photo: Photo;
   prevPhoto: Photo | null;
   nextPhoto: Photo | null;
+  name: string;
+  socialLinks: SocialLink[];
 }
 
-const Photo = ({
-  name,
-  socialLinks,
+interface PhotoParams extends ParsedUrlQuery {
+  albumId: string;
+  photoId: string;
+}
+
+const PhotoPage = ({
   photo,
   prevPhoto,
   nextPhoto,
+  name,
+  socialLinks,
 }: PhotoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
@@ -53,23 +52,32 @@ const Photo = ({
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  // const handlers = useSwipeable({
-  //   onSwipedLeft: () => {
-  //     if (!nextPhoto) return;
-  //     if (isMobile) {
-  //       router.push(`/album/${albumId}/photo/${nextPhoto?.id}`);
-  //     }
-  //   },
-  //   onSwipedRight: () => {
-  //     if (!prevPhoto) return;
-  //     if (isMobile) {
-  //       router.push(`/album/${albumId}/photo/${prevPhoto?.id}`);
-  //     }
-  //   },
-  //   preventScrollOnSwipe: true,
-  //   trackTouch: true,
-  //   trackMouse: false,
-  // });
+  const { albumId } = router.query;
+
+  // Debugging logs
+  useEffect(() => {
+    console.log("Album ID:", albumId);
+    console.log("Previous Photo:", prevPhoto);
+    console.log("Next Photo:", nextPhoto);
+  }, [albumId, prevPhoto, nextPhoto]);
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => {
+      if (!nextPhoto) return;
+      if (isMobile) {
+        router.push(`/album/${albumId}/photo/${nextPhoto?.id}`);
+      }
+    },
+    onSwipedRight: () => {
+      if (!prevPhoto) return;
+      if (isMobile) {
+        router.push(`/album/${albumId}/photo/${prevPhoto?.id}`);
+      }
+    },
+    preventScrollOnSwipe: true,
+    trackTouch: true,
+    trackMouse: false,
+  });
 
   return (
     <div className="mx-auto">
@@ -84,22 +92,22 @@ const Photo = ({
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
       >
         <div className="justify-center text-dark-1 dark:text-light-1">
-          {/* <PhotoHeader
+          <PhotoHeader
             title={photo.caption}
             prevId={prevPhoto?.id}
             nextId={nextPhoto?.id}
-            path="posts"
-          /> */}
-          {/* <Image
+            path={`${albumId}`}
+          />
+          <Image
             {...handlers}
             src={`/img/photos/${albumId}/${photo.file}`}
             alt={photo.caption}
-            width={600}
-            height={600}
+            width={800}
+            height={800}
             priority
-            className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2"
-          /> */}
-          {/* <PhotoFooter caption={photo.caption} /> */}
+            className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 max-w-[1000px] max-h-[800px] object-contain"
+          />
+          <PhotoFooter caption={photo.caption} />
         </div>
       </motion.div>
 
@@ -108,62 +116,63 @@ const Photo = ({
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  console.log("hello");
-  const paths: Path[] = [];
+export const getStaticPaths: GetStaticPaths<PhotoParams> = async () => {
+  const allAlbums: Album[] = albums;
 
-  // Loop over all albums
-  albums.forEach((album) => {
-    console.log("album", album);
-    // Loop over all sections in each album
+  let paths: { params: PhotoParams }[] = [];
+
+  allAlbums.forEach((album) => {
+    if (!album.id) return;
     album.sections.forEach((section) => {
-      console.log("section", section);
-      // Loop over all photos in each section
       section.photos.forEach((photo) => {
-        console.log("photo", photo);
+        if (!photo.id) return;
         paths.push({
           params: {
             albumId: album.id,
-            photoId: photo.id.toString(),
+            photoId: String(photo.id),
           },
         });
       });
     });
   });
-  console.log("paths", paths);
+
+  console.log("Generated paths:", paths);
 
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<PhotoProps> = async ({
+export const getStaticProps: GetStaticProps<PhotoProps, PhotoParams> = async ({
   params,
 }) => {
-  console.log(params);
+  console.log("Params received:", params);
+
   if (
     !params ||
     Array.isArray(params.albumId) ||
-    !params.albumId ||
-    Array.isArray(params.photoId) ||
-    !params.photoId
+    Array.isArray(params.photoId)
   ) {
+    console.log("Invalid params:", params);
     return { notFound: true };
   }
 
-  const album = albums.find((album) => album.id.toString() === params.albumId);
-  console.log(album);
+  const album = albums.find((a) => a.id === params.albumId);
+  console.log("Album found:", album);
 
   if (!album) {
+    console.log("Album not found for ID:", params.albumId);
     return { notFound: true };
   }
 
   const photos = album.sections.flatMap((section) => section.photos);
-  console.log(photos);
-
   const photoIndex = photos.findIndex(
     (p) => p.id.toString() === params.photoId
   );
-  console.log(photoIndex);
+
+  console.log("Photos in album:", photos);
+  console.log("Photo index:", photoIndex);
+
   if (photoIndex === -1) {
+    console.log("Photo not found for ID:", params.photoId);
     return { notFound: true };
   }
 
@@ -171,21 +180,20 @@ export const getStaticProps: GetStaticProps<PhotoProps> = async ({
   const prevPhoto = photoIndex > 0 ? photos[photoIndex - 1] : null;
   const nextPhoto =
     photoIndex < photos.length - 1 ? photos[photoIndex + 1] : null;
-  console.log(photo);
-  if (!photo) {
-    return { notFound: true };
-  }
+
+  console.log("Current photo:", photo);
+  console.log("Previous photo:", prevPhoto);
+  console.log("Next photo:", nextPhoto);
 
   return {
     props: {
+      photo,
+      prevPhoto,
+      nextPhoto,
       name: basics.name,
       socialLinks: basics.socialLinks,
-      photo: JSON.parse(JSON.stringify(photo)),
-      prevPhoto: prevPhoto ? JSON.parse(JSON.stringify(prevPhoto)) : null,
-      nextPhoto: nextPhoto ? JSON.parse(JSON.stringify(nextPhoto)) : null,
     },
-    revalidate: 60,
   };
 };
 
-export default Photo;
+export default PhotoPage;

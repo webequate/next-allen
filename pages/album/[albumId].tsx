@@ -1,10 +1,11 @@
-// pages/photos/[id].tsx
-import { GetStaticProps, GetStaticPaths } from "next";
+// pages/album/[albumId].tsx
+console.log("pages/album/[albumId].tsx");
+import { GetStaticPaths, GetStaticProps } from "next";
 import { motion } from "framer-motion";
-import { Album, Section, Photo } from "@/types/photo";
 import { SocialLink } from "@/types/basics";
+import { Photo, Section, Album } from "@/types/photo";
 import basics from "@/data/basics.json";
-import albums from "@/data/photos-test.json";
+import albums from "@/data/photos.json";
 import Head from "next/head";
 import Header from "@/components/Header";
 import Heading from "@/components/Heading";
@@ -14,21 +15,27 @@ import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
 import { useEffect, useState } from "react";
 
-interface AlbumPageProps {
-  name: string;
-  socialLinks: SocialLink[];
+interface AlbumProps {
   album: Album;
   prevAlbum: Album | null;
   nextAlbum: Album | null;
+  name: string;
+  socialLinks: SocialLink[];
+}
+
+import { ParsedUrlQuery } from "querystring";
+
+interface AlbumParams extends ParsedUrlQuery {
+  albumId: string;
 }
 
 const AlbumPage = ({
-  name,
-  socialLinks,
   album,
   prevAlbum,
   nextAlbum,
-}: AlbumPageProps) => {
+  name,
+  socialLinks,
+}: AlbumProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
 
@@ -77,13 +84,9 @@ const AlbumPage = ({
         <div className="text-light-1 dark:text-light-1">
           {album.sections.map((section, index) => {
             return (
-              <div key={index}>
+              <div key={index} className="mb-10">
                 <Heading text={section.heading} />
-                <PhotoGrid
-                  key={index}
-                  photos={section.photos}
-                  path={album.id}
-                />
+                <PhotoGrid photos={section.photos} path={album.id} />
               </div>
             );
           })}
@@ -95,15 +98,15 @@ const AlbumPage = ({
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths<AlbumParams> = async () => {
   const paths = albums.map((album) => ({
-    params: { id: album.id },
+    params: { albumId: album.id },
   }));
 
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<AlbumPageProps> = async ({
+export const getStaticProps: GetStaticProps<AlbumProps, AlbumParams> = async ({
   params,
 }) => {
   console.log("params", params);
@@ -111,7 +114,7 @@ export const getStaticProps: GetStaticProps<AlbumPageProps> = async ({
     return { notFound: true };
   }
 
-  const albumIndex = albums.findIndex((a) => a.id === params.id);
+  const albumIndex = albums.findIndex((a) => a.id === params.albumId);
   console.log("albumIndex", albumIndex);
 
   if (albumIndex === -1) {
@@ -131,11 +134,11 @@ export const getStaticProps: GetStaticProps<AlbumPageProps> = async ({
 
   return {
     props: {
-      name: basics.name,
-      socialLinks: basics.socialLinks,
       album: JSON.parse(JSON.stringify(album)),
       prevAlbum: prevAlbum ? JSON.parse(JSON.stringify(prevAlbum)) : null,
       nextAlbum: nextAlbum ? JSON.parse(JSON.stringify(nextAlbum)) : null,
+      name: basics.name,
+      socialLinks: basics.socialLinks,
     },
     revalidate: 60,
   };

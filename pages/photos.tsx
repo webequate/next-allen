@@ -1,26 +1,29 @@
 // pages/photos.tsx
 import { GetStaticProps, NextPage } from "next";
+import { ParsedUrlQuery } from "querystring";
 import { motion } from "framer-motion";
-import { Album, Section, Photo } from "@/types/photo";
 import { SocialLink } from "@/types/basics";
 import basics from "@/data/basics.json";
-import albums from "@/data/photos-test.json";
+import albums from "@/data/photos.json";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 
-interface PhotosPageProps {
-  name: string;
-  socialLinks: SocialLink[];
-  albums: Album[];
+interface Album {
+  id: string;
+  title: string;
+  description: string;
+  cover: string;
 }
 
-const PhotosPage: NextPage<PhotosPageProps> = ({
-  name,
-  socialLinks,
-  albums,
-}) => {
+interface PhotosProps {
+  albums: Album[];
+  name: string;
+  socialLinks: SocialLink[];
+}
+
+const PhotosPage: NextPage<PhotosProps> = ({ albums, name, socialLinks }) => {
   return (
     <div className="mx-auto">
       <Header socialLink={socialLinks[0]} />
@@ -46,12 +49,15 @@ const PhotosPage: NextPage<PhotosPageProps> = ({
                   height={240}
                   className="rounded shadow-md md:transition md:duration-200 md:ease-in-out md:transform"
                 />
-                <div className="absolute inset-0 bg-black opacity-0 md:group-hover:opacity-50 transition duration-200 rounded shadow-md"></div>
-                <div className="absolute inset-0 items-center justify-center opacity-0 md:group-hover:opacity-100 transition duration-200 p-4">
-                  <h2 className="text-xl mb-2">{album.title}</h2>
+                <div className="items-center justify-center">
+                  <h2 className="text-xl text-center mt-4 mb-2">
+                    {album.title}
+                  </h2>
                 </div>
-                <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 md:group-hover:opacity-100 transition duration-200">
-                  <span className="text-4xl">+</span>
+                <div className="items-center justify-center">
+                  <span className="text-sm text-center">
+                    {album.description}
+                  </span>
                 </div>
               </Link>
             );
@@ -64,13 +70,15 @@ const PhotosPage: NextPage<PhotosPageProps> = ({
   );
 };
 
-export const getStaticProps: GetStaticProps<PhotosPageProps> = async () => {
+export const getStaticProps: GetStaticProps<
+  PhotosProps,
+  ParsedUrlQuery
+> = async () => {
   return {
     props: {
-      name: basics.name,
-      abouts: basics.abouts,
-      socialLinks: basics.socialLinks,
       albums: JSON.parse(JSON.stringify(albums)),
+      name: basics.name,
+      socialLinks: basics.socialLinks,
     },
     revalidate: 60,
   };

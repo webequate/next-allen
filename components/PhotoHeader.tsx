@@ -2,10 +2,16 @@
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
 
+interface Photo {
+  id: number;
+  file: string;
+  caption: string;
+}
+
 interface PhotoHeaderProps {
   title: string;
-  prevId?: number;
-  nextId?: number;
+  prevId?: number | null;
+  nextId?: number | null;
   path: string;
 }
 

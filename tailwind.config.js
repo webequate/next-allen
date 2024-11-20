@@ -21,8 +21,8 @@ module.exports = {
         "dark-3": "#d4d4d4", // 300
 
         // Accent colors
-        "accent-light": "#2fe419",
-        "accent-dark": "#0fc400",
+        "accent-light": "#442288",
+        "accent-dark": "#331166",
 
         // Extended v3 color
         gray: colors.neutral,

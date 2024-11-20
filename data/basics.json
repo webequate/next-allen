@@ -1,26 +1,25 @@
 {
-  "name": "Allen's Aliens",
+  "name": "Allen Hayden Johnson",
   "titles": [
-    "Allen's Aliens in the Wild"
+    "Allen Hayden Johnson's personal website"
   ],
   "abouts": [
-    "Allen's Aliens in the wild.",
-    "Photos submitted to me and photos I've taken of proud new owners."
+    "Allen Hayden Johnson's personal website."
   ],
-  "website": "allensaliens.com",
-  "email": "allensaliens@gmail.com",
+  "website": "allenhaydenjohnson.com",
+  "email": "bombdawg@gmail.com",
   "location": "Denver, Colorado",
-  "contactIntro": "Please send me a message if you would like to know more about Allen's Aliens.",
+  "contactIntro": "Please send me a message if you would like to know more about me.",
   "socialLinks": [
     {
       "name": "instagram",
-      "handle": "real_allens_aliens",
-      "url": "https://instagram.com/real_allens_aliens"
+      "handle": "b0mbd4wg",
+      "url": "https://instagram.com/b0mbd4wg"
     },
     {
       "name": "facebook",
-      "handle": "allensaliens",
-      "url": "https://facebook.com/allensaliens"
+      "handle": "allen.johnson",
+      "url": "https://facebook.com/allen.johnson"
     }
   ]
 }
