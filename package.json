@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,scss,md}'"
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,scss,md}'",
+    "build:sitemap": "next-sitemap"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -22,6 +23,7 @@
     "mjml": "^4.14.1",
     "mjml-react": "^2.0.8",
     "next": "^13.4.2",
+    "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
     "nodemailer": "^6.9.2",
     "postcss": "^8.4.23",
