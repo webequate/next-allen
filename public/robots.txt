@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://next.allenhaydenjohnson.com
+Host: https://allenhaydenjohnson.com
 
 # Sitemaps
-Sitemap: https://next.allenhaydenjohnson.com/sitemap.xml
+Sitemap: https://allenhaydenjohnson.com/sitemap.xml

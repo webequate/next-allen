@@ -1,6 +1,6 @@
 // next-sitemap.config.js
 module.exports = {
-  siteUrl: "https://next.allenhaydenjohnson.com",
+  siteUrl: "https://allenhaydenjohnson.com",
   exclude: [],
   generateRobotsTxt: true,
 };
