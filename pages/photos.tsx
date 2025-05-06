@@ -50,14 +50,10 @@ const PhotosPage: NextPage<PhotosProps> = ({ albums, name, socialLinks }) => {
                   className="rounded shadow-md md:transition md:duration-200 md:ease-in-out md:transform"
                 />
                 <div className="items-center justify-center">
-                  <h2 className="text-xl text-center mt-4 mb-2">
-                    {album.title}
-                  </h2>
+                  <h2 className="text-xl mt-4 mb-2">{album.title}</h2>
                 </div>
                 <div className="items-center justify-center">
-                  <span className="text-sm text-center">
-                    {album.description}
-                  </span>
+                  <span className="text-sm">{album.description}</span>
                 </div>
               </Link>
             );

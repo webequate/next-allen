@@ -107,7 +107,7 @@ const PhotoPage = ({
             priority
             className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 max-w-[1000px] max-h-[800px] object-contain"
           />
-          <PhotoFooter caption={photo.caption} />
+          {/* <PhotoFooter caption={photo.caption} /> */}
         </div>
       </motion.div>
 
@@ -144,46 +144,27 @@ export const getStaticPaths: GetStaticPaths<PhotoParams> = async () => {
 export const getStaticProps: GetStaticProps<PhotoProps, PhotoParams> = async ({
   params,
 }) => {
-  console.log("Params received:", params);
-
   if (
     !params ||
     Array.isArray(params.albumId) ||
     Array.isArray(params.photoId)
   ) {
-    console.log("Invalid params:", params);
     return { notFound: true };
   }
 
   const album = albums.find((a) => a.id === params.albumId);
-  console.log("Album found:", album);
-
-  if (!album) {
-    console.log("Album not found for ID:", params.albumId);
-    return { notFound: true };
-  }
+  if (!album) return { notFound: true };
 
   const photos = album.sections.flatMap((section) => section.photos);
   const photoIndex = photos.findIndex(
     (p) => p.id.toString() === params.photoId
   );
 
-  console.log("Photos in album:", photos);
-  console.log("Photo index:", photoIndex);
-
-  if (photoIndex === -1) {
-    console.log("Photo not found for ID:", params.photoId);
-    return { notFound: true };
-  }
+  if (photoIndex === -1) return { notFound: true };
 
   const photo = photos[photoIndex];
-  const prevPhoto = photoIndex > 0 ? photos[photoIndex - 1] : null;
-  const nextPhoto =
-    photoIndex < photos.length - 1 ? photos[photoIndex + 1] : null;
-
-  console.log("Current photo:", photo);
-  console.log("Previous photo:", prevPhoto);
-  console.log("Next photo:", nextPhoto);
+  const prevPhoto = photos[(photoIndex - 1 + photos.length) % photos.length];
+  const nextPhoto = photos[(photoIndex + 1) % photos.length];
 
   return {
     props: {

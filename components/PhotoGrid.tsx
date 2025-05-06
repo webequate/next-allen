@@ -24,7 +24,7 @@ const PhotoGrid: React.FC<PhotoGridProps> = ({ photos, path }) => {
             height={240}
             className="rounded shadow-md md:transition md:duration-200 md:ease-in-out md:transform"
           />
-          <h2 className="text-lg lg:text-xl flex justify-center mt-2">
+          <h2 className="text-base lg:text-lg flex justify-center mt-2">
             {photo.caption}
           </h2>
         </Link>
