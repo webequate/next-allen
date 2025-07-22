@@ -103,7 +103,7 @@ const PhotoPage = ({
             src={`/img/photos/${albumId}/${photo.file}`}
             alt={photo.caption}
             width={800}
-            height={800}
+            height={600}
             priority
             className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 max-w-[1000px] max-h-[800px] object-contain"
           />

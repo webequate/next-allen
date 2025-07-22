@@ -25,8 +25,6 @@ const AboutPage: NextPage<AboutPageProps> = ({ name, socialLinks }) => {
         className="text-base text-dark-2 dark:text-light-2"
       >
         <BusinessCard />
-
-        <Instructions socialLink={socialLinks[0]} />
       </motion.div>
 
       <Footer name={name} socialLinks={socialLinks} />

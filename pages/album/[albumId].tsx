@@ -71,7 +71,10 @@ const AlbumPage = ({
       >
         <div className="text-light-1 dark:text-light-1">
           {album.sections.map((section, index) => (
-            <div key={index} className="mb-10">
+            <div
+              key={index}
+              className="border border-dark-3 dark:border-light-3 p-4 mb-10"
+            >
               <Heading text={section.heading} />
               <PhotoGrid photos={section.photos} path={album.id} />
             </div>

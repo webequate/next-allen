@@ -34,7 +34,7 @@ const PhotosPage: NextPage<PhotosProps> = ({ albums, name, socialLinks }) => {
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
         className="text-base text-dark-2 dark:text-light-2"
       >
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 text-light-1 dark:text-light-1">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 text-dark-2 dark:text-light-2">
           {albums.map((album, index) => {
             return (
               <Link
