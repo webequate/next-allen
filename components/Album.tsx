@@ -1,5 +1,5 @@
 // components/Album.tsx
-import { Photo, Section, Album } from "@/types/photo";
+import type { Photo, Section, Album } from "@/types/photo";
 import Heading from "@/components/Heading";
 import PhotoGrid from "@/components/PhotoGrid";
 
