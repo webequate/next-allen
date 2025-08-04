@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({
         />
         <meta
           property="og:image"
-          content="https://www.allensaliens.com/images/alien-og.jpg"
+          content="https://allenhaydenjohnson.com/images/allen-og.jpg"
         />
         <meta property="og:url" content="https://www.allenhaydenjohnson.com" />
         <meta property="og:type" content="website" />

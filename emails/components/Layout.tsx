@@ -104,7 +104,7 @@ export default function Layout({ children }: any) {
                   <a
                     target="_blank"
                     rel="noopener"
-                    href="https://portfolio.webequate.com/contact"
+                    href="https://webequate.com/contact"
                     style={{
                       color: colors.lightAccent,
                       textDecoration: "underline",

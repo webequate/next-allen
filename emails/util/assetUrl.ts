@@ -5,7 +5,7 @@
  * NOTE: This will cause the email linter to throw errors
  */
 
-const ASSET_URL = "https://portfolio.webequate.com";
+const ASSET_URL = "https://webequate.com";
 
 export default function assetUrl(url: string) {
   if (url.startsWith("/") && !process.env.LOCAL_ASSETS) {

@@ -20,11 +20,11 @@ export default function Footer() {
             align="center"
             color={fontColor}
           >
-            <Link color={fontColor} href="https://portfolio.webequate.com">
+            <Link color={fontColor} href="https://webequate.com">
               Unsubscribe
             </Link>
             &nbsp;&nbsp; ·&nbsp;&nbsp;
-            <Link color={fontColor} href="https://portfolio.webequate.com">
+            <Link color={fontColor} href="https://webequate.com">
               Terms & Conditions
             </Link>
           </MjmlText>

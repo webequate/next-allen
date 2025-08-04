@@ -24,15 +24,15 @@ const Contact: Template<ContactProps> = ({ name, email, subject, message }) => {
         paddingBottom={16}
       >
         <MjmlColumn>
-          <Heading
-            fontSize={fontSize.lg}
-            lg={{ fontSize: fontSize.lg }}
-            align="left"
-            maxWidth={450}
-            paddingBottom={32}
-          >
-            Your AllensAliens.com contact form was submitted!
-          </Heading>
+          <Text color={colors.lightPrimary} paddingBottom={24}>
+            A website contact form was just submitted!
+          </Text>
+          <Text color={colors.lightSecondary} paddingBottom={4}>
+            Website:
+          </Text>
+          <Text color={colors.lightPrimary} paddingBottom={24}>
+            AllenHaydenJohnson.com
+          </Text>
           <Text color={colors.lightSecondary} paddingBottom={4}>
             Name:
           </Text>
