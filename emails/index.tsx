@@ -3,11 +3,12 @@ import nodemailer from "nodemailer";
 import { buildSendMail } from "mailing-core";
 
 const transport = nodemailer.createTransport({
-  host: "smtp.sendgrid.net",
-  port: 587,
+  host: "smtp.gmail.com",
+  port: 465,
+  secure: true,
   auth: {
-    user: "apikey",
-    pass: process.env.SENDGRID_API_KEY,
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASS,
   },
 });
 
