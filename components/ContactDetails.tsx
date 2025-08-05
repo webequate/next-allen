@@ -68,7 +68,7 @@ const ContactDetails: React.FC<ContactDetailsProps> = ({
               <FiGlobe />
             </i>
             <span className="text-lg">
-              <Link href={`http://${website}`}>{website}</Link>
+              <Link href={`https://${website}`}>{website}</Link>
             </span>
           </li>
         )}
