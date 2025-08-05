@@ -15,7 +15,15 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ socialLink }) => {
   const [showMenu, setShowMenu] = useState(false);
   const router = useRouter();
-  const route = router.pathname;
+  const asPath = router.asPath;
+
+  // Determine if the link should be active based on the prefix in the path
+  const isActive = (path: string) => {
+    if (path === "/") {
+      return asPath === "/" || asPath.startsWith("/featured"); // Home & featured
+    }
+    return asPath.startsWith(path); // Other prefixes
+  };
 
   function toggleMenu() {
     setShowMenu(!showMenu);
@@ -46,28 +54,28 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
               <Link
                 href="/"
                 aria-label="Home"
-                className={route === "/" ? "active" : ""}
+                className={isActive("/") ? "active" : ""}
               >
                 Home
               </Link>
               <Link
                 href="/about"
                 aria-label="About"
-                className={route === "/about" ? "active" : ""}
+                className={isActive("/about") ? "active" : ""}
               >
                 About
               </Link>
               <Link
                 href="/photos"
                 aria-label="Photos"
-                className={route === "/photos" ? "active" : ""}
+                className={isActive("/photos") ? "active" : ""}
               >
                 Photos
               </Link>
               <Link
                 href="/contact"
                 aria-label="Contact"
-                className={route === "/contact" ? "active" : ""}
+                className={isActive("/contact") ? "active" : ""}
               >
                 Contact
               </Link>
@@ -90,28 +98,28 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
           <Link
             href="/"
             aria-label="Home"
-            className={route === "/" ? "active" : ""}
+            className={isActive("/") ? "active" : ""}
           >
             Home
           </Link>
           <Link
             href="/about"
             aria-label="About"
-            className={route === "/about" ? "active" : ""}
+            className={isActive("/about") ? "active" : ""}
           >
             About
           </Link>
           <Link
             href="/photos"
             aria-label="Photos"
-            className={route === "/photos" ? "active" : ""}
+            className={isActive("/photos") ? "active" : ""}
           >
             Photos
           </Link>
           <Link
             href="/contact"
             aria-label="Contact"
-            className={route === "/contact" ? "active" : ""}
+            className={isActive("/contact") ? "active" : ""}
           >
             Contact
           </Link>
