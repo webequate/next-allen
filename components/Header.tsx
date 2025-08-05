@@ -22,6 +22,9 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
     if (path === "/") {
       return asPath === "/" || asPath.startsWith("/featured"); // Home & featured
     }
+    if (path === "/photos") {
+      return asPath.startsWith("/photos") || asPath.startsWith("/album"); // Photos & album
+    }
     return asPath.startsWith(path); // Other prefixes
   };
 

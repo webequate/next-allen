@@ -20,6 +20,9 @@ const Footer: React.FC<FooterProps> = ({ name, socialLinks }) => {
     if (path === "/") {
       return asPath === "/" || asPath.startsWith("/featured"); // Home & featured
     }
+    if (path === "/photos") {
+      return asPath === "/photos" || asPath.startsWith("/album"); // Photos & album
+    }
     return asPath.startsWith(path); // Other prefixes
   };
 
