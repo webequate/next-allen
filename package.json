@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,scss,md}'",
-    "build:sitemap": "next-sitemap"
+    "build:sitemap": "next-sitemap",
+    "mailing": "mailing"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -45,7 +46,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "mailing": "^1.0.0",
+    "mailing": "^1.1.0",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.4"
