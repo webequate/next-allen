@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,scss,md}'",
-    "build:sitemap": "next-sitemap",
+    "build:sitemap": "next-sitemap && node scripts/sort-sitemap.js",
     "mailing": "mailing"
   },
   "dependencies": {
