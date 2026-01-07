@@ -2,6 +2,7 @@
 import React from "react";
 import Head from "next/head";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 interface LayoutProps {
   title?: string;
@@ -12,6 +13,9 @@ const Layout: React.FC<LayoutProps> = ({
   title = "Allen Hayden Johnson",
   children,
 }) => {
+  const router = useRouter();
+  const canonicalUrl = `https://allenhaydenjohnson.com${router.asPath}`;
+
   useEffect(() => {
     document.body.classList.add("flex");
     document.body.classList.add("flex-col");
@@ -39,9 +43,10 @@ const Layout: React.FC<LayoutProps> = ({
           property="og:image"
           content="https://allenhaydenjohnson.com/images/allen-og.jpg"
         />
-        <meta property="og:url" content="https://www.allenhaydenjohnson.com" />
+        <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/allen.png" />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
       <main className="min-h-screen bg-white dark:bg-neutral-900 sm:border-x border-dark-3 dark:border-light-3 px-6 sm:px-8 lg:px-16">
         <div className="bg-white dark:bg-neutral-900">{children}</div>
