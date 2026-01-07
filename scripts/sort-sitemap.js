@@ -14,11 +14,11 @@ while ((match = urlRegex.exec(sitemap)) !== null) {
   urls.push(match[0]);
 }
 
-// Sort URLs alphabetically by their loc value
+// Sort URLs in natural alphanumeric order
 urls.sort((a, b) => {
   const locA = a.match(/<loc>(.*?)<\/loc>/)?.[1] || '';
   const locB = b.match(/<loc>(.*?)<\/loc>/)?.[1] || '';
-  return locA.localeCompare(locB);
+  return locA.localeCompare(locB, undefined, { numeric: true, sensitivity: 'base' });
 });
 
 // Format each URL entry on a single line
