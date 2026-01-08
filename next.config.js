@@ -47,6 +47,6 @@ module.exports = {
   // ...other config
   reactStrictMode: true,
   images: {
-    formats: ["image/webp"],
+    formats: ["image/avif", "image/webp"],
   },
 };
