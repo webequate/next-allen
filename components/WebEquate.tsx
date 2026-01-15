@@ -1,22 +1,22 @@
-// components/AllenHaydenJohnson.tsx
+// components/WebEquate.tsx
 import Link from "next/link";
 
-const AllenHaydenJohnson: React.FC = () => {
+const WebEquate: React.FC = () => {
   return (
     <div className="font-general-regular flex justify-center items-center text-center">
       <div className="text-sm text-dark-2 dark:text-light-2">
         Website by{" "}
         <Link
-          href="https://allenhaydenjohnson.com"
-          aria-label="Allen Hayden Johnson"
+          href="https://webequate.com"
+          aria-label="WebEquate"
           target="_blank"
           className="hover:text-accent-dark dark:hover:text-accent-light"
         >
-          Allen Hayden Johnson
+          WebEquate
         </Link>
       </div>
     </div>
   );
 };
 
-export default AllenHaydenJohnson;
+export default WebEquate;

@@ -2,7 +2,7 @@
 import { SocialLink } from "@/types/basics";
 import Social from "@/components/Social";
 import Copyright from "@/components/Copyright";
-import AllenHaydenJohnson from "@/components/AllenHaydenJohnson";
+import WebEquate from "@/components/WebEquate";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -70,7 +70,7 @@ const Footer: React.FC<FooterProps> = ({ name, socialLinks }) => {
             <Copyright name={name} />
           </div>
           <div className="flex justify-center">
-            <AllenHaydenJohnson />
+            <WebEquate />
           </div>
         </div>
       </div>
