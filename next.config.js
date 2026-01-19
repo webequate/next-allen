@@ -27,23 +27,6 @@ module.exports = {
     return config;
   },
 
-  // Redirect www to non-www
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "www.allenhaydenjohnson.com",
-          },
-        ],
-        destination: "https://allenhaydenjohnson.com/:path*",
-        permanent: true,
-      },
-    ];
-  },
-
   // ...other config
   reactStrictMode: true,
   images: {
