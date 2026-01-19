@@ -1789,5 +1789,300 @@
         ]
       }
     ]
+  },
+  {
+    "id": "2008-bring-it-back",
+    "title": "Bring It Back (2008)",
+    "cover": "2008-bring-it-back.jpg",
+    "description": "Bring It Back (2008)",
+    "sections": [
+      {
+        "heading": "Bring It Back",
+        "photos": [
+          { "id": 1, "file": "IMG_1857.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_1866.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_1867.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_1868.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_1869.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_1870.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_1871.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_1871b.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_1873.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_1875.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_1876.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_1877.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_1879.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_1881.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_1883.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_1884.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008-san-diego",
+    "title": "San Diego (2008)",
+    "cover": "2008-san-diego.jpg",
+    "description": "San Diego (2008)",
+    "sections": [
+      {
+        "heading": "San Diego (2008)",
+        "photos": [
+          { "id": 1, "file": "DSC00447.jpg", "caption": "" },
+          { "id": 2, "file": "DSC00459.jpg", "caption": "" },
+          { "id": 3, "file": "DSC00461.jpg", "caption": "" },
+
+          { "id": 4, "file": "DSC00489.jpg", "caption": "" },
+          { "id": 5, "file": "DSC00490.jpg", "caption": "" },
+          { "id": 6, "file": "DSC00558.jpg", "caption": "" },
+
+          { "id": 7, "file": "DSC00559.jpg", "caption": "" },
+          { "id": 8, "file": "DSC00560.jpg", "caption": "" },
+          { "id": 9, "file": "DSC00562.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_0540.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_3545.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_3549.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_3550.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_3551.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_3552.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_3554.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_3559.jpg", "caption": "" },
+          { "id": 18, "file": "IMG_3560.jpg", "caption": "" },
+
+          { "id": 19, "file": "IMG_3562.jpg", "caption": "" },
+          { "id": 20, "file": "IMG_3564.jpg", "caption": "" },
+          { "id": 21, "file": "IMG_3570.jpg", "caption": "" },
+
+          { "id": 22, "file": "IMG_3572.jpg", "caption": "" },
+          { "id": 23, "file": "IMG_3576.jpg", "caption": "" },
+          { "id": 24, "file": "IMG_3577.jpg", "caption": "" },
+
+          { "id": 25, "file": "IMG_3578.jpg", "caption": "" },
+          { "id": 26, "file": "IMG_3588.jpg", "caption": "" },
+          { "id": 27, "file": "IMG_3589.jpg", "caption": "" },
+
+          { "id": 28, "file": "IMG_3592.jpg", "caption": "" },
+          { "id": 29, "file": "IMG_3603.jpg", "caption": "" },
+          { "id": 30, "file": "IMG_3608.jpg", "caption": "" },
+
+          { "id": 31, "file": "IMG_3610.jpg", "caption": "" },
+          { "id": 32, "file": "IMG_3613.jpg", "caption": "" },
+          { "id": 33, "file": "IMG_3627.jpg", "caption": "" },
+
+          { "id": 34, "file": "IMG_3628.jpg", "caption": "" },
+          { "id": 35, "file": "IMG_3629.jpg", "caption": "" },
+          { "id": 36, "file": "IMG_3634.jpg", "caption": "" },
+
+          { "id": 37, "file": "IMG_3637.jpg", "caption": "" },
+          { "id": 38, "file": "IMG_3638.jpg", "caption": "" },
+          { "id": 39, "file": "IMG_3639.jpg", "caption": "" },
+
+          { "id": 40, "file": "IMG_3643.jpg", "caption": "" },
+          { "id": 41, "file": "IMG_3646.jpg", "caption": "" },
+          { "id": 42, "file": "IMG_3657.jpg", "caption": "" },
+
+          { "id": 43, "file": "IMG_3660.jpg", "caption": "" },
+          { "id": 44, "file": "IMG_3668.jpg", "caption": "" },
+          { "id": 45, "file": "IMG_3873.jpg", "caption": "" },
+
+          { "id": 46, "file": "IMG_3886.jpg", "caption": "" },
+          { "id": 47, "file": "IMG_3887.jpg", "caption": "" },
+          { "id": 48, "file": "IMG_3896.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008-san-diego-zoo",
+    "title": "San Diego Zoo (2008)",
+    "cover": "2008-san-diego-zoo.jpg",
+    "description": "San Diego Zoo (2008)",
+    "sections": [
+      {
+        "heading": "San Diego Zoo (2008)",
+        "photos": [
+          { "id": 1, "file": "IMG_3681.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_3686.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_3690.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_3693.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_3698.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_3703.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_3710.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_3719.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_3720.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_3722.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_3724.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_3725.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_3746.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_3763.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_3766.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_3773.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_3781.jpg", "caption": "" },
+          { "id": 18, "file": "IMG_3782.jpg", "caption": "" },
+
+          { "id": 19, "file": "IMG_3785.jpg", "caption": "" },
+          { "id": 20, "file": "IMG_3788.jpg", "caption": "" },
+          { "id": 21, "file": "IMG_3792.jpg", "caption": "" },
+
+          { "id": 22, "file": "IMG_3797.jpg", "caption": "" },
+          { "id": 23, "file": "IMG_3806.jpg", "caption": "" },
+          { "id": 24, "file": "IMG_3812.jpg", "caption": "" },
+
+          { "id": 25, "file": "IMG_3817.jpg", "caption": "" },
+          { "id": 26, "file": "IMG_3819.jpg", "caption": "" },
+          { "id": 27, "file": "IMG_3823.jpg", "caption": "" },
+
+          { "id": 28, "file": "IMG_3829.jpg", "caption": "" },
+          { "id": 29, "file": "IMG_3842.jpg", "caption": "" },
+          { "id": 30, "file": "IMG_3850.jpg", "caption": "" },
+
+          { "id": 31, "file": "IMG_3853.jpg", "caption": "" },
+          { "id": 32, "file": "IMG_3857.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008-palm-canyon",
+    "title": "Palm Canyon (2008)",
+    "cover": "2008-palm-canyon.jpg",
+    "description": "Palm Canyon (2008)",
+    "sections": [
+      {
+        "heading": "Palm Canyon (2008)",
+        "photos": [
+          { "id": 1, "file": "DSC00690.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_4076.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_4077.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_4078.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_4095.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_4097.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_4100.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_4102.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_4108.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_4111.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_4119.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_4120.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_4122.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_4125.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_4129.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_4130.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_4133.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008-coachella",
+    "title": "Coachella (2008)",
+    "cover": "2008-coachella.jpg",
+    "description": "Coachella (2008)",
+    "sections": [
+      {
+        "heading": "Coachella (2008)",
+        "photos": [
+          { "id": 1, "file": "DSC00567.jpg", "caption": "" },
+          { "id": 2, "file": "DSC00597.jpg", "caption": "" },
+          { "id": 3, "file": "DSC00635.jpg", "caption": "" },
+
+          { "id": 4, "file": "DSC00637.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_0550.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_0553.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_0557.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_0567.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_0570.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_0571.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_0574.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_0575.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_0585.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_0631.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_0644.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_0649.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_0653.jpg", "caption": "" },
+          { "id": 18, "file": "IMG_0654.jpg", "caption": "" },
+
+          { "id": 19, "file": "IMG_0675.jpg", "caption": "" },
+          { "id": 20, "file": "IMG_3901.jpg", "caption": "" },
+          { "id": 21, "file": "IMG_3917.jpg", "caption": "" },
+
+          { "id": 22, "file": "IMG_3918.jpg", "caption": "" },
+          { "id": 23, "file": "IMG_3922.jpg", "caption": "" },
+          { "id": 24, "file": "IMG_3927.jpg", "caption": "" },
+
+          { "id": 25, "file": "IMG_3932.jpg", "caption": "" },
+          { "id": 26, "file": "IMG_3949.jpg", "caption": "" },
+          { "id": 27, "file": "IMG_3965.jpg", "caption": "" },
+
+          { "id": 28, "file": "IMG_3977.jpg", "caption": "" },
+          { "id": 29, "file": "IMG_3998.jpg", "caption": "" },
+          { "id": 30, "file": "IMG_3999.jpg", "caption": "" },
+
+          { "id": 31, "file": "IMG_4001.jpg", "caption": "" },
+          { "id": 32, "file": "IMG_4005.jpg", "caption": "" },
+          { "id": 33, "file": "IMG_4021.jpg", "caption": "" },
+
+          { "id": 34, "file": "IMG_4024.jpg", "caption": "" },
+          { "id": 35, "file": "IMG_4036.jpg", "caption": "" },
+          { "id": 36, "file": "IMG_4040.jpg", "caption": "" },
+
+          { "id": 37, "file": "IMG_4056.jpg", "caption": "" },
+          { "id": 38, "file": "IMG_4144.jpg", "caption": "" },
+          { "id": 39, "file": "IMG_4146.jpg", "caption": "" },
+
+          { "id": 40, "file": "IMG_4151.jpg", "caption": "" },
+          { "id": 41, "file": "IMG_4162.jpg", "caption": "" },
+          { "id": 42, "file": "IMG_4169.jpg", "caption": "" },
+
+          { "id": 43, "file": "IMG_4170.jpg", "caption": "" },
+          { "id": 44, "file": "IMG_4172.jpg", "caption": "" },
+          { "id": 45, "file": "IMG_4174.jpg", "caption": "" },
+
+          { "id": 46, "file": "IMG_4176.jpg", "caption": "" },
+          { "id": 47, "file": "IMG_4178.jpg", "caption": "" },
+          { "id": 48, "file": "IMG_4180.jpg", "caption": "" },
+
+          { "id": 49, "file": "IMG_4213.jpg", "caption": "" },
+          { "id": 50, "file": "IMG_4216.jpg", "caption": "" },
+          { "id": 51, "file": "IMG_4224.jpg", "caption": "" },
+
+          { "id": 52, "file": "IMG_4229.jpg", "caption": "" },
+          { "id": 53, "file": "IMG_4243.jpg", "caption": "" },
+          { "id": 54, "file": "IMG_4254.jpg", "caption": "" },
+
+          { "id": 55, "file": "IMG_4257.jpg", "caption": "" },
+          { "id": 56, "file": "IMG_4272.jpg", "caption": "" },
+          { "id": 57, "file": "IMG_4278.jpg", "caption": "" },
+
+          { "id": 58, "file": "IMG_4283.jpg", "caption": "" },
+          { "id": 59, "file": "IMG_4291.jpg", "caption": "" },
+          { "id": 60, "file": "IMG_4293.jpg", "caption": "" },
+
+          { "id": 61, "file": "IMG_4295.jpg", "caption": "" },
+          { "id": 62, "file": "IMG_4304.jpg", "caption": "" }
+        ]
+      }
+    ]
   }
 ]
