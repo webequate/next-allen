@@ -34,6 +34,13 @@ export default async function handler(
   if (req.method === "POST") {
     try {
       const formData: ContactForm = req.body;
+
+      // Honeypot check - if the website field is filled, it's likely a bot
+      if (formData.website) {
+        res.status(400).json({ message: "Invalid submission." });
+        return;
+      }
+
       await sendEmail(formData);
       res.status(200).json({ message: "Email sent successfully!" });
     } catch (error) {
