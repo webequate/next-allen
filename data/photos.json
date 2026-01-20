@@ -2947,5 +2947,231 @@
         ]
       }
     ]
+  },
+  {
+    "id": "2008-hiking-monroeville",
+    "title": "Hiking Monroeville (2008)",
+    "cover": "2008-hiking-monroeville.jpg",
+    "description": "Hiking Monroeville (2008)",
+    "sections": [
+      {
+        "heading": "Hiking Monroeville (2008)",
+        "photos": [
+          { "id": 1, "file": "IMG_5346.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_5353.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_5355.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_5357.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_5359.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_5362.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_5365.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_5368.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_5371.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_5375.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008-colorado-thanksgiving",
+    "title": "Colorado Thanksgiving (2008)",
+    "cover": "2008-colorado-thanksgiving.jpg",
+    "description": "Colorado Thanksgiving (2008)",
+    "sections": [
+      {
+        "heading": "Colorado Thanksgiving (2008)",
+        "photos": [
+          { "id": 1, "file": "IMG_5377.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_5382.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_5383.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_5385.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_5388.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_5389.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_5389-b.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_5390.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_5392.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_5394.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_5397.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_5401.jpg", "caption": "" },
+
+          { "id": 13, "file": "DSCN1039.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_5410.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_5414.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_5431.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_5436.jpg", "caption": "" },
+          { "id": 18, "file": "IMG_5441.jpg", "caption": "" },
+
+          { "id": 19, "file": "IMG_5442.jpg", "caption": "" },
+          { "id": 20, "file": "IMG_5448.jpg", "caption": "" },
+          { "id": 21, "file": "IMG_5451.jpg", "caption": "" },
+
+          { "id": 22, "file": "IMG_5461.jpg", "caption": "" },
+          { "id": 23, "file": "IMG_5464.jpg", "caption": "" },
+          { "id": 24, "file": "IMG_5474.jpg", "caption": "" },
+
+          { "id": 25, "file": "IMG_5483.jpg", "caption": "" },
+          { "id": 26, "file": "IMG_5484.jpg", "caption": "" },
+          { "id": 27, "file": "IMG_5486.jpg", "caption": "" },
+
+          { "id": 28, "file": "IMG_5488.jpg", "caption": "" },
+          { "id": 29, "file": "IMG_5491.jpg", "caption": "" },
+          { "id": 30, "file": "IMG_5492.jpg", "caption": "" },
+
+          { "id": 31, "file": "IMG_5513.jpg", "caption": "" },
+          { "id": 32, "file": "IMG_5515.jpg", "caption": "" },
+          { "id": 33, "file": "IMG_5517.jpg", "caption": "" },
+
+          { "id": 34, "file": "IMG_5525.jpg", "caption": "" },
+          { "id": 35, "file": "IMG_5530.jpg", "caption": "" },
+          { "id": 36, "file": "IMG_5531.jpg", "caption": "" },
+
+          { "id": 37, "file": "IMG_5532.jpg", "caption": "" },
+          { "id": 38, "file": "IMG_5551.jpg", "caption": "" },
+          { "id": 39, "file": "IMG_5550.jpg", "caption": "" },
+
+          { "id": 40, "file": "IMG_5553.jpg", "caption": "" },
+          { "id": 41, "file": "IMG_5555.jpg", "caption": "" },
+          { "id": 42, "file": "IMG_5559.jpg", "caption": "" },
+
+          { "id": 43, "file": "IMG_5560.jpg", "caption": "" },
+          { "id": 44, "file": "IMG_5563.jpg", "caption": "" },
+          { "id": 45, "file": "IMG_5567.jpg", "caption": "" },
+          
+          { "id": 46, "file": "IMG_5568.jpg", "caption": "" },
+          { "id": 47, "file": "IMG_5571.jpg", "caption": "" },
+          { "id": 48, "file": "IMG_5573.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2008-nyc-nye",
+    "title": "New York City (New Year's Eve 2008)",
+    "cover": "2008-nyc-nye.jpg",
+    "description": "New York City (New Year's Eve 2008)",
+    "sections": [
+      {
+        "heading": "New York City (New Year's Eve 2008)",
+        "photos": [
+          { "id": 1, "file": "3172173720_a126ec09df_o.jpg", "caption": "" },
+          { "id": 2, "file": "3171343223_1b891e710d_o.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_5712.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_5714.jpg", "caption": "" },
+          { "id": 5, "file": "3171352323_0d9e63dcb9_o.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_5721.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_5724.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_5730.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_5731.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_5733.jpg", "caption": "" },
+          { "id": 11, "file": "3171347993_6b528974a6_o.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_5735.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_5738.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_5740.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_5741.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_5742.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_5745.jpg", "caption": "" },
+          { "id": 18, "file": "IMG_5750.jpg", "caption": "" },
+
+          { "id": 19, "file": "3172189904_8081278b2e_o.jpg", "caption": "" },
+          { "id": 20, "file": "IMG_5757.jpg", "caption": "" },
+          { "id": 21, "file": "3172187310_2fea1e7dbb_o.jpg", "caption": "" },
+
+          { "id": 22, "file": "IMG_5762.jpg", "caption": "" },
+          { "id": 23, "file": "IMG_5764.jpg", "caption": "" },
+          { "id": 24, "file": "IMG_5766.jpg", "caption": "" },
+
+          { "id": 25, "file": "IMG_5770.jpg", "caption": "" },
+          { "id": 26, "file": "IMG_5768.jpg", "caption": "" },
+          { "id": 27, "file": "3171360971_4ab8bb0fab_o.jpg", "caption": "" },
+
+          { "id": 28, "file": "3172183980_13421ed200_o.jpg", "caption": "" },
+          { "id": 29, "file": "IMG_5769.jpg", "caption": "" },
+          { "id": 30, "file": "3171344983_4e4db15663_o.jpg", "caption": "" },
+
+          { "id": 31, "file": "IMG_5771.jpg", "caption": "" },
+          { "id": 32, "file": "IMG_5777.jpg", "caption": "" },
+          { "id": 33, "file": "IMG_5782.jpg", "caption": "" },
+
+          { "id": 34, "file": "IMG_5788.jpg", "caption": "" },
+          { "id": 35, "file": "IMG_5785.jpg", "caption": "" },
+          { "id": 36, "file": "IMG_5787.jpg", "caption": "" },
+
+          { "id": 37, "file": "IMG_5799.jpg", "caption": "" },
+          { "id": 38, "file": "IMG_5802.jpg", "caption": "" },
+          { "id": 39, "file": "IMG_5803.jpg", "caption": "" },
+
+          { "id": 40, "file": "IMG_5804.jpg", "caption": "" },
+          { "id": 41, "file": "IMG_5805.jpg", "caption": "" },
+          { "id": 42, "file": "IMG_5808.jpg", "caption": "" },
+
+          { "id": 43, "file": "IMG_5809.jpg", "caption": "" },
+          { "id": 44, "file": "IMG_5810.jpg", "caption": "" },
+          { "id": 45, "file": "IMG_5812.jpg", "caption": "" },
+          
+          { "id": 46, "file": "IMG_5818.jpg", "caption": "" },
+          { "id": 47, "file": "IMG_5833.jpg", "caption": "" },
+          { "id": 48, "file": "IMG_5836.jpg", "caption": "" },
+
+          { "id": 49, "file": "IMG_5841.jpg", "caption": "" },
+          { "id": 50, "file": "IMG_5844.jpg", "caption": "" },
+          { "id": 51, "file": "IMG_5846.jpg", "caption": "" },
+
+          { "id": 52, "file": "IMG_5848.jpg", "caption": "" },
+          { "id": 53, "file": "IMG_5849.jpg", "caption": "" },
+          { "id": 54, "file": "IMG_5856.jpg", "caption": "" },
+
+          { "id": 55, "file": "IMG_5858.jpg", "caption": "" },
+          { "id": 56, "file": "IMG_5863.jpg", "caption": "" },
+          { "id": 57, "file": "IMG_5866.jpg", "caption": "" },
+
+          { "id": 58, "file": "IMG_5867.jpg", "caption": "" },
+          { "id": 59, "file": "IMG_5870.jpg", "caption": "" },
+          { "id": 60, "file": "IMG_5871.jpg", "caption": "" },
+
+          { "id": 61, "file": "IMG_5873.jpg", "caption": "" },
+          { "id": 62, "file": "IMG_5875.jpg", "caption": "" },
+          { "id": 63, "file": "IMG_5879.jpg", "caption": "" },
+
+          { "id": 64, "file": "IMG_5882.jpg", "caption": "" },
+          { "id": 65, "file": "IMG_5883.jpg", "caption": "" },
+          { "id": 66, "file": "IMG_5886.jpg", "caption": "" },
+
+          { "id": 67, "file": "IMG_5890.jpg", "caption": "" },
+          { "id": 68, "file": "IMG_5892.jpg", "caption": "" },
+          { "id": 69, "file": "IMG_5893.jpg", "caption": "" },
+
+          { "id": 70, "file": "IMG_5897.jpg", "caption": "" },
+          { "id": 71, "file": "IMG_5898.jpg", "caption": "" },
+          { "id": 72, "file": "IMG_5914.jpg", "caption": "" },
+
+          { "id": 73, "file": "IMG_5903.jpg", "caption": "" },
+          { "id": 74, "file": "IMG_5907.jpg", "caption": "" },
+          { "id": 75, "file": "IMG_5910.jpg", "caption": "" },
+
+          { "id": 76, "file": "3171555975_a65cb89d10_o.jpg", "caption": "" },
+          { "id": 77, "file": "IMG_5918.jpg", "caption": "" },
+          { "id": 78, "file": "3171561417_34ebf0dbed_o.jpg", "caption": "" },
+
+          { "id": 79, "file": "3171559861_5784034aa7_o.jpg", "caption": "" },
+          { "id": 80, "file": "3171567379_22f1056168_o.jpg", "caption": "" },
+          { "id": 81, "file": "3172396890_959632f6ec_o.jpg", "caption": "" },
+
+          { "id": 82, "file": "3172394880_4fa1bd346e_o.jpg", "caption": "" },
+          { "id": 83, "file": "3172386370_bd3f16c63e_o.jpg", "caption": "" },
+          { "id": 84, "file": "3172387888_5e2c61e79d_o.jpg", "caption": "" }
+        ]
+      }
+    ]
   }
 ]
