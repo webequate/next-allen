@@ -14,7 +14,9 @@ const Layout: React.FC<LayoutProps> = ({
   children,
 }) => {
   const router = useRouter();
-  const canonicalUrl = `https://allenhaydenjohnson.com${router.asPath}`;
+  const canonicalUrl = `https://allenhaydenjohnson.com${
+    router.asPath.split("?")[0].split("#")[0]
+  }`;
 
   useEffect(() => {
     document.body.classList.add("flex");
