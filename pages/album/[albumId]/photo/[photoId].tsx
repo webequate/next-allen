@@ -163,8 +163,8 @@ export const getStaticProps: GetStaticProps<PhotoProps, PhotoParams> = async ({
   if (photoIndex === -1) return { notFound: true };
 
   const photo = photos[photoIndex];
-  const prevPhoto = photos[(photoIndex - 1 + photos.length) % photos.length];
-  const nextPhoto = photos[(photoIndex + 1) % photos.length];
+  const prevPhoto = photoIndex > 0 ? photos[photoIndex - 1] : null;
+  const nextPhoto = photoIndex < photos.length - 1 ? photos[photoIndex + 1] : null;
 
   return {
     props: {

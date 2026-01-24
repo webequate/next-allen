@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
 import { useEffect, useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 import { SocialLink } from "@/types/basics";
 import { Album } from "@/types/photo";
@@ -56,12 +57,39 @@ const AlbumPage = ({
     trackMouse: false,
   });
 
+  const AlbumNavigation = () => (
+    <div className="flex justify-between items-center mb-6 text-base">
+      <div className="flex-1">
+        {prevAlbum && (
+          <Link 
+            href={`/album/${prevAlbum.id}`}
+            className="text-dark-1 dark:text-light-1 hover:text-dark-3 dark:hover:text-light-2 transition-colors"
+          >
+            ← Previous album: {prevAlbum.title}
+          </Link>
+        )}
+      </div>
+      <div className="flex-1 text-right">
+        {nextAlbum && (
+          <Link 
+            href={`/album/${nextAlbum.id}`}
+            className="text-dark-1 dark:text-light-1 hover:text-dark-3 dark:hover:text-light-2 transition-colors"
+          >
+            Next album: {nextAlbum.title} →
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+
   return (
     <div className="mx-auto">
       <Head>
         <meta property="og:image" content={album.cover} />
       </Head>
       <Header socialLink={socialLinks[0]} />
+
+      <AlbumNavigation />
 
       <motion.div
         {...handlers}
@@ -81,6 +109,8 @@ const AlbumPage = ({
           ))}
         </div>
       </motion.div>
+
+      <AlbumNavigation />
 
       <Footer name={name} socialLinks={socialLinks} />
     </div>
