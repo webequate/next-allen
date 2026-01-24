@@ -23,6 +23,9 @@ const Footer: React.FC<FooterProps> = ({ name, socialLinks }) => {
     if (path === "/photos") {
       return asPath === "/photos" || asPath.startsWith("/album"); // Photos & album
     }
+    if (path === "/videos") {
+      return asPath.startsWith("/videos") || asPath.startsWith("/video"); // Videos & video
+    }
     return asPath.startsWith(path); // Other prefixes
   };
 
@@ -53,6 +56,13 @@ const Footer: React.FC<FooterProps> = ({ name, socialLinks }) => {
                 className={isActive("/photos") ? "active" : ""}
               >
                 Photos
+              </Link>
+              <Link
+                href="/videos"
+                aria-label="Videos"
+                className={isActive("/videos") ? "active" : ""}
+              >
+                Videos
               </Link>
               <Link
                 href="/contact"

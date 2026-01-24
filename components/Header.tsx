@@ -25,6 +25,9 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
     if (path === "/photos") {
       return asPath.startsWith("/photos") || asPath.startsWith("/album"); // Photos & album
     }
+    if (path === "/videos") {
+      return asPath.startsWith("/videos") || asPath.startsWith("/video"); // Videos & video
+    }
     return asPath.startsWith(path); // Other prefixes
   };
 
@@ -76,6 +79,13 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
                 Photos
               </Link>
               <Link
+                href="/videos"
+                aria-label="Videos"
+                className={isActive("/videos") ? "active" : ""}
+              >
+                Videos
+              </Link>
+              <Link
                 href="/contact"
                 aria-label="Contact"
                 className={isActive("/contact") ? "active" : ""}
@@ -118,6 +128,13 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
             className={isActive("/photos") ? "active" : ""}
           >
             Photos
+          </Link>
+          <Link
+            href="/videos"
+            aria-label="Videos"
+            className={isActive("/videos") ? "active" : ""}
+          >
+            Videos
           </Link>
           <Link
             href="/contact"
