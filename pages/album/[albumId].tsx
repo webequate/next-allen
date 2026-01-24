@@ -61,7 +61,7 @@ const AlbumPage = ({
     <div className="flex justify-between items-center mb-6 text-base">
       <div className="flex-1">
         {prevAlbum && (
-          <Link 
+          <Link
             href={`/album/${prevAlbum.id}`}
             className="text-dark-1 dark:text-light-1 hover:text-dark-3 dark:hover:text-light-2 transition-colors"
           >
@@ -71,7 +71,7 @@ const AlbumPage = ({
       </div>
       <div className="flex-1 text-right">
         {nextAlbum && (
-          <Link 
+          <Link
             href={`/album/${nextAlbum.id}`}
             className="text-dark-1 dark:text-light-1 hover:text-dark-3 dark:hover:text-light-2 transition-colors"
           >
