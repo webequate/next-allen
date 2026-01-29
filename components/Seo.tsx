@@ -38,8 +38,12 @@ const Seo: React.FC<SeoProps> = ({
 }) => {
   const router = useRouter();
   const siteUrl = getSiteUrl();
-  const canonicalUrl =
-    canonical || `${siteUrl}${router.asPath.split("?")[0].split("#")[0]}`;
+  let path = router.asPath.split("?")[0].split("#")[0];
+  // Normalize /index to /
+  if (path === "/index") {
+    path = "/";
+  }
+  const canonicalUrl = canonical || `${siteUrl}${path}`;
   const ogImage = toAbsoluteUrl(image, siteUrl);
   const ogVideoUrl = ogVideo ? toAbsoluteUrl(ogVideo, siteUrl) : undefined;
 
