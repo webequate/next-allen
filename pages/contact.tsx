@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import ContactForm from "@/components/ContactForm";
 import ContactDetails from "@/components/ContactDetails";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 
 type ContactPageProps = {
   name: string;
@@ -27,6 +28,12 @@ const ContactPage: NextPage<ContactPageProps> = ({
 }) => {
   return (
     <div className="mx-auto">
+      <Seo
+        title={`Contact | ${basics.name}`}
+        description={
+          basics.contactIntro || "Get in touch with Allen Hayden Johnson."
+        }
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div

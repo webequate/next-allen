@@ -7,12 +7,12 @@ import { SocialLink } from "@/types/basics";
 import { Album, Photo, Section } from "@/types/photo";
 import basics from "@/data/basics.json";
 import albums from "@/data/photos.json";
-import Head from "next/head";
 import Header from "@/components/Header";
 import PhotoHeader from "@/components/PhotoHeader";
 import Image from "next/image";
 import PhotoFooter from "@/components/PhotoFooter";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
 import { useEffect, useState } from "react";
@@ -21,6 +21,7 @@ interface PhotoProps {
   photo: Photo;
   prevPhoto: Photo | null;
   nextPhoto: Photo | null;
+  albumTitle: string;
   name: string;
   socialLinks: SocialLink[];
 }
@@ -34,6 +35,7 @@ const PhotoPage = ({
   photo,
   prevPhoto,
   nextPhoto,
+  albumTitle,
   name,
   socialLinks,
 }: PhotoProps) => {
@@ -81,9 +83,15 @@ const PhotoPage = ({
 
   return (
     <div className="mx-auto">
-      <Head>
-        <meta property="og:image" content={photo.file} />
-      </Head>
+      <Seo
+        title={`${photo.caption || "Photo"} | ${basics.name}`}
+        description={
+          photo.caption
+            ? `${photo.caption} from ${albumTitle}.`
+            : `Photo from ${albumTitle}.`
+        }
+        image={`/img/photos/${albumId}/${photo.file}`}
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div
@@ -172,6 +180,7 @@ export const getStaticProps: GetStaticProps<PhotoProps, PhotoParams> = async ({
       photo,
       prevPhoto,
       nextPhoto,
+      albumTitle: album.title,
       name: basics.name,
       socialLinks: basics.socialLinks,
     },

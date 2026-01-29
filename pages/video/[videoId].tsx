@@ -6,7 +6,6 @@ import { SocialLink } from "@/types/basics";
 import { Video } from "@/types/video";
 import basics from "@/data/basics.json";
 import videos from "@/data/videos.json";
-import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
@@ -14,6 +13,7 @@ import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
 import { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import Seo from "@/components/Seo";
 
 interface VideoProps {
   video: Video;
@@ -100,12 +100,13 @@ const VideoPage = ({
 
   return (
     <div className="mx-auto">
-      <Head>
-        <meta property="og:type" content="video" />
-        <meta property="og:video" content={`/video/${video.file}`} />
-        <meta property="og:image" content={`/video/poster/${video.poster}`} />
-        <title>{video.title}</title>
-      </Head>
+      <Seo
+        title={`${video.title} | ${basics.name}`}
+        description={video.description || `Video by ${basics.name}.`}
+        image={`/video/poster/${video.poster}`}
+        type="video"
+        ogVideo={`/video/${video.file}`}
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div

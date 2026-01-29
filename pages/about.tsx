@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import BusinessCard from "@/components/BusinessCard";
 import Instructions from "@/components/Instructions";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 
 interface AboutPageProps {
   name: string;
@@ -16,6 +17,12 @@ interface AboutPageProps {
 const AboutPage: NextPage<AboutPageProps> = ({ name, socialLinks }) => {
   return (
     <div className="mx-auto">
+      <Seo
+        title={`About | ${basics.name}`}
+        description={
+          basics.abouts?.[0] || "Learn more about Allen Hayden Johnson."
+        }
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div

@@ -6,6 +6,7 @@ import basics from "@/data/basics.json";
 import Header from "@/components/Header";
 import BusinessCard from "@/components/BusinessCard";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 
 interface HomePageProps {
   name: string;
@@ -15,6 +16,12 @@ interface HomePageProps {
 const HomePage: NextPage<HomePageProps> = ({ name, socialLinks }) => {
   return (
     <div className="mx-auto">
+      <Seo
+        title={basics.name}
+        description={
+          basics.abouts?.[0] || "Allen Hayden Johnson's personal website."
+        }
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div

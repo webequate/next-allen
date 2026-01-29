@@ -10,6 +10,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import Image from "next/image";
+import Seo from "@/components/Seo";
 
 interface VideosProps {
   videos: Video[];
@@ -20,6 +21,10 @@ interface VideosProps {
 const VideosPage: NextPage<VideosProps> = ({ videos, name, socialLinks }) => {
   return (
     <div className="mx-auto">
+      <Seo
+        title={`Videos | ${basics.name}`}
+        description={`Video archive by ${basics.name}.`}
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div

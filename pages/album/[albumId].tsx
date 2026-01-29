@@ -5,7 +5,6 @@ import { ParsedUrlQuery } from "querystring";
 import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
 import { useEffect, useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 
 import { SocialLink } from "@/types/basics";
@@ -17,6 +16,7 @@ import Header from "@/components/Header";
 import Heading from "@/components/Heading";
 import PhotoGrid from "@/components/PhotoGrid";
 import Footer from "@/components/Footer";
+import Seo from "@/components/Seo";
 
 interface AlbumParams extends ParsedUrlQuery {
   albumId: string;
@@ -65,7 +65,7 @@ const AlbumPage = ({
             href={`/album/${prevAlbum.id}`}
             className="text-dark-1 dark:text-light-1 hover:text-dark-3 dark:hover:text-light-2 transition-colors"
           >
-            ← Previous album: {prevAlbum.title}
+            ← {prevAlbum.title}
           </Link>
         )}
       </div>
@@ -75,7 +75,7 @@ const AlbumPage = ({
             href={`/album/${nextAlbum.id}`}
             className="text-dark-1 dark:text-light-1 hover:text-dark-3 dark:hover:text-light-2 transition-colors"
           >
-            Next album: {nextAlbum.title} →
+            {nextAlbum.title} →
           </Link>
         )}
       </div>
@@ -84,9 +84,11 @@ const AlbumPage = ({
 
   return (
     <div className="mx-auto">
-      <Head>
-        <meta property="og:image" content={album.cover} />
-      </Head>
+      <Seo
+        title={`${album.title} | ${basics.name}`}
+        description={album.description || `${album.title} photo album.`}
+        image={`/img/album/${album.cover}`}
+      />
       <Header socialLink={socialLinks[0]} />
 
       <AlbumNavigation />
@@ -98,12 +100,15 @@ const AlbumPage = ({
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
       >
         <div className="text-light-1 dark:text-light-1">
+          <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center text-dark-1 dark:text-light-1">
+            {album.title}
+          </h1>
           {album.sections.map((section, index) => (
             <div
               key={index}
               className="border border-dark-3 dark:border-light-3 p-4 mb-10"
             >
-              <Heading text={section.heading} />
+              {album.sections.length > 1 && <Heading text={section.heading} />}
               <PhotoGrid photos={section.photos} path={album.id} />
             </div>
           ))}

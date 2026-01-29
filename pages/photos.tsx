@@ -9,6 +9,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import Image from "next/image";
+import Seo from "@/components/Seo";
 
 interface Album {
   id: string;
@@ -26,6 +27,10 @@ interface PhotosProps {
 const PhotosPage: NextPage<PhotosProps> = ({ albums, name, socialLinks }) => {
   return (
     <div className="mx-auto">
+      <Seo
+        title={`Photos | ${basics.name}`}
+        description={`Photo albums by ${basics.name}.`}
+      />
       <Header socialLink={socialLinks[0]} />
 
       <motion.div
