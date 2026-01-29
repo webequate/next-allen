@@ -24,6 +24,7 @@ const VideosPage: NextPage<VideosProps> = ({ videos, name, socialLinks }) => {
       <Seo
         title={`Videos | ${basics.name}`}
         description={`Video archive by ${basics.name}.`}
+        image="/og-allen.png"
       />
       <Header socialLink={socialLinks[0]} />
 

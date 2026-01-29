@@ -30,6 +30,7 @@ const PhotosPage: NextPage<PhotosProps> = ({ albums, name, socialLinks }) => {
       <Seo
         title={`Photos | ${basics.name}`}
         description={`Photo albums by ${basics.name}.`}
+        image="/og-allen.png"
       />
       <Header socialLink={socialLinks[0]} />
 

@@ -21,6 +21,7 @@ const HomePage: NextPage<HomePageProps> = ({ name, socialLinks }) => {
         description={
           basics.abouts?.[0] || "Allen Hayden Johnson's personal website."
         }
+        image="/og-allen.png"
       />
       <Header socialLink={socialLinks[0]} />
 

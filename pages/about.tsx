@@ -22,6 +22,7 @@ const AboutPage: NextPage<AboutPageProps> = ({ name, socialLinks }) => {
         description={
           basics.abouts?.[0] || "Learn more about Allen Hayden Johnson."
         }
+        image="/og-allen.png"
       />
       <Header socialLink={socialLinks[0]} />
 

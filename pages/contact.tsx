@@ -33,6 +33,7 @@ const ContactPage: NextPage<ContactPageProps> = ({
         description={
           basics.contactIntro || "Get in touch with Allen Hayden Johnson."
         }
+        image="/og-allen.png"
       />
       <Header socialLink={socialLinks[0]} />
 
