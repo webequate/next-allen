@@ -90,7 +90,7 @@ const PhotoPage = ({
             ? `${photo.caption} from ${albumTitle}.`
             : `Photo from ${albumTitle}.`
         }
-        image={`/img/photos/${albumId}/${photo.file}`}
+        image={`https://allenhaydenjohnson.com/img/photos/${albumId}/${photo.file}`}
       />
       <Header socialLink={socialLinks[0]} />
 

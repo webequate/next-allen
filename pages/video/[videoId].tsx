@@ -103,7 +103,7 @@ const VideoPage = ({
       <Seo
         title={`${video.title} | ${basics.name}`}
         description={video.description || `Video by ${basics.name}.`}
-        image={`/video/poster/${video.poster}`}
+        image={`https://allenhaydenjohnson.com/video/poster/${video.poster}`}
         type="video"
         ogVideo={`/video/${video.file}`}
       />

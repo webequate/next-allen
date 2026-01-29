@@ -87,7 +87,7 @@ const AlbumPage = ({
       <Seo
         title={`${album.title} | ${basics.name}`}
         description={album.description || `${album.title} photo album.`}
-        image={`/img/album/${album.cover}`}
+        image={`https://allenhaydenjohnson.com/img/album/${album.cover}`}
       />
       <Header socialLink={socialLinks[0]} />
 
