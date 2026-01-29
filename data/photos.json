@@ -482,86 +482,6 @@
     ]
   },
   {
-    "id": "europe-2",
-    "title": "Europe 2004 (2 of 2)",
-    "cover": "europe2.jpg",
-    "description": "More photos from my three week trip through Western Europe in the summer of 2004.",
-    "sections": [
-      {
-        "heading": "Barcelona, Spain",
-        "photos": [
-          { "id": 1, "file": "CIMG1497.jpg", "caption": "La Sagrada Familia" },
-          { "id": 2, "file": "CIMG1502.jpg", "caption": "Gaudi's Sagrada Familia" },
-          { "id": 3, "file": "CIMG1504.jpg", "caption": "Barcelona restaurant" },
-        
-          { "id": 4, "file": "CIMG1509.jpg", "caption": "View of Barcelona" },
-          { "id": 5, "file": "CIMG1510.jpg", "caption": "Inside Museum of Catalonian Art" },
-          { "id": 6, "file": "CIMG1516.jpg", "caption": "Barcelona '92 Olympic Park" }
-        ]
-      },
-      {
-        "heading": "Girona, Spain",
-        "photos": [
-          { "id": 7, "file": "CIMG1528.jpg", "caption": "Girona, Spain" },
-          { "id": 8, "file": "CIMG1533.jpg", "caption": "Girona cathedral" },
-          { "id": 9, "file": "CIMG1541.jpg", "caption": "Cathedral interior" },
-        
-          { "id": 10, "file": "CIMG1557.jpg", "caption": "Cathedral exterior" },
-          { "id": 11, "file": "CIMG1561.jpg", "caption": "Girona streets" },
-          { "id": 12, "file": "CIMG1563.jpg", "caption": "Girona" }
-        ]
-      },
-      {
-        "heading": "France",
-        "photos": [
-          { "id": 13, "file": "CIMG1568.jpg", "caption": "Arena in Nimes, France" },
-          { "id": 14, "file": "CIMG1573.jpg", "caption": "Nimes arena" },
-          { "id": 15, "file": "CIMG1579.jpg", "caption": "Robin in Nimes" },
-  
-          { "id": 16, "file": "CIMG1589.jpg", "caption": "South of France" },
-          { "id": 17, "file": "CIMG1596.jpg", "caption": "St. Tropez, France" },
-          { "id": 18, "file": "CIMG1599.jpg", "caption": "St. Tropez" }
-        ]
-      },
-      {
-        "heading": "Monte Carlo",
-        "photos": [
-          { "id": 19, "file": "CIMG1568.jpg", "caption": "Arena in Nimes, France" },
-          { "id": 20, "file": "CIMG1573.jpg", "caption": "Nimes arena" },
-          { "id": 21, "file": "CIMG1579.jpg", "caption": "Robin in Nimes" },
-        
-          { "id": 22, "file": "CIMG1589.jpg", "caption": "South of France" },
-          { "id": 23, "file": "CIMG1596.jpg", "caption": "St. Tropez, France" },
-          { "id": 24, "file": "CIMG1599.jpg", "caption": "St. Tropez" }
-        ]
-      },
-      {
-        "heading": "Switzerland",
-        "photos": [
-          { "id": 25, "file": "CIMG1652.jpg", "caption": "Near Mont Blanc" },
-          { "id": 26, "file": "CIMG1663.jpg", "caption": "Museum at CERN" },
-          { "id": 27, "file": "CIMG1668.jpg", "caption": "Closeup" },
-        
-          { "id": 28, "file": "CIMG1677.jpg", "caption": "Swiss switchback" },
-          { "id": 29, "file": "CIMG1682.jpg", "caption": "Swiss hike" },
-          { "id": 30, "file": "CIMG1686.jpg", "caption": "View from hike" },
-        
-          { "id": 31, "file": "CIMG1692.jpg", "caption": "Another view" },
-          { "id": 32, "file": "CIMG1701.jpg", "caption": "Swiss glacier" },
-          { "id": 33, "file": "CIMG1719.jpg", "caption": "Inside ice grotto" },
-        
-          { "id": 34, "file": "CIMG1744.jpg", "caption": "Mountain lake" },
-          { "id": 35, "file": "CIMG1746.jpg", "caption": "Rockslide" },
-          { "id": 36, "file": "CIMG1762.jpg", "caption": "View from Schilthorn" },
-        
-          { "id": 37, "file": "CIMG1774.jpg", "caption": "Schilthorn revolving restaurant" },
-          { "id": 38, "file": "CIMG1777.jpg", "caption": "Robin and Merle" },
-          { "id": 39, "file": "CIMG1779.jpg", "caption": "Inside restaurant" }
-        ]
-      }
-    ]
-  },
-  {
     "id": "europe-1",
     "title": "Europe 2004 (1 of 2)",
     "cover": "europe1.jpg",
@@ -670,81 +590,81 @@
     ]
   },
   {
-    "id": "pittsburgh-2",
-    "title": "Pittsburgh (2 of 2)",
-    "cover": "pittsburghpresent2.jpg",
-    "description": "More photos taken after I moved back to Pittsburgh.",
+    "id": "europe-2",
+    "title": "Europe 2004 (2 of 2)",
+    "cover": "europe2.jpg",
+    "description": "More photos from my three week trip through Western Europe in the summer of 2004.",
     "sections": [
       {
-        "heading": "Summertime",
+        "heading": "Barcelona, Spain",
         "photos": [
-          { "id": 1, "file": "03-05-05_2339.jpg", "caption": "Battle of the Bands" },
-          { "id": 2, "file": "03-16-05_1903.jpg", "caption": "At my computer" },
-          { "id": 3, "file": "05-30-05_2033.jpg", "caption": "Sunset at Southside Works" },
+          { "id": 1, "file": "CIMG1497.jpg", "caption": "La Sagrada Familia" },
+          { "id": 2, "file": "CIMG1502.jpg", "caption": "Gaudi's Sagrada Familia" },
+          { "id": 3, "file": "CIMG1504.jpg", "caption": "Barcelona restaurant" },
         
-          { "id": 4, "file": "06-25-05_2209.jpg", "caption": "Hard Rock Cafe at Station Square" },
-          { "id": 5, "file": "06-25-05_2144.jpg", "caption": "Jeff and a Hooters waitress" },
-          { "id": 6, "file": "07-04-05_0206.jpg", "caption": "Wear White Party at Deja Vu" },
-        
-          { "id": 7, "file": "CIMG2621.jpg", "caption": "Downtown on July 4" },
-          { "id": 8, "file": "CIMG2628.jpg", "caption": "Purple People Eater, Allen, & Ivan" },
-          { "id": 9, "file": "CIMG2581.jpg", "caption": "Allen looking out the window" },
-        
-          { "id": 10, "file": "07-06-05_2325.jpg", "caption": "Club Moda in Cleveland" },
-          { "id": 11, "file": "07-07-05_0146.jpg", "caption": "Ferry Corsten in the DJ booth" },
-          { "id": 12, "file": "07-07-05_0306.jpg", "caption": "During Ferry's set" },
-        
-          { "id": 13, "file": "07-07-05_0120.jpg", "caption": "Crowd during Oakenfold's set" },
-          { "id": 14, "file": "07-07-05_0420.jpg", "caption": "DJ Ferry Corsten & Allen" },
-          { "id": 15, "file": "CIMG2631.jpg", "caption": "Beautiful clouds at outdoor rave" },
-        
-          { "id": 16, "file": "P1010486.jpg", "caption": "Allen, Leesa, and Laura" },
-          { "id": 17, "file": "Trinity-at-work.jpg", "caption": "Leesa on the decks" },
-          { "id": 18, "file": "P1010487.jpg", "caption": "Kelly, Laura, Allen, & Leesa" },
-        
-          { "id": 19, "file": "08-06-05_2030.jpg", "caption": "Rolling Rock Town Fair" },
-          { "id": 20, "file": "08-17-05_2358.jpg", "caption": "Polina & Piyush at Boardwalk" },
-          { "id": 21, "file": "08-27-05_0419.jpg", "caption": "Marcin" }
+          { "id": 4, "file": "CIMG1509.jpg", "caption": "View of Barcelona" },
+          { "id": 5, "file": "CIMG1510.jpg", "caption": "Inside Museum of Catalonian Art" },
+          { "id": 6, "file": "CIMG1516.jpg", "caption": "Barcelona '92 Olympic Park" }
         ]
       },
       {
-        "heading": "NYC Trip",
+        "heading": "Girona, Spain",
         "photos": [
-          { "id": 22, "file": "09-16-05_1921.jpg", "caption": "Ultra NY concert in Central Park" },
-          { "id": 23, "file": "09-16-05_2001.jpg", "caption": "Paul Oakenfold on the decks" },
-          { "id": 24, "file": "09-16-05_2035.jpg", "caption": "The Chemical Brothers live show" },
+          { "id": 7, "file": "CIMG1528.jpg", "caption": "Girona, Spain" },
+          { "id": 8, "file": "CIMG1533.jpg", "caption": "Girona cathedral" },
+          { "id": 9, "file": "CIMG1541.jpg", "caption": "Cathedral interior" },
         
-          { "id": 25, "file": "CIMG2664.jpg", "caption": "Jamie and Rachel" },
-          { "id": 26, "file": "CIMG2666.jpg", "caption": "Nikki and John" },
-          { "id": 27, "file": "CIMG2672.jpg", "caption": "Jamie and Allen" },
-        
-          { "id": 28, "file": "CIMG2673.jpg", "caption": "Colorful hotel" },
-          { "id": 29, "file": "CIMG2677.jpg", "caption": "Elaine at Brazilian restaurant" },
-          { "id": 30, "file": "CIMG2687.jpg", "caption": "Back in Pittsburgh" }
+          { "id": 10, "file": "CIMG1557.jpg", "caption": "Cathedral exterior" },
+          { "id": 11, "file": "CIMG1561.jpg", "caption": "Girona streets" },
+          { "id": 12, "file": "CIMG1563.jpg", "caption": "Girona" }
         ]
       },
       {
-        "heading": "Baltimore Trip",
+        "heading": "France",
         "photos": [
-          { "id": 31, "file": "DSCN0286.jpg", "caption": "Mom, Allen, and Anna at Baltimore's Inner Harbor" },
-          { "id": 32, "file": "DSCN0294.jpg", "caption": "Anna at Chestertown, Maryland" },
-          { "id": 33, "file": "DSCN0296.jpg", "caption": "Anna at her painting easel" },
+          { "id": 13, "file": "CIMG1568.jpg", "caption": "Arena in Nimes, France" },
+          { "id": 14, "file": "CIMG1573.jpg", "caption": "Nimes arena" },
+          { "id": 15, "file": "CIMG1579.jpg", "caption": "Robin in Nimes" },
+  
+          { "id": 16, "file": "CIMG1589.jpg", "caption": "South of France" },
+          { "id": 17, "file": "CIMG1596.jpg", "caption": "St. Tropez, France" },
+          { "id": 18, "file": "CIMG1599.jpg", "caption": "St. Tropez" }
+        ]
+      },
+      {
+        "heading": "Monte Carlo",
+        "photos": [
+          { "id": 19, "file": "CIMG1568.jpg", "caption": "Arena in Nimes, France" },
+          { "id": 20, "file": "CIMG1573.jpg", "caption": "Nimes arena" },
+          { "id": 21, "file": "CIMG1579.jpg", "caption": "Robin in Nimes" },
         
-          { "id": 34, "file": "DSCN0309.jpg", "caption": "National Aquarium in Baltimore" },
-          { "id": 35, "file": "DSCN0312.jpg", "caption": "Big blue fish" },
-          { "id": 36, "file": "DSCN0316.jpg", "caption": "Various marine life" },
+          { "id": 22, "file": "CIMG1589.jpg", "caption": "South of France" },
+          { "id": 23, "file": "CIMG1596.jpg", "caption": "St. Tropez, France" },
+          { "id": 24, "file": "CIMG1599.jpg", "caption": "St. Tropez" }
+        ]
+      },
+      {
+        "heading": "Switzerland",
+        "photos": [
+          { "id": 25, "file": "CIMG1652.jpg", "caption": "Near Mont Blanc" },
+          { "id": 26, "file": "CIMG1663.jpg", "caption": "Museum at CERN" },
+          { "id": 27, "file": "CIMG1668.jpg", "caption": "Closeup" },
         
-          { "id": 37, "file": "DSCN0321.jpg", "caption": "Rockfish" },
-          { "id": 38, "file": "DSCN0325.jpg", "caption": "Finding Nemo fish" },
-          { "id": 39, "file": "DSCN0329.jpg", "caption": "Alligator" },
+          { "id": 28, "file": "CIMG1677.jpg", "caption": "Swiss switchback" },
+          { "id": 29, "file": "CIMG1682.jpg", "caption": "Swiss hike" },
+          { "id": 30, "file": "CIMG1686.jpg", "caption": "View from hike" },
         
-          { "id": 40, "file": "DSCN0332.jpg", "caption": "Lick my frog" },
-          { "id": 41, "file": "DSCN0339.jpg", "caption": "Large arachnid" },
-          { "id": 42, "file": "DSCN0340.jpg", "caption": "Hiding snake" },
+          { "id": 31, "file": "CIMG1692.jpg", "caption": "Another view" },
+          { "id": 32, "file": "CIMG1701.jpg", "caption": "Swiss glacier" },
+          { "id": 33, "file": "CIMG1719.jpg", "caption": "Inside ice grotto" },
         
-          { "id": 43, "file": "DSCN0343.jpg", "caption": "Above escalator" },
-          { "id": 44, "file": "DSCN0348.jpg", "caption": "Bottom of escalator" },
-          { "id": 45, "file": "DSCN0351.jpg", "caption": "Baltimore Inner Harbor" }
+          { "id": 34, "file": "CIMG1744.jpg", "caption": "Mountain lake" },
+          { "id": 35, "file": "CIMG1746.jpg", "caption": "Rockslide" },
+          { "id": 36, "file": "CIMG1762.jpg", "caption": "View from Schilthorn" },
+        
+          { "id": 37, "file": "CIMG1774.jpg", "caption": "Schilthorn revolving restaurant" },
+          { "id": 38, "file": "CIMG1777.jpg", "caption": "Robin and Merle" },
+          { "id": 39, "file": "CIMG1779.jpg", "caption": "Inside restaurant" }
         ]
       }
     ]
@@ -866,104 +786,81 @@
     ]
   },
   {
-    "id": "canon-2",
-    "title": "Pittsburgh 2006",
-    "cover": "canon2.jpg",
-    "description": "Photos taken during the Spring and Summer of 2006.",
+    "id": "pittsburgh-2",
+    "title": "Pittsburgh (2 of 2)",
+    "cover": "pittsburghpresent2.jpg",
+    "description": "More photos taken after I moved back to Pittsburgh.",
     "sections": [
       {
-        "heading": "Tracy",
+        "heading": "Summertime",
         "photos": [
-          { "id": 1, "file": "TMS.jpg", "caption": "Tracy's self-shot photo" },
-          { "id": 2, "file": "IMG_1390.jpg", "caption": "Tracy's cat" },
-          { "id": 3, "file": "TR_02.jpg", "caption": "Tracy at Mynt" }
+          { "id": 1, "file": "03-05-05_2339.jpg", "caption": "Battle of the Bands" },
+          { "id": 2, "file": "03-16-05_1903.jpg", "caption": "At my computer" },
+          { "id": 3, "file": "05-30-05_2033.jpg", "caption": "Sunset at Southside Works" },
+        
+          { "id": 4, "file": "06-25-05_2209.jpg", "caption": "Hard Rock Cafe at Station Square" },
+          { "id": 5, "file": "06-25-05_2144.jpg", "caption": "Jeff and a Hooters waitress" },
+          { "id": 6, "file": "07-04-05_0206.jpg", "caption": "Wear White Party at Deja Vu" },
+        
+          { "id": 7, "file": "CIMG2621.jpg", "caption": "Downtown on July 4" },
+          { "id": 8, "file": "CIMG2628.jpg", "caption": "Purple People Eater, Allen, & Ivan" },
+          { "id": 9, "file": "CIMG2581.jpg", "caption": "Allen looking out the window" },
+        
+          { "id": 10, "file": "07-06-05_2325.jpg", "caption": "Club Moda in Cleveland" },
+          { "id": 11, "file": "07-07-05_0146.jpg", "caption": "Ferry Corsten in the DJ booth" },
+          { "id": 12, "file": "07-07-05_0306.jpg", "caption": "During Ferry's set" },
+        
+          { "id": 13, "file": "07-07-05_0120.jpg", "caption": "Crowd during Oakenfold's set" },
+          { "id": 14, "file": "07-07-05_0420.jpg", "caption": "DJ Ferry Corsten & Allen" },
+          { "id": 15, "file": "CIMG2631.jpg", "caption": "Beautiful clouds at outdoor rave" },
+        
+          { "id": 16, "file": "P1010486.jpg", "caption": "Allen, Leesa, and Laura" },
+          { "id": 17, "file": "Trinity-at-work.jpg", "caption": "Leesa on the decks" },
+          { "id": 18, "file": "P1010487.jpg", "caption": "Kelly, Laura, Allen, & Leesa" },
+        
+          { "id": 19, "file": "08-06-05_2030.jpg", "caption": "Rolling Rock Town Fair" },
+          { "id": 20, "file": "08-17-05_2358.jpg", "caption": "Polina & Piyush at Boardwalk" },
+          { "id": 21, "file": "08-27-05_0419.jpg", "caption": "Marcin" }
         ]
       },
       {
-        "heading": "Walk in Frick Park",
+        "heading": "NYC Trip",
         "photos": [
-          { "id": 4, "file": "IMG_1191.jpg", "caption": "View from trailhead" },
-          { "id": 5, "file": "IMG_1200.jpg", "caption": "Along the trail" },
-          { "id": 6, "file": "IMG_1201.jpg", "caption": "Springtime flowering trees" }
+          { "id": 22, "file": "09-16-05_1921.jpg", "caption": "Ultra NY concert in Central Park" },
+          { "id": 23, "file": "09-16-05_2001.jpg", "caption": "Paul Oakenfold on the decks" },
+          { "id": 24, "file": "09-16-05_2035.jpg", "caption": "The Chemical Brothers live show" },
+        
+          { "id": 25, "file": "CIMG2664.jpg", "caption": "Jamie and Rachel" },
+          { "id": 26, "file": "CIMG2666.jpg", "caption": "Nikki and John" },
+          { "id": 27, "file": "CIMG2672.jpg", "caption": "Jamie and Allen" },
+        
+          { "id": 28, "file": "CIMG2673.jpg", "caption": "Colorful hotel" },
+          { "id": 29, "file": "CIMG2677.jpg", "caption": "Elaine at Brazilian restaurant" },
+          { "id": 30, "file": "CIMG2687.jpg", "caption": "Back in Pittsburgh" }
         ]
       },
       {
-        "heading": "Weekend in Cleveland",
+        "heading": "Baltimore Trip",
         "photos": [
-          { "id": 7, "file": "CIMG3196.jpg", "caption": "Sarah & Kelly" },
-          { "id": 8, "file": "CIMG3199.jpg", "caption": "DJ at May Daze" },
-          { "id": 9, "file": "CIMG3200.jpg", "caption": "Eerie night shot" }
-        ]
-      },
-      {
-        "heading": "Koolaid 2",
-        "photos": [
-          { "id": 10, "file": "IMG_1227.jpg", "caption": "Random ravers on patio" },
-          { "id": 11, "file": "IMG_1265.jpg", "caption": "Dance floor" },
-          { "id": 12, "file": "IMG_1268.jpg", "caption": "DJ Venom" },
-  
-          { "id": 13, "file": "IMG_1292.jpg", "caption": "PNC Park & Heinz Field" },
-          { "id": 14, "file": "IMG_1289.jpg", "caption": "Downtown Pittsburgh" },
-          { "id": 15, "file": "IMG_1296.jpg", "caption": "Another view from patio" }
-        ]
-      },
-      {
-        "heading": "Early Summer",
-        "photos": [
-          { "id": 16, "file": "Image0004.jpg", "caption": "Allen in  his captain's chair" },
-          { "id": 17, "file": "IMG_1320.jpg", "caption": "Spike, Tracy & Allen" },
-          { "id": 18, "file": "IMG_1319.jpg", "caption": "Tracy & Allen" },
-  
-          { "id": 19, "file": "IMG_1330.jpg", "caption": "Tracy's psychiatrist pose" },
-          { "id": 20, "file": "IMG_1328.jpg", "caption": "Oleg & Spike" },
-          { "id": 21, "file": "IMG_1333.jpg", "caption": "Rea" }
-        ]
-      },
-      {
-        "heading": "More Frick Park",
-        "photos": [
-          { "id": 22, "file": "panotracyhouse2.jpg", "caption": "Tracy's dining room panorama" },
-          { "id": 23, "file": "IMG_1397.jpg", "caption": "Along the trail" },
-          { "id": 24, "file": "IMG_1400.jpg", "caption": "Vine Person" },
-  
-          { "id": 25, "file": "IMG_1401.jpg", "caption": "View up through trees" },
-          { "id": 26, "file": "IMG_1411.jpg", "caption": "Tracy at playground" }
-        ]
-      },
-      {
-        "heading": "Frequency Fest",
-        "photos": [
-          { "id": 27, "file": "IMG_1444.jpg", "caption": "Brian spinning while Sarah watches" },
-          { "id": 28, "file": "IMG_1448.jpg", "caption": "Dog by neighboring tent" },
-          { "id": 29, "file": "IMG_1450.jpg", "caption": "Chilling in the campground" }
-        ]
-      },
-      {
-        "heading": "West Virginia",
-        "photos": [
-          { "id": 30, "file": "IMG_1481.jpg", "caption": "Blackwater Falls" },
-          { "id": 31, "file": "IMG_1488.jpg", "caption": "Tracy" },
-          { "id": 32, "file": "IMG_1490.jpg", "caption": "View from lookout point" },
-  
-          { "id": 33, "file": "IMG_1501.jpg", "caption": "John Deer(e)" },
-          { "id": 34, "file": "IMG_1495.jpg", "caption": "Digital waterfall" },
-          { "id": 35, "file": "IMG_1509.jpg", "caption": "Twine butterflies" },
-  
-          { "id": 36, "file": "IMG_1514.jpg", "caption": "Valley Falls park" },
-          { "id": 37, "file": "IMG_1516.jpg", "caption": "Tracy reading about the old mill" },
-          { "id": 38, "file": "IMG_1529.jpg", "caption": "Downriver view" },
-  
-          { "id": 39, "file": "IMG_1530.jpg", "caption": "Closeup of rapids section" },
-          { "id": 40, "file": "IMG_1539.jpg", "caption": "Hanging out near the river" },
-          { "id": 41, "file": "IMG_1542.jpg", "caption": "Calm waters on the river's edge" }
-        ]
-      },
-      {
-        "heading": "Privé Ultralounge",
-        "photos": [
-          { "id": 42, "file": "feelgood1.jpg", "caption": "Tracy, Allen, & Rea" },
-          { "id": 43, "file": "feelgood2.jpg", "caption": "Ignoring the camera" },
-          { "id": 44, "file": "feelgood3.jpg", "caption": "Tracy & Allen" }
+          { "id": 31, "file": "DSCN0286.jpg", "caption": "Mom, Allen, and Anna at Baltimore's Inner Harbor" },
+          { "id": 32, "file": "DSCN0294.jpg", "caption": "Anna at Chestertown, Maryland" },
+          { "id": 33, "file": "DSCN0296.jpg", "caption": "Anna at her painting easel" },
+        
+          { "id": 34, "file": "DSCN0309.jpg", "caption": "National Aquarium in Baltimore" },
+          { "id": 35, "file": "DSCN0312.jpg", "caption": "Big blue fish" },
+          { "id": 36, "file": "DSCN0316.jpg", "caption": "Various marine life" },
+        
+          { "id": 37, "file": "DSCN0321.jpg", "caption": "Rockfish" },
+          { "id": 38, "file": "DSCN0325.jpg", "caption": "Finding Nemo fish" },
+          { "id": 39, "file": "DSCN0329.jpg", "caption": "Alligator" },
+        
+          { "id": 40, "file": "DSCN0332.jpg", "caption": "Lick my frog" },
+          { "id": 41, "file": "DSCN0339.jpg", "caption": "Large arachnid" },
+          { "id": 42, "file": "DSCN0340.jpg", "caption": "Hiding snake" },
+        
+          { "id": 43, "file": "DSCN0343.jpg", "caption": "Above escalator" },
+          { "id": 44, "file": "DSCN0348.jpg", "caption": "Bottom of escalator" },
+          { "id": 45, "file": "DSCN0351.jpg", "caption": "Baltimore Inner Harbor" }
         ]
       }
     ]
@@ -1099,10 +996,113 @@
     ]
   },
   {
+    "id": "canon-2",
+    "title": "Pittsburgh 2006",
+    "cover": "canon2.jpg",
+    "description": "Photos taken during the Spring and Summer of 2006.",
+    "sections": [
+      {
+        "heading": "Tracy",
+        "photos": [
+          { "id": 1, "file": "TMS.jpg", "caption": "Tracy's self-shot photo" },
+          { "id": 2, "file": "IMG_1390.jpg", "caption": "Tracy's cat" },
+          { "id": 3, "file": "TR_02.jpg", "caption": "Tracy at Mynt" }
+        ]
+      },
+      {
+        "heading": "Walk in Frick Park",
+        "photos": [
+          { "id": 4, "file": "IMG_1191.jpg", "caption": "View from trailhead" },
+          { "id": 5, "file": "IMG_1200.jpg", "caption": "Along the trail" },
+          { "id": 6, "file": "IMG_1201.jpg", "caption": "Springtime flowering trees" }
+        ]
+      },
+      {
+        "heading": "Weekend in Cleveland",
+        "photos": [
+          { "id": 7, "file": "CIMG3196.jpg", "caption": "Sarah & Kelly" },
+          { "id": 8, "file": "CIMG3199.jpg", "caption": "DJ at May Daze" },
+          { "id": 9, "file": "CIMG3200.jpg", "caption": "Eerie night shot" }
+        ]
+      },
+      {
+        "heading": "Koolaid 2",
+        "photos": [
+          { "id": 10, "file": "IMG_1227.jpg", "caption": "Random ravers on patio" },
+          { "id": 11, "file": "IMG_1265.jpg", "caption": "Dance floor" },
+          { "id": 12, "file": "IMG_1268.jpg", "caption": "DJ Venom" },
+  
+          { "id": 13, "file": "IMG_1292.jpg", "caption": "PNC Park & Heinz Field" },
+          { "id": 14, "file": "IMG_1289.jpg", "caption": "Downtown Pittsburgh" },
+          { "id": 15, "file": "IMG_1296.jpg", "caption": "Another view from patio" }
+        ]
+      },
+      {
+        "heading": "Early Summer",
+        "photos": [
+          { "id": 16, "file": "Image0004.jpg", "caption": "Allen in  his captain's chair" },
+          { "id": 17, "file": "IMG_1320.jpg", "caption": "Spike, Tracy & Allen" },
+          { "id": 18, "file": "IMG_1319.jpg", "caption": "Tracy & Allen" },
+  
+          { "id": 19, "file": "IMG_1330.jpg", "caption": "Tracy's psychiatrist pose" },
+          { "id": 20, "file": "IMG_1328.jpg", "caption": "Oleg & Spike" },
+          { "id": 21, "file": "IMG_1333.jpg", "caption": "Rea" }
+        ]
+      },
+      {
+        "heading": "More Frick Park",
+        "photos": [
+          { "id": 22, "file": "panotracyhouse2.jpg", "caption": "Tracy's dining room panorama" },
+          { "id": 23, "file": "IMG_1397.jpg", "caption": "Along the trail" },
+          { "id": 24, "file": "IMG_1400.jpg", "caption": "Vine Person" },
+  
+          { "id": 25, "file": "IMG_1401.jpg", "caption": "View up through trees" },
+          { "id": 26, "file": "IMG_1411.jpg", "caption": "Tracy at playground" }
+        ]
+      },
+      {
+        "heading": "Frequency Fest",
+        "photos": [
+          { "id": 27, "file": "IMG_1444.jpg", "caption": "Brian spinning while Sarah watches" },
+          { "id": 28, "file": "IMG_1448.jpg", "caption": "Dog by neighboring tent" },
+          { "id": 29, "file": "IMG_1450.jpg", "caption": "Chilling in the campground" }
+        ]
+      },
+      {
+        "heading": "West Virginia",
+        "photos": [
+          { "id": 30, "file": "IMG_1481.jpg", "caption": "Blackwater Falls" },
+          { "id": 31, "file": "IMG_1488.jpg", "caption": "Tracy" },
+          { "id": 32, "file": "IMG_1490.jpg", "caption": "View from lookout point" },
+  
+          { "id": 33, "file": "IMG_1501.jpg", "caption": "John Deer(e)" },
+          { "id": 34, "file": "IMG_1495.jpg", "caption": "Digital waterfall" },
+          { "id": 35, "file": "IMG_1509.jpg", "caption": "Twine butterflies" },
+  
+          { "id": 36, "file": "IMG_1514.jpg", "caption": "Valley Falls park" },
+          { "id": 37, "file": "IMG_1516.jpg", "caption": "Tracy reading about the old mill" },
+          { "id": 38, "file": "IMG_1529.jpg", "caption": "Downriver view" },
+  
+          { "id": 39, "file": "IMG_1530.jpg", "caption": "Closeup of rapids section" },
+          { "id": 40, "file": "IMG_1539.jpg", "caption": "Hanging out near the river" },
+          { "id": 41, "file": "IMG_1542.jpg", "caption": "Calm waters on the river's edge" }
+        ]
+      },
+      {
+        "heading": "Privé Ultralounge",
+        "photos": [
+          { "id": 42, "file": "feelgood1.jpg", "caption": "Tracy, Allen, & Rea" },
+          { "id": 43, "file": "feelgood2.jpg", "caption": "Ignoring the camera" },
+          { "id": 44, "file": "feelgood3.jpg", "caption": "Tracy & Allen" }
+        ]
+      }
+    ]
+  },
+  {
     "id": "west-coast-trip",
     "title": "West Coast Trip",
     "cover": "westcoast.jpg",
-    "description": "Photos from my trip to the West Coast, from Seattle to the Bay Area.",
+    "description": "Photos from trip to the West Coast, from Seattle to the Bay Area in 2006.",
     "sections": [
       {
         "heading": "West Coast Trip",
@@ -1479,7 +1479,7 @@
     "id": "germany-2007",
     "title": "Germany 2007",
     "cover": "germany.jpg",
-    "description": "Photos from the summer of 2007.",
+    "description": "Trip to Germany in 2007.",
     "sections": [
       {
         "heading": "Berlin & Nurnberg",
@@ -1794,7 +1794,7 @@
     "id": "2008-bring-it-back",
     "title": "Bring It Back (2008)",
     "cover": "2008-bring-it-back.jpg",
-    "description": "Bring It Back (2008)",
+    "description": "Bring It Back in 2008",
     "sections": [
       {
         "heading": "Bring It Back",
@@ -1828,7 +1828,7 @@
     "id": "2008-san-diego",
     "title": "San Diego (2008)",
     "cover": "2008-san-diego.jpg",
-    "description": "San Diego (2008)",
+    "description": "Trip to San Diego in 2008",
     "sections": [
       {
         "heading": "San Diego (2008)",
@@ -1904,7 +1904,7 @@
     "id": "2008-san-diego-zoo",
     "title": "San Diego Zoo (2008)",
     "cover": "2008-san-diego-zoo.jpg",
-    "description": "San Diego Zoo (2008)",
+    "description": "San Diego Zoo in 2008",
     "sections": [
       {
         "heading": "San Diego Zoo (2008)",
@@ -1959,7 +1959,7 @@
     "id": "2008-palm-canyon",
     "title": "Palm Canyon (2008)",
     "cover": "2008-palm-canyon.jpg",
-    "description": "Palm Canyon (2008)",
+    "description": "Palm Canyon, California in 2008",
     "sections": [
       {
         "heading": "Palm Canyon (2008)",
@@ -1994,7 +1994,7 @@
     "id": "2008-coachella",
     "title": "Coachella (2008)",
     "cover": "2008-coachella.jpg",
-    "description": "Coachella (2008)",
+    "description": "Coachella Music Festival in 2008",
     "sections": [
       {
         "heading": "Coachella (2008)",
@@ -2086,96 +2086,10 @@
     ]
   },
   {
-    "id": "2011-rmnp-vicky",
-    "title": "Rocky Mountain National Park w/ Vicky (2011)",
-    "cover": "2011-rmnp-vicky.jpg",
-    "description": "Rocky Mountain National Park w/ Vicky (2011)",
-    "sections": [
-      {
-        "heading": "Rocky Mountain National Park w/ Vicky (2011)",
-        "photos": [
-          { "id": 1, "file": "IMG_4237.jpg", "caption": "" },
-          { "id": 2, "file": "IMG_4239.jpg", "caption": "" },
-          { "id": 3, "file": "IMG_4240.jpg", "caption": "" },
-
-          { "id": 4, "file": "IMG_4241.jpg", "caption": "" },
-          { "id": 5, "file": "IMG_4243.jpg", "caption": "" },
-          { "id": 6, "file": "IMG_4245.jpg", "caption": "" },
-
-          { "id": 7, "file": "IMG_4248.jpg", "caption": "" },
-          { "id": 8, "file": "IMG_4250.jpg", "caption": "" },
-          { "id": 9, "file": "IMG_4255.jpg", "caption": "" },
-
-          { "id": 10, "file": "IMG_4257.jpg", "caption": "" },
-          { "id": 11, "file": "IMG_4258.jpg", "caption": "" },
-          { "id": 12, "file": "IMG_4263.jpg", "caption": "" },
-
-          { "id": 13, "file": "IMG_4267.jpg", "caption": "" },
-          { "id": 14, "file": "IMG_4269.jpg", "caption": "" },
-          { "id": 15, "file": "IMG_4271.jpg", "caption": "" },
-
-          { "id": 16, "file": "IMG_4272.jpg", "caption": "" },
-          { "id": 17, "file": "IMG_4272b.jpg", "caption": "" },
-          { "id": 18, "file": "IMG_4279.jpg", "caption": "" },
-
-          { "id": 19, "file": "IMG_4280.jpg", "caption": "" },
-          { "id": 20, "file": "IMG_4287.jpg", "caption": "" },
-          { "id": 21, "file": "IMG_4290.jpg", "caption": "" },
-
-          { "id": 22, "file": "IMG_4292.jpg", "caption": "" },
-          { "id": 23, "file": "IMG_4296.jpg", "caption": "" },
-          { "id": 24, "file": "IMG_4304.jpg", "caption": "" },
-
-          { "id": 25, "file": "IMG_4307.jpg", "caption": "" },
-          { "id": 26, "file": "IMG_4310.jpg", "caption": "" },
-          { "id": 27, "file": "IMG_4329.jpg", "caption": "" },
-
-          { "id": 28, "file": "IMG_4330.jpg", "caption": "" },
-          { "id": 29, "file": "IMG_4334.jpg", "caption": "" },
-          { "id": 30, "file": "IMG_4336.jpg", "caption": "" },
-
-          { "id": 31, "file": "IMG_4337.jpg", "caption": "" },
-          { "id": 32, "file": "IMG_4354.jpg", "caption": "" },
-          { "id": 33, "file": "IMG_4372.jpg", "caption": "" },
-
-          { "id": 34, "file": "IMG_4374.jpg", "caption": "" },
-          { "id": 35, "file": "IMG_4377.jpg", "caption": "" },
-          { "id": 36, "file": "IMG_4378.jpg", "caption": "" }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "2011-richie-hawtin-beta",
-    "title": "Richie Hawtin at Beta Nightclub (2011)",
-    "cover": "2011-richie-hawtin-beta.jpg",
-    "description": "Richie Hawtin at Beta Nightclub (2011)",
-    "sections": [
-      {
-        "heading": "Richie Hawtin at Beta Nightclub (2011)",
-        "photos": [
-          { "id": 1, "file": "IMG_0989.jpg", "caption": "" },
-          { "id": 2, "file": "IMG_0987.jpg", "caption": "" },
-          { "id": 3, "file": "IMG_0992.jpg", "caption": "" },
-
-          { "id": 4, "file": "IMG_0990.jpg", "caption": "" },
-          { "id": 5, "file": "IMG_0993.jpg", "caption": "" },
-          { "id": 6, "file": "IMG_0999.jpg", "caption": "" },
-
-          { "id": 7, "file": "IMG_1003.jpg", "caption": "" },
-          { "id": 8, "file": "IMG_1006.jpg", "caption": "" },
-          { "id": 9, "file": "IMG_1021.jpg", "caption": "" },
-
-          { "id": 10, "file": "IMG_1025.jpg", "caption": "" }
-        ]
-      }
-    ]
-  },
-  {
     "id": "2009-summer",
     "title": "Summer (2009)",
     "cover": "2009-summer.jpg",
-    "description": "Summer (2009)",
+    "description": "Summer in 2009",
     "sections": [
       {
         "heading": "Summer (2009)",
@@ -2222,7 +2136,7 @@
     "id": "2008-mcconnells-mill",
     "title": "McConnell's Mill (2008)",
     "cover": "2008-mcconnells-mill.jpg",
-    "description": "McConnell's Mill (2008)",
+    "description": "McConnell's Mill in 2008",
     "sections": [
       {
         "heading": "McConnell's Mill (2008)",
@@ -2258,7 +2172,7 @@
     "id": "2008-west-virginia",
     "title": "West Virginia (2008)",
     "cover": "2008-west-virginia.jpg",
-    "description": "West Virginia (2008)",
+    "description": "Trip to West Virginia in 2008",
     "sections": [
       {
         "heading": "West Virginia (2008)",
@@ -2281,7 +2195,7 @@
     "id": "2008-early-summer-pittsburgh",
     "title": "Early Summer Pittsburgh (2008)",
     "cover": "2008-early-summer-pittsburgh.jpg",
-    "description": "Early Summer Pittsburgh (2008)",
+    "description": "Early Summer in Pittsburgh in 2008",
     "sections": [
       {
         "heading": "Early Summer Pittsburgh (2008)",
@@ -2336,7 +2250,7 @@
     "id": "2008-31st-birthday-celebrations",
     "title": "31st Birthday Celebrations (2008)",
     "cover": "2008-31st-birthday-celebrations.jpg",
-    "description": "31st Birthday Celebrations (2008)",
+    "description": "31st Birthday Celebrations in 2008",
     "sections": [
       {
         "heading": "31st Birthday Celebrations (2008)",
@@ -2381,9 +2295,9 @@
   },
   {
     "id": "2008-walking-moraine",
-    "title": "Walking Moraine (2008)",
+    "title": "Walking in Moraine (2008)",
     "cover": "2008-walking-moraine.jpg",
-    "description": "Walking Moraine (2008)",
+    "description": "Walking in Moraine State Park, Pennsylvania in 2008",
     "sections": [
       {
         "heading": "Walking Moraine (2008)",
@@ -2433,7 +2347,7 @@
     "id": "2009-cedar-point",
     "title": "Cedar Point (2009)",
     "cover": "2009-cedar-point.jpg",
-    "description": "Cedar Point (2009)",
+    "description": "Trip to Cedar Point, Ohio in 2009",
     "sections": [
       {
         "heading": "Cedar Point (2009)",
@@ -2468,7 +2382,7 @@
     "id": "2008-denver",
     "title": "Denver (2008)",
     "cover": "2008-denver.jpg",
-    "description": "Denver (2008)",
+    "description": "Trip to Denver in 2008",
     "sections": [
       {
         "heading": "Denver (2008)",
@@ -2592,7 +2506,7 @@
     "id": "2008-virgin-fest",
     "title": "Virgin Fest (2008)",
     "cover": "2008-virgin-fest.jpg",
-    "description": "Virgin Fest (2008)",
+    "description": "Virgin Music Festival in Maryland in 2008",
     "sections": [
       {
         "heading": "Virgin Fest(2008)",
@@ -2670,7 +2584,7 @@
     "id": "2008-laras-26th-birthday",
     "title": "Lara's 26th Birthday (2008)",
     "cover": "2008-laras-26th-birthday.jpg",
-    "description": "Lara's 26th Birthday (2008)",
+    "description": "Lara's 26th Birthday in 2008",
     "sections": [
       {
         "heading": "Lara's 26th Birthday (2008)",
@@ -2689,7 +2603,7 @@
     "id": "2008-nebraska-wedding",
     "title": "Nebraska Wedding (2008)",
     "cover": "2008-nebraska-wedding.jpg",
-    "description": "Nebraska Wedding (2008)",
+    "description": "Tracy's Wedding in Nebraska in 2008",
     "sections": [
       {
         "heading": "Nebraska Wedding (2008)",
@@ -2726,12 +2640,12 @@
   },
   {
     "id": "2008-halloween-chinatown-inn",
-    "title": "Halloween Chinatown Inn (2008)",
+    "title": "Halloween at Chinatown Inn (2008)",
     "cover": "2008-halloween-chinatown-inn.jpg",
-    "description": "Halloween Chinatown Inn (2008)",
+    "description": "Halloween at Chinatown Inn in 2008",
     "sections": [
       {
-        "heading": "Halloween Chinatown Inn (2008)",
+        "heading": "Halloween at Chinatown Inn (2008)",
         "photos": [
           { "id": 1, "file": "IMG_5275.jpg", "caption": "" },
           { "id": 2, "file": "IMG_5281.jpg", "caption": "" },
@@ -2772,7 +2686,7 @@
     "id": "2008-hiking-monroeville",
     "title": "Hiking Monroeville (2008)",
     "cover": "2008-hiking-monroeville.jpg",
-    "description": "Hiking Monroeville (2008)",
+    "description": "Hiking in Monroeville in 2008",
     "sections": [
       {
         "heading": "Hiking Monroeville (2008)",
@@ -2798,7 +2712,7 @@
     "id": "2008-colorado-thanksgiving",
     "title": "Colorado Thanksgiving (2008)",
     "cover": "2008-colorado-thanksgiving.jpg",
-    "description": "Colorado Thanksgiving (2008)",
+    "description": "Thanksgiving in Colorado in 2008",
     "sections": [
       {
         "heading": "Colorado Thanksgiving (2008)",
@@ -2874,7 +2788,7 @@
     "id": "2008-nyc-nye",
     "title": "New York City (New Year's Eve 2008)",
     "cover": "2008-nyc-nye.jpg",
-    "description": "New York City (New Year's Eve 2008)",
+    "description": "New Year's Eve in New York City in 2008",
     "sections": [
       {
         "heading": "New York City (New Year's Eve 2008)",
@@ -2998,7 +2912,7 @@
     "id": "2009-colorado-february",
     "title": "Colorado in February (2009)",
     "cover": "2009-colorado-february.jpg",
-    "description": "Colorado in February (2009)",
+    "description": "Trip to Colorado in February in 2009",
     "sections": [
       {
         "heading": "Colorado in February (2009)",
@@ -3042,7 +2956,7 @@
     "id": "2009-deadmau5-columbus",
     "title": "Deadmau5 in Columbus (2009)",
     "cover": "2009-deadmau5-columbus.jpg",
-    "description": "Deadmau5 in Columbus (2009)",
+    "description": "Deadmau5 in Columbus, Ohio in 2009",
     "sections": [
       {
         "heading": "Deadmau5 in Columbus (2009)",
@@ -3098,7 +3012,7 @@
     "id": "2009-hiking",
     "title": "Hiking (2009)",
     "cover": "2009-hiking.jpg",
-    "description": "Hiking (2009)",
+    "description": "Hiking in 2009",
     "sections": [
       {
         "heading": "Hiking (2009)",
@@ -3142,7 +3056,7 @@
     "id": "2009-las-vegas",
     "title": "Las Vegas (2009)",
     "cover": "2009-las-vegas.jpg",
-    "description": "Las Vegas (2009)",
+    "description": "Las Vegas trip for Marcin & Julie's wedding in 2009",
     "sections": [
       {
         "heading": "Las Vegas (2009)",
@@ -3273,7 +3187,7 @@
     "id": "2009-north-shore-walk",
     "title": "North Shore Walk (2009)",
     "cover": "2009-north-shore-walk.jpg",
-    "description": "North Shore Walk (2009)",
+    "description": "North Shore Walk in Pittsburgh in 2009",
     "sections": [
       {
         "heading": "North Shore Walk (2009)",
@@ -3347,7 +3261,7 @@
     "id": "2009-ninja",
     "title": "NIN/JA (2009)",
     "cover": "2009-ninja.jpg",
-    "description": "NIN/JA (2009)",
+    "description": "NIN/JA Nine Inch Nails & Jane's Addiction in 2009",
     "sections": [
       {
         "heading": "NIN/JA (2009)",
@@ -3389,12 +3303,12 @@
   },
   {
     "id": "2009-penguins-rally",
-    "title": "Penguins Rally (2009)",
+    "title": "Penguins Stanley Cup Rally (2009)",
     "cover": "2009-penguins-rally.jpg",
-    "description": "Penguins Rally (2009)",
+    "description": "Penguins Stanley Cup Championship Rally in 2009",
     "sections": [
       {
-        "heading": "Penguins Rally (2009)",
+        "heading": "Penguins Stanley Cup Rally (2009)",
         "photos": [
           { "id": 1, "file": "IMG_6495.jpg", "caption": "" },
           { "id": 2, "file": "IMG_6496.jpg", "caption": "" },
@@ -3436,12 +3350,12 @@
   },
   {
     "id": "2009-stacy-russ-wedding",
-    "title": "Stacy Russ Wedding (2009)",
+    "title": "Stacy & Russ Wedding (2009)",
     "cover": "2009-stacy-russ-wedding.jpg",
-    "description": "Stacy Russ Wedding (2009)",
+    "description": "Stacy & Russ's Wedding in 2009",
     "sections": [
       {
-        "heading": "Stacy Russ Wedding (2009)",
+        "heading": "Stacy & Russ's Wedding (2009)",
         "photos": [
           { "id": 1, "file": "IMG_6651.jpg", "caption": "" },
           { "id": 2, "file": "IMG_6652.jpg", "caption": "" },
@@ -3492,12 +3406,12 @@
   },
   {
     "id": "2009-richie-hawtin-cleveland",
-    "title": "Richie Hawtin Cleveland (2009)",
+    "title": "Richie Hawtin in Cleveland (2009)",
     "cover": "2009-richie-hawtin-cleveland.jpg",
-    "description": "Richie Hawtin Cleveland (2009)",
+    "description": "Richie Hawtin in Cleveland in 2009",
     "sections": [
       {
-        "heading": "Richie Hawtin Cleveland (2009)",
+        "heading": "Richie Hawtin in Cleveland (2009)",
         "photos": [
           { "id": 1, "file": "3696143999_c649ab4c42_o.jpg", "caption": "" },
           { "id": 2, "file": "3696145667_7225354849_o.jpg", "caption": "" },
@@ -3522,12 +3436,12 @@
   },
   {
     "id": "2009-jen-dave-wedding",
-    "title": "Jen Dave Wedding (2009)",
+    "title": "Jen & Dave Wedding (2009)",
     "cover": "2009-jen-dave-wedding.jpg",
-    "description": "Jen Dave Wedding (2009)",
+    "description": "Jen & Dave's Wedding in 2009",
     "sections": [
       {
-        "heading": "Jen Dave Wedding (2009)",
+        "heading": "Jen & Dave's Wedding (2009)",
         "photos": [
           { "id": 1, "file": "IMG_6834.jpg", "caption": "" },
           { "id": 2, "file": "IMG_6835.jpg", "caption": "" },
@@ -3578,7 +3492,7 @@
     "id": "2009-mueller-state-park",
     "title": "Mueller State Park (2009)",
     "cover": "2009-mueller-state-park.jpg",
-    "description": "Mueller State Park (2009)",
+    "description": "Mueller State Park, Colorado in 2009",
     "sections": [
       {
         "heading": "Mueller State Park (2009)",
@@ -3623,12 +3537,12 @@
   },
   {
     "id": "2009-steve-porter-zen",
-    "title": "Steve Porter Zen (2009)",
+    "title": "Steve Porter at Zen (2009)",
     "cover": "2009-steve-porter-zen.jpg",
-    "description": "Steve Porter Zen (2009)",
+    "description": "Steve Porter at Zen Nightclub in 2009",
     "sections": [
       {
-        "heading": "Steve Porter Zen (2009)",
+        "heading": "Steve Porter at Zen (2009)",
         "photos": [
           { "id": 1, "file": "IMG_0005.jpg", "caption": "" },
           { "id": 2, "file": "IMG_0008.jpg", "caption": "" },
@@ -3701,12 +3615,12 @@
   },
   {
     "id": "2009-pittsburgh-fall",
-    "title": "Pittsburgh Fall (2009)",
+    "title": "Pittsburgh in Fall (2009)",
     "cover": "2009-pittsburgh-fall.jpg",
-    "description": "Pittsburgh Fall (2009)",
+    "description": "Fall in Pittsburgh in 2009",
     "sections": [
       {
-        "heading": "Pittsburgh Fall (2009)",
+        "heading": "Fall in Pittsburgh (2009)",
         "photos": [
           { "id": 1, "file": "IMG_7424.jpg", "caption": "" },
           { "id": 2, "file": "IMG_7431.jpg", "caption": "" },
@@ -3783,12 +3697,12 @@
   },
   {
     "id": "2009-thanksgiving-arizona",
-    "title": "Thanksgiving Arizona (2009)",
+    "title": "Thanksgiving in Arizona (2009)",
     "cover": "2009-thanksgiving-arizona.jpg",
-    "description": "Thanksgiving Arizona (2009)",
+    "description": "Thanksgiving in Arizona in 2009",
     "sections": [
       {
-        "heading": "Thanksgiving Arizona (2009)",
+        "heading": "Thanksgiving in Arizona (2009)",
         "photos": [
           { "id": 1, "file": "IMG_7714.jpg", "caption": "" },
           { "id": 2, "file": "IMG_7718.jpg", "caption": "" },
@@ -3831,12 +3745,12 @@
   },
   {
     "id": "2009-thanksgiving-california",
-    "title": "Thanksgiving California (2009)",
+    "title": "Thanksgiving in California (2009)",
     "cover": "2009-thanksgiving-california.jpg",
-    "description": "Thanksgiving California (2009)",
+    "description": "Thanksgiving in California in 2009",
     "sections": [
       {
-        "heading": "Thanksgiving California (2009)",
+        "heading": "Thanksgiving in California (2009)",
         "photos": [
           { "id": 1, "file": "IMG_7910.jpg", "caption": "" },
           { "id": 2, "file": "IMG_7912.jpg", "caption": "" },
@@ -3988,7 +3902,7 @@
     "id": "2010-bluejays-rednecks",
     "title": "Bluejays & Rednecks (2010)",
     "cover": "2010-bluejays-rednecks.jpg",
-    "description": "Bluejays & Rednecks (2010)",
+    "description": "Bluejays & Rednecks in Colorado Springs in 2010",
     "sections": [
       {
         "heading": "Bluejays & Rednecks (2010)",
@@ -4008,7 +3922,7 @@
     "id": "2010-garden-of-the-gods",
     "title": "Garden of the Gods (2010)",
     "cover": "2010-garden-of-the-gods.jpg",
-    "description": "Garden of the Gods (2010)",
+    "description": "Garden of the Gods in Colorado Springs in 2010",
     "sections": [
       {
         "heading": "Garden of the Gods (2010)",
@@ -4049,9 +3963,9 @@
   },
   {
     "id": "2010-steve-porter-beta",
-    "title": "Steve Porter Beta (2010)",
+    "title": "Steve Porter at Beta (2010)",
     "cover": "2010-steve-porter-beta.jpg",
-    "description": "Steve Porter Beta (2010)",
+    "description": "Steve Porter at Beta Nightclub in 2010",
     "sections": [
       {
         "heading": "Steve Porter Beta (2010)",
@@ -4089,9 +4003,9 @@
   },
   {
     "id": "2010-derrick-carter-dj-heather",
-    "title": "Derrick Carter DJ Heather (2010)",
+    "title": "Derrick Carter & DJ Heather (2010)",
     "cover": "2010-derrick-carter-dj-heather.jpg",
-    "description": "Derrick Carter DJ Heather (2010)",
+    "description": "Derrick Carter & DJ Heather at City Hall in 2010",
     "sections": [
       {
         "heading": "Derrick Carter DJ Heather (2010)",
@@ -4120,9 +4034,9 @@
   },
   {
     "id": "2010-rmnp-oleg",
-    "title": "Rocky Mountain National Park Oleg (2010)",
+    "title": "Rocky Mountain National Park w/ Oleg (2010)",
     "cover": "2010-rmnp-oleg.jpg",
-    "description": "Rocky Mountain National Park Oleg (2010)",
+    "description": "Trip to Rocky Mountain National Park with Oleg in 2010",
     "sections": [
       {
         "heading": "Rocky Mountain National Park Oleg (2010)",
@@ -4198,7 +4112,7 @@
     "id": "2010-broncos-raiders",
     "title": "Broncos vs Raiders (2010)",
     "cover": "2010-broncos-raiders.jpg",
-    "description": "Broncos vs Raiders (2010)",
+    "description": "Broncos vs Raiders at Invesco Field in 2010",
     "sections": [
       {
         "heading": "Broncos vs Raiders (2010)",
@@ -4242,7 +4156,7 @@
     "id": "2010-italy",
     "title": "Italy (2010)",
     "cover": "2010-italy.jpg",
-    "description": "Italy (2010)",
+    "description": "Trip to Italy in 2010",
     "sections": [
       {
         "heading": "Italy (2010)",
@@ -4555,10 +4469,96 @@
     ]
   },
   {
+    "id": "2011-rmnp-vicky",
+    "title": "Rocky Mountain National Park w/ Vicky (2011)",
+    "cover": "2011-rmnp-vicky.jpg",
+    "description": "Trip to Rocky Mountain National Park with Vicky in 2011",
+    "sections": [
+      {
+        "heading": "Rocky Mountain National Park w/ Vicky (2011)",
+        "photos": [
+          { "id": 1, "file": "IMG_4237.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_4239.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_4240.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_4241.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_4243.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_4245.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_4248.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_4250.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_4255.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_4257.jpg", "caption": "" },
+          { "id": 11, "file": "IMG_4258.jpg", "caption": "" },
+          { "id": 12, "file": "IMG_4263.jpg", "caption": "" },
+
+          { "id": 13, "file": "IMG_4267.jpg", "caption": "" },
+          { "id": 14, "file": "IMG_4269.jpg", "caption": "" },
+          { "id": 15, "file": "IMG_4271.jpg", "caption": "" },
+
+          { "id": 16, "file": "IMG_4272.jpg", "caption": "" },
+          { "id": 17, "file": "IMG_4272b.jpg", "caption": "" },
+          { "id": 18, "file": "IMG_4279.jpg", "caption": "" },
+
+          { "id": 19, "file": "IMG_4280.jpg", "caption": "" },
+          { "id": 20, "file": "IMG_4287.jpg", "caption": "" },
+          { "id": 21, "file": "IMG_4290.jpg", "caption": "" },
+
+          { "id": 22, "file": "IMG_4292.jpg", "caption": "" },
+          { "id": 23, "file": "IMG_4296.jpg", "caption": "" },
+          { "id": 24, "file": "IMG_4304.jpg", "caption": "" },
+
+          { "id": 25, "file": "IMG_4307.jpg", "caption": "" },
+          { "id": 26, "file": "IMG_4310.jpg", "caption": "" },
+          { "id": 27, "file": "IMG_4329.jpg", "caption": "" },
+
+          { "id": 28, "file": "IMG_4330.jpg", "caption": "" },
+          { "id": 29, "file": "IMG_4334.jpg", "caption": "" },
+          { "id": 30, "file": "IMG_4336.jpg", "caption": "" },
+
+          { "id": 31, "file": "IMG_4337.jpg", "caption": "" },
+          { "id": 32, "file": "IMG_4354.jpg", "caption": "" },
+          { "id": 33, "file": "IMG_4372.jpg", "caption": "" },
+
+          { "id": 34, "file": "IMG_4374.jpg", "caption": "" },
+          { "id": 35, "file": "IMG_4377.jpg", "caption": "" },
+          { "id": 36, "file": "IMG_4378.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2011-richie-hawtin-beta",
+    "title": "Richie Hawtin at Beta Nightclub (2011)",
+    "cover": "2011-richie-hawtin-beta.jpg",
+    "description": "Richie Hawtin at Beta Nightclub in 2011",
+    "sections": [
+      {
+        "heading": "Richie Hawtin at Beta Nightclub (2011)",
+        "photos": [
+          { "id": 1, "file": "IMG_0989.jpg", "caption": "" },
+          { "id": 2, "file": "IMG_0987.jpg", "caption": "" },
+          { "id": 3, "file": "IMG_0992.jpg", "caption": "" },
+
+          { "id": 4, "file": "IMG_0990.jpg", "caption": "" },
+          { "id": 5, "file": "IMG_0993.jpg", "caption": "" },
+          { "id": 6, "file": "IMG_0999.jpg", "caption": "" },
+
+          { "id": 7, "file": "IMG_1003.jpg", "caption": "" },
+          { "id": 8, "file": "IMG_1006.jpg", "caption": "" },
+          { "id": 9, "file": "IMG_1021.jpg", "caption": "" },
+
+          { "id": 10, "file": "IMG_1025.jpg", "caption": "" }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2011-rmnp-jeff",
     "title": "Rocky Mountain National Park Jeff (2011)",
     "cover": "2011-rmnp-jeff.jpg",
-    "description": "Rocky Mountain National Park Jeff (2011)",
+    "description": "Trip to Rocky Mountain National Park with Jeff in 2011",
     "sections": [
       {
         "heading": "Rocky Mountain National Park Jeff (2011)",
@@ -4590,9 +4590,9 @@
   },
   {
     "id": "2011-rmnp-family",
-    "title": "Rocky Mountain National Park Family (2011)",
+    "title": "Rocky Mountain National Park w/ Family (2011)",
     "cover": "2011-rmnp-family.jpg",
-    "description": "Rocky Mountain National Park Family (2011)",
+    "description": "Trip to Rocky Mountain National Park with family in 2011",
     "sections": [
       {
         "heading": "Rocky Mountain National Park Family (2011)",
@@ -4662,7 +4662,7 @@
     "id": "2011-london-1",
     "title": "London 1 (2011)",
     "cover": "2011-london-1.jpg",
-    "description": "London 1(2011)",
+    "description": "Trip to London in 2011 (1/2)",
     "sections": [
       {
         "heading": "London 1 (2011)",
@@ -4756,7 +4756,7 @@
     "id": "2011-london-2",
     "title": "London 2 (2011)",
     "cover": "2011-london-2.jpg",
-    "description": "London 2 (2011)",
+    "description": "Trip to London in 2011 (2/2)",
     "sections": [
       {
         "heading": "London 2 (2011)",
@@ -4816,7 +4816,7 @@
     "id": "2012-portugal-1",
     "title": "Portugal 1 (2012)",
     "cover": "2012-portugal-1.jpg",
-    "description": "Portugal 1 (2012)",
+    "description": "Trip to Portugal in 2012 (1/2)",
     "sections": [
       {
         "heading": "Portugal 1 (2012)",
@@ -4956,7 +4956,7 @@
     "id": "2012-portugal-2",
     "title": "Portugal 2 (2012)",
     "cover": "2012-portugal-2.jpg",
-    "description": "Portugal 2 (2012)",
+    "description": "Trip to Portugal in 2012 (2/2)",
     "sections": [
       {
         "heading": "Portugal 2 (2012)",
@@ -5008,7 +5008,7 @@
     "id": "2012-portugal",
     "title": "Portugal (2012)",
     "cover": "2012-portugal.jpg",
-    "description": "Portugal (2012)",
+    "description": "Trip to Portugal in 2012",
     "sections": [
       {
         "heading": "Portugal (2012)",
@@ -5111,7 +5111,7 @@
     "id": "2012-oaxaca-mexico",
     "title": "Oaxaca, Mexico (2012)",
     "cover": "2012-oaxaca-mexico.jpg",
-    "description": "Oaxaca, Mexico (2012)",
+    "description": "Trip to Oaxaca, Mexico in 2012",
     "sections": [
       {
         "heading": "Oaxaca, Mexico (2012)",
@@ -5281,7 +5281,7 @@
     "id": "2013-california",
     "title": "California (2013)",
     "cover": "2013-california.jpg",
-    "description": "California (2013)",
+    "description": "Trip to California",
     "sections": [
       {
         "heading": "California (2013)",
@@ -5389,12 +5389,12 @@
   },
   {
     "id": "2014-yucatan-mexico",
-    "title": "Yucatan, Mexico (2014)",
+    "title": "Yucatán, Mexico (2014)",
     "cover": "2014-yucatan-mexico.jpg",
-    "description": "Yucatan, Mexico (2014)",
+    "description": "Trip to Yucatán, Mexico, based in Mérida",
     "sections": [
       {
-        "heading": "Yucatan, Mexico (2014)",
+        "heading": "Yucatán, Mexico (2014)",
         "photos": [
           { "id": 1, "file": "P1020607.jpg", "caption": "" },
           { "id": 2, "file": "P1020613.jpg", "caption": "" },
