@@ -109,17 +109,17 @@ const VideoPage = ({
       <Header socialLink={socialLinks[0]} />
 
       <div className="page-content justify-center text-dark-1 dark:text-light-1">
-          <VideoHeader />
-          <video
-            {...handlers}
-            src={`/video/${video.file}`}
-            poster={`/video/poster/${video.poster}`}
-            width={640}
-            height={480}
-            controls
-            className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2"
-            preload="auto"
-          />
+        <VideoHeader />
+        <video
+          {...handlers}
+          src={`/video/${video.file}`}
+          poster={`/video/poster/${video.poster}`}
+          width={640}
+          height={480}
+          controls
+          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2"
+          preload="auto"
+        />
       </div>
 
       <Footer name={name} socialLinks={socialLinks} />

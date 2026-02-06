@@ -93,18 +93,18 @@ const AlbumPage = ({
       <AlbumNavigation />
 
       <div className="page-content text-light-1 dark:text-light-1">
-          <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center text-dark-1 dark:text-light-1">
-            {album.title}
-          </h1>
-          {album.sections.map((section, index) => (
-            <div
-              key={index}
-              className="border border-dark-3 dark:border-light-3 p-4 mb-10"
-            >
-              {album.sections.length > 1 && <Heading text={section.heading} />}
-              <PhotoGrid photos={section.photos} path={album.id} />
-            </div>
-          ))}
+        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center text-dark-1 dark:text-light-1">
+          {album.title}
+        </h1>
+        {album.sections.map((section, index) => (
+          <div
+            key={index}
+            className="border border-dark-3 dark:border-light-3 p-4 mb-10"
+          >
+            {album.sections.length > 1 && <Heading text={section.heading} />}
+            <PhotoGrid photos={section.photos} path={album.id} />
+          </div>
+        ))}
       </div>
 
       <AlbumNavigation />

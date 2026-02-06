@@ -47,7 +47,9 @@ const ContactForm: React.FC = () => {
         className="bg-light-1 dark:bg-dark-1 rounded-xl text-left p-6 sm:p-8"
       >
         <h2 className="text-2xl font-bold text-left mb-6">
-          <span className="text-accent-dark dark:text-accent-light">Contact Form</span>
+          <span className="text-accent-dark dark:text-accent-light">
+            Contact Form
+          </span>
         </h2>
         <FormInput
           inputLabel="Full Name"

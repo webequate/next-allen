@@ -12,19 +12,19 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     const handleRouteChange = () => {
       // Add class to trigger fade-in animation
-      const content = document.querySelector('.page-content');
+      const content = document.querySelector(".page-content");
       if (content) {
-        content.classList.remove('page-content-enter');
+        content.classList.remove("page-content-enter");
         // Force reflow to restart animation
-        void content.offsetWidth;
-        content.classList.add('page-content-enter');
+        void (content as HTMLElement).offsetWidth;
+        content.classList.add("page-content-enter");
       }
     };
 
-    router.events.on('routeChangeComplete', handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChange);
 
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
+      router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
 

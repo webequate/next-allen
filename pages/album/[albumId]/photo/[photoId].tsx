@@ -94,22 +94,22 @@ const PhotoPage = ({
       <Header socialLink={socialLinks[0]} />
 
       <div className="page-content justify-center text-dark-1 dark:text-light-1">
-          <PhotoHeader
-            title={photo.caption}
-            prevId={prevPhoto?.id}
-            nextId={nextPhoto?.id}
-            path={`${albumId}`}
-          />
-          <Image
-            {...handlers}
-            src={`/img/photos/${albumId}/${photo.file}`}
-            alt={photo.caption}
-            width={800}
-            height={600}
-            priority
-            className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 max-w-[1000px] max-h-[800px] object-contain"
-          />
-          {/* <PhotoFooter caption={photo.caption} /> */}
+        <PhotoHeader
+          title={photo.caption}
+          prevId={prevPhoto?.id}
+          nextId={nextPhoto?.id}
+          path={`${albumId}`}
+        />
+        <Image
+          {...handlers}
+          src={`/img/photos/${albumId}/${photo.file}`}
+          alt={photo.caption}
+          width={800}
+          height={600}
+          priority
+          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 max-w-[1000px] max-h-[800px] object-contain"
+        />
+        {/* <PhotoFooter caption={photo.caption} /> */}
       </div>
 
       <Footer name={name} socialLinks={socialLinks} />
