@@ -93,13 +93,7 @@ const AlbumPage = ({
 
       <AlbumNavigation />
 
-      <motion.div
-        {...handlers}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-      >
-        <div className="text-light-1 dark:text-light-1">
+      <div className="page-content text-light-1 dark:text-light-1">
           <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center text-dark-1 dark:text-light-1">
             {album.title}
           </h1>
@@ -112,8 +106,7 @@ const AlbumPage = ({
               <PhotoGrid photos={section.photos} path={album.id} />
             </div>
           ))}
-        </div>
-      </motion.div>
+      </div>
 
       <AlbumNavigation />
 

@@ -109,12 +109,7 @@ const VideoPage = ({
       />
       <Header socialLink={socialLinks[0]} />
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-      >
-        <div className="justify-center text-dark-1 dark:text-light-1">
+      <div className="page-content justify-center text-dark-1 dark:text-light-1">
           <VideoHeader />
           <video
             {...handlers}
@@ -126,8 +121,7 @@ const VideoPage = ({
             className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2"
             preload="auto"
           />
-        </div>
-      </motion.div>
+      </div>
 
       <Footer name={name} socialLinks={socialLinks} />
     </div>

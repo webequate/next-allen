@@ -1,6 +1,5 @@
 // pages/contact.tsx
 import { GetStaticProps, NextPage } from "next";
-import { motion } from "framer-motion";
 import { SocialLink } from "@/types/basics";
 import basics from "@/data/basics.json";
 import Header from "@/components/Header";
@@ -37,12 +36,7 @@ const ContactPage: NextPage<ContactPageProps> = ({
       />
       <Header socialLink={socialLinks[0]} />
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-      >
-        <div className="flex flex-col-reverse lg:flex-row text-base text-dark-2 dark:text-light-2">
+      <div className="page-content flex flex-col-reverse lg:flex-row text-base text-dark-2 dark:text-light-2">
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0 md:mr-6">
             <ContactForm />
           </div>
@@ -56,8 +50,7 @@ const ContactPage: NextPage<ContactPageProps> = ({
               website={website}
             />
           </div>
-        </div>
-      </motion.div>
+      </div>
 
       <Footer name={name} socialLinks={socialLinks} />
     </div>

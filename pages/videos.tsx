@@ -1,7 +1,6 @@
 // pages/videos.tsx
 import { GetStaticProps, NextPage } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { motion } from "framer-motion";
 import { SocialLink } from "@/types/basics";
 import { Video } from "@/types/video";
 import basics from "@/data/basics.json";
@@ -28,12 +27,7 @@ const VideosPage: NextPage<VideosProps> = ({ videos, name, socialLinks }) => {
       />
       <Header socialLink={socialLinks[0]} />
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-        className="text-base text-dark-2 dark:text-light-2"
-      >
+      <div className="page-content text-base text-dark-2 dark:text-light-2">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 text-dark-2 dark:text-light-2">
           {videos.map((video) => {
             return (
@@ -59,7 +53,7 @@ const VideosPage: NextPage<VideosProps> = ({ videos, name, socialLinks }) => {
             );
           })}
         </div>
-      </motion.div>
+      </div>
 
       <Footer name={name} socialLinks={socialLinks} />
     </div>
