@@ -65,6 +65,10 @@ a {
 }
 
 .page-content {
+	opacity: 1;
+}
+
+.page-content-enter {
 	animation: pageContentFadeIn 0.9s ease-in-out 0.2s forwards;
 	opacity: 0;
 }
