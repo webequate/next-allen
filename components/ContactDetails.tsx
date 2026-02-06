@@ -24,10 +24,13 @@ const ContactDetails: React.FC<ContactDetailsProps> = ({
   resumeLink,
 }) => {
   return (
-    <div className="text-base text-left text-dark-2 dark:text-light-2 mt-0 lg:mt-8 ml-6 lg:ml-0">
-      <Heading text="Contact Details" />
-      {contactIntro && <p className="text-base mb-4">{contactIntro}</p>}
-      <ul className="mb-6">
+    <div className="leading-loose">
+      <div className="bg-light-1 dark:bg-dark-1 rounded-xl text-base text-left text-dark-2 dark:text-light-2 p-6 sm:p-8">
+        <h2 className="text-2xl font-bold text-left mb-6">
+          <span className="text-accent-dark dark:text-accent-light">Contact Details</span>
+        </h2>
+        {contactIntro && <p className="text-base mb-4">{contactIntro}</p>}
+        <ul className="mb-6">
         {name && (
           <li className="flex mb-4">
             <i className="text-2xl mr-4 mt-1">
@@ -74,6 +77,7 @@ const ContactDetails: React.FC<ContactDetailsProps> = ({
         )}
       </ul>
       {resumeLink && <DownloadCV resumelink={resumeLink} />}
+      </div>
     </div>
   );
 };

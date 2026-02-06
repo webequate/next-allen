@@ -36,7 +36,8 @@ const ContactPage: NextPage<ContactPageProps> = ({
       />
       <Header socialLink={socialLinks[0]} />
 
-      <div className="page-content flex flex-col-reverse lg:flex-row text-base text-dark-2 dark:text-light-2">
+      <div className="page-content">
+        <div className="flex flex-col-reverse lg:flex-row text-base text-dark-2 dark:text-light-2">
           <div className="w-full lg:w-1/2 mb-10 lg:mb-0 md:mr-6">
             <ContactForm />
           </div>
@@ -50,6 +51,7 @@ const ContactPage: NextPage<ContactPageProps> = ({
               website={website}
             />
           </div>
+        </div>
       </div>
 
       <Footer name={name} socialLinks={socialLinks} />
