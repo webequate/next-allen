@@ -1,6 +1,5 @@
 console.log("pages/album/[albumId].tsx");
 import { GetStaticPaths, GetStaticProps } from "next";
-import { motion } from "framer-motion";
 import { ParsedUrlQuery } from "querystring";
 import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";

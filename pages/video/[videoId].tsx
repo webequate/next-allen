@@ -1,7 +1,6 @@
 // pages/video/[videoId].tsx
 import { GetStaticPaths, GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { motion } from "framer-motion";
 import { SocialLink } from "@/types/basics";
 import { Video } from "@/types/video";
 import basics from "@/data/basics.json";

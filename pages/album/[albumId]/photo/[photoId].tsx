@@ -2,7 +2,6 @@
 console.log("pages/album/[albumId]/photo/[photoId].tsx");
 import { GetStaticPaths, GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
-import { motion } from "framer-motion";
 import { SocialLink } from "@/types/basics";
 import { Album, Photo, Section } from "@/types/photo";
 import basics from "@/data/basics.json";
