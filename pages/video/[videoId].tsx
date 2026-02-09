@@ -35,6 +35,7 @@ const VideoPage = ({
 }: VideoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const videoContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -66,17 +67,27 @@ const VideoPage = ({
     trackMouse: false,
   });
 
-  const toggleVideoFullscreen = () => {
-    const element = videoContainerRef.current;
-    if (!element || typeof document === "undefined") return;
+  const openLightbox = () => setIsLightboxOpen(true);
+  const closeLightbox = () => setIsLightboxOpen(false);
 
-    if (document.fullscreenElement) {
-      document.exitFullscreen?.().catch(() => undefined);
-      return;
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    if (isLightboxOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
     }
 
-    element.requestFullscreen?.().catch(() => undefined);
-  };
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closeLightbox();
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [isLightboxOpen]);
 
   const VideoHeader = () => (
     <div className="flex justify-between text-lg sm:text-xl md:text-2xl mb-4">
@@ -126,8 +137,14 @@ const VideoPage = ({
         <div
           {...handlers}
           ref={videoContainerRef}
-          onClick={toggleVideoFullscreen}
+          onClick={openLightbox}
           className="mx-auto mb-2 w-full max-w-full sm:w-auto cursor-pointer"
+          role="button"
+          tabIndex={0}
+          aria-label="Open fullscreen video"
+          onKeyDown={(event) => {
+            if (event.key === "Enter" || event.key === " ") openLightbox();
+          }}
         >
           <video
             src={`/video/${video.file}`}
@@ -140,6 +157,38 @@ const VideoPage = ({
             preload="auto"
           />
         </div>
+        {isLightboxOpen && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Fullscreen video"
+            onClick={closeLightbox}
+          >
+            <button
+              type="button"
+              onClick={closeLightbox}
+              className="absolute top-4 right-4 rounded-full bg-black/60 px-3 py-2 text-white"
+              aria-label="Close fullscreen"
+            >
+              Close
+            </button>
+            <div
+              className="max-h-full max-w-full"
+              onClick={(event) => event.stopPropagation()}
+            >
+              <video
+                src={`/video/${video.file}`}
+                poster={`/video/poster/${video.poster}`}
+                controls
+                playsInline
+                autoPlay
+                className="max-h-[90vh] w-auto max-w-[90vw]"
+                preload="auto"
+              />
+            </div>
+          </div>
+        )}
       </div>
 
       <Footer name={name} socialLinks={socialLinks} />
