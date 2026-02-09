@@ -22,7 +22,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/allen.png" />
       </Head>
-      <main className="min-h-screen bg-white dark:bg-neutral-900 sm:border-x border-dark-3 dark:border-light-3 px-6 sm:px-8 lg:px-16">
+      <main className="min-h-screen bg-white dark:bg-neutral-900 sm:border-x border-dark-3 dark:border-light-3 px-2 sm:px-8 lg:px-16">
         <div className="bg-white dark:bg-neutral-900">{children}</div>
       </main>
     </>
