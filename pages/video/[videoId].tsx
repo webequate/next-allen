@@ -35,7 +35,7 @@ const VideoPage = ({
 }: VideoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
-  const videoRef = useRef<HTMLVideoElement | null>(null);
+  const videoContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -67,7 +67,7 @@ const VideoPage = ({
   });
 
   const toggleVideoFullscreen = () => {
-    const element = videoRef.current;
+    const element = videoContainerRef.current;
     if (!element || typeof document === "undefined") return;
 
     if (document.fullscreenElement) {
@@ -123,19 +123,23 @@ const VideoPage = ({
 
       <div className="page-content justify-center text-dark-1 dark:text-light-1">
         <VideoHeader />
-        <video
+        <div
           {...handlers}
-          ref={videoRef}
-          src={`/video/${video.file}`}
-          poster={`/video/poster/${video.poster}`}
-          width={640}
-          height={480}
-          controls
-          playsInline
+          ref={videoContainerRef}
           onClick={toggleVideoFullscreen}
-          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 w-full max-w-full h-auto sm:w-auto cursor-pointer"
-          preload="auto"
-        />
+          className="mx-auto mb-2 w-full max-w-full sm:w-auto cursor-pointer"
+        >
+          <video
+            src={`/video/${video.file}`}
+            poster={`/video/poster/${video.poster}`}
+            width={640}
+            height={480}
+            controls
+            playsInline
+            className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3"
+            preload="auto"
+          />
+        </div>
       </div>
 
       <Footer name={name} socialLinks={socialLinks} />

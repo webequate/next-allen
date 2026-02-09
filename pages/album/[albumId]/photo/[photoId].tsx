@@ -40,7 +40,7 @@ const PhotoPage = ({
 }: PhotoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
-  const imageRef = useRef<HTMLImageElement | null>(null);
+  const imageContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -82,7 +82,7 @@ const PhotoPage = ({
   });
 
   const toggleImageFullscreen = () => {
-    const element = imageRef.current;
+    const element = imageContainerRef.current;
     if (!element || typeof document === "undefined") return;
 
     if (document.fullscreenElement) {
@@ -113,18 +113,22 @@ const PhotoPage = ({
           nextId={nextPhoto?.id}
           path={`${albumId}`}
         />
-        <Image
+        <div
           {...handlers}
-          ref={imageRef}
-          src={`/img/photos/${albumId}/${photo.file}`}
-          alt={photo.caption}
-          width={800}
-          height={600}
-          sizes="100vw"
-          priority
+          ref={imageContainerRef}
           onClick={toggleImageFullscreen}
-          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 w-full max-w-full h-auto sm:max-w-[1000px] sm:max-h-[800px] object-contain cursor-pointer"
-        />
+          className="mx-auto mb-2 w-full max-w-full sm:max-w-[1000px] sm:max-h-[800px] cursor-pointer"
+        >
+          <Image
+            src={`/img/photos/${albumId}/${photo.file}`}
+            alt={photo.caption}
+            width={800}
+            height={600}
+            sizes="100vw"
+            priority
+            className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3 object-contain"
+          />
+        </div>
         {/* <PhotoFooter caption={photo.caption} /> */}
       </div>
 
