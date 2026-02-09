@@ -100,8 +100,15 @@ const PhotoPage = ({
           nextId={nextPhoto?.id}
           path={`${albumId}`}
         />
-        <div {...handlers} className="mx-auto mb-2 w-full max-w-full sm:max-w-[1000px]">
-          <a href={`/img/photos/${albumId}/${photo.file}`} target="_blank" rel="noopener noreferrer">
+        <div
+          {...handlers}
+          className="mx-auto mb-2 w-full max-w-full sm:max-w-[1000px]"
+        >
+          <a
+            href={`/img/photos/${albumId}/${photo.file}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={`/img/photos/${albumId}/${photo.file}`}
               alt={photo.caption}

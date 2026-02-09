@@ -111,7 +111,11 @@ const VideoPage = ({
       <div className="page-content justify-center text-dark-1 dark:text-light-1">
         <VideoHeader />
         <div {...handlers} className="mx-auto mb-2 w-full max-w-full sm:w-auto">
-          <a href={`/video/${video.file}`} target="_blank" rel="noopener noreferrer">
+          <a
+            href={`/video/${video.file}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <video
               src={`/video/${video.file}`}
               poster={`/video/poster/${video.poster}`}
