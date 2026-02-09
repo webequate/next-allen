@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface PhotoProps {
   photo: Photo;
@@ -40,8 +40,6 @@ const PhotoPage = ({
 }: PhotoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
-  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
-  const imageContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -82,28 +80,6 @@ const PhotoPage = ({
     trackMouse: false,
   });
 
-  const openLightbox = () => setIsLightboxOpen(true);
-  const closeLightbox = () => setIsLightboxOpen(false);
-
-  useEffect(() => {
-    if (typeof document === "undefined") return;
-    if (isLightboxOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") closeLightbox();
-    };
-
-    window.addEventListener("keydown", onKeyDown);
-    return () => {
-      window.removeEventListener("keydown", onKeyDown);
-      document.body.style.overflow = "";
-    };
-  }, [isLightboxOpen]);
-
   return (
     <div className="mx-auto">
       <Seo
@@ -124,18 +100,7 @@ const PhotoPage = ({
           nextId={nextPhoto?.id}
           path={`${albumId}`}
         />
-        <div
-          {...handlers}
-          ref={imageContainerRef}
-          onClick={openLightbox}
-          className="mx-auto mb-2 w-full max-w-full sm:max-w-[1000px] sm:max-h-[800px] cursor-pointer"
-          role="button"
-          tabIndex={0}
-          aria-label="Open fullscreen photo"
-          onKeyDown={(event) => {
-            if (event.key === "Enter" || event.key === " ") openLightbox();
-          }}
-        >
+        <div {...handlers} className="mx-auto mb-2 w-full max-w-full sm:max-w-[1000px]">
           <Image
             src={`/img/photos/${albumId}/${photo.file}`}
             alt={photo.caption}
@@ -146,37 +111,6 @@ const PhotoPage = ({
             className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3 object-contain"
           />
         </div>
-        {isLightboxOpen && (
-          <div
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
-            role="dialog"
-            aria-modal="true"
-            aria-label="Fullscreen photo"
-            onClick={closeLightbox}
-          >
-            <button
-              type="button"
-              onClick={closeLightbox}
-              className="absolute top-4 right-4 rounded-full bg-black/60 px-3 py-2 text-white"
-              aria-label="Close fullscreen"
-            >
-              Close
-            </button>
-            <div
-              className="max-h-full max-w-full"
-              onClick={(event) => event.stopPropagation()}
-            >
-              <Image
-                src={`/img/photos/${albumId}/${photo.file}`}
-                alt={photo.caption}
-                width={1600}
-                height={1200}
-                sizes="100vw"
-                className="max-h-[90vh] w-auto max-w-[90vw] object-contain"
-              />
-            </div>
-          </div>
-        )}
         {/* <PhotoFooter caption={photo.caption} /> */}
       </div>
 
