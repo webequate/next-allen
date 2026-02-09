@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 import Seo from "@/components/Seo";
 import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface PhotoProps {
   photo: Photo;
@@ -40,6 +40,7 @@ const PhotoPage = ({
 }: PhotoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
+  const imageRef = useRef<HTMLImageElement | null>(null);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -80,6 +81,18 @@ const PhotoPage = ({
     trackMouse: false,
   });
 
+  const toggleImageFullscreen = () => {
+    const element = imageRef.current;
+    if (!element || typeof document === "undefined") return;
+
+    if (document.fullscreenElement) {
+      document.exitFullscreen?.().catch(() => undefined);
+      return;
+    }
+
+    element.requestFullscreen?.().catch(() => undefined);
+  };
+
   return (
     <div className="mx-auto">
       <Seo
@@ -102,12 +115,15 @@ const PhotoPage = ({
         />
         <Image
           {...handlers}
+          ref={imageRef}
           src={`/img/photos/${albumId}/${photo.file}`}
           alt={photo.caption}
           width={800}
           height={600}
+          sizes="100vw"
           priority
-          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 max-w-[1000px] max-h-[800px] object-contain"
+          onClick={toggleImageFullscreen}
+          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 w-full max-w-full h-auto sm:max-w-[1000px] sm:max-h-[800px] object-contain cursor-pointer"
         />
         {/* <PhotoFooter caption={photo.caption} /> */}
       </div>

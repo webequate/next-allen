@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useSwipeable } from "react-swipeable";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Seo from "@/components/Seo";
 
@@ -35,6 +35,7 @@ const VideoPage = ({
 }: VideoProps) => {
   const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -64,6 +65,18 @@ const VideoPage = ({
     trackTouch: true,
     trackMouse: false,
   });
+
+  const toggleVideoFullscreen = () => {
+    const element = videoRef.current;
+    if (!element || typeof document === "undefined") return;
+
+    if (document.fullscreenElement) {
+      document.exitFullscreen?.().catch(() => undefined);
+      return;
+    }
+
+    element.requestFullscreen?.().catch(() => undefined);
+  };
 
   const VideoHeader = () => (
     <div className="flex justify-between text-lg sm:text-xl md:text-2xl mb-4">
@@ -112,12 +125,15 @@ const VideoPage = ({
         <VideoHeader />
         <video
           {...handlers}
+          ref={videoRef}
           src={`/video/${video.file}`}
           poster={`/video/poster/${video.poster}`}
           width={640}
           height={480}
           controls
-          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2"
+          playsInline
+          onClick={toggleVideoFullscreen}
+          className="mx-auto ring-1 ring-dark-3 dark:ring-light-3 mb-2 w-full max-w-full h-auto sm:w-auto cursor-pointer"
           preload="auto"
         />
       </div>
