@@ -101,15 +101,17 @@ const PhotoPage = ({
           path={`${albumId}`}
         />
         <div {...handlers} className="mx-auto mb-2 w-full max-w-full sm:max-w-[1000px]">
-          <Image
-            src={`/img/photos/${albumId}/${photo.file}`}
-            alt={photo.caption}
-            width={800}
-            height={600}
-            sizes="100vw"
-            priority
-            className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3 object-contain"
-          />
+          <a href={`/img/photos/${albumId}/${photo.file}`} target="_blank" rel="noopener noreferrer">
+            <Image
+              src={`/img/photos/${albumId}/${photo.file}`}
+              alt={photo.caption}
+              width={800}
+              height={600}
+              sizes="100vw"
+              priority
+              className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3 object-contain"
+            />
+          </a>
         </div>
         {/* <PhotoFooter caption={photo.caption} /> */}
       </div>

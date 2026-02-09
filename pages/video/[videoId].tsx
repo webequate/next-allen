@@ -111,16 +111,18 @@ const VideoPage = ({
       <div className="page-content justify-center text-dark-1 dark:text-light-1">
         <VideoHeader />
         <div {...handlers} className="mx-auto mb-2 w-full max-w-full sm:w-auto">
-          <video
-            src={`/video/${video.file}`}
-            poster={`/video/poster/${video.poster}`}
-            width={640}
-            height={480}
-            controls
-            playsInline
-            className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3"
-            preload="auto"
-          />
+          <a href={`/video/${video.file}`} target="_blank" rel="noopener noreferrer">
+            <video
+              src={`/video/${video.file}`}
+              poster={`/video/poster/${video.poster}`}
+              width={640}
+              height={480}
+              controls
+              playsInline
+              className="w-full h-auto ring-1 ring-dark-3 dark:ring-light-3"
+              preload="auto"
+            />
+          </a>
         </div>
       </div>
 
