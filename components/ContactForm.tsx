@@ -1,4 +1,6 @@
 // components/ContactForm.tsx
+"use client";
+
 import { useState } from "react";
 import { ContactForm as ContactFormData } from "@/interfaces/ContactForm";
 import Heading from "@/components/Heading";
@@ -13,6 +15,12 @@ const ContactForm: React.FC = () => {
     website: "", // honeypot field
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({ type: null, message: "" });
+
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -22,22 +30,38 @@ const ContactForm: React.FC = () => {
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    const response = await fetch("/api/send-email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: "" });
 
-    const result = await response.json();
-    alert(result.message);
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-      website: "",
-    });
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus({ type: "success", message: result.message });
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+          website: "",
+        });
+      } else {
+        setSubmitStatus({ type: "error", message: result.message });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        type: "error",
+        message: "Failed to send email. Please try again.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -126,10 +150,24 @@ const ContactForm: React.FC = () => {
           <button
             type="submit"
             aria-label="Send Message"
-            className="text-light-1 dark:text-light-1 bg-accent-dark dark:bg-accent-dark hover:bg-accent-light dark:hover:bg-accent-light font-general-medium flex justify-center items-center w-40 sm:w-40 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 rounded-lg transition duration-300"
+            disabled={isSubmitting}
+            className="text-light-1 dark:text-light-1 bg-accent-dark dark:bg-accent-dark hover:bg-accent-light dark:hover:bg-accent-light disabled:bg-gray-400 disabled:hover:bg-gray-400 font-general-medium flex justify-center items-center w-40 sm:w-40 mb-6 sm:mb-0 text-lg py-2.5 sm:py-3 rounded-lg transition duration-300"
           >
-            <span className="text-sm sm:text-lg">Send Message</span>
+            <span className="text-sm sm:text-lg">
+              {isSubmitting ? "Sending..." : "Send Message"}
+            </span>
           </button>
+          {submitStatus.type && (
+            <div
+              className={`mt-4 text-sm font-medium ${
+                submitStatus.type === "success"
+                  ? "text-green-600 dark:text-green-400"
+                  : "text-red-600 dark:text-red-400"
+              }`}
+            >
+              {submitStatus.message}
+            </div>
+          )}
         </div>
       </form>
     </div>

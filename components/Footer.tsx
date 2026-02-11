@@ -1,10 +1,12 @@
 // components/Footer.tsx
+"use client";
+
 import { SocialLink } from "@/types/basics";
 import Social from "@/components/Social";
 import Copyright from "@/components/Copyright";
 import WebEquate from "@/components/WebEquate";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 interface FooterProps {
   name: string;
@@ -12,21 +14,20 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ name, socialLinks }) => {
-  const router = useRouter();
-  const asPath = router.asPath;
+  const pathname = usePathname();
 
   // Determine if the link should be active based on the prefix in the path
   const isActive = (path: string) => {
     if (path === "/") {
-      return asPath === "/" || asPath.startsWith("/featured"); // Home & featured
+      return pathname === "/" || pathname.startsWith("/featured"); // Home & featured
     }
     if (path === "/photos") {
-      return asPath === "/photos" || asPath.startsWith("/album"); // Photos & album
+      return pathname === "/photos" || pathname.startsWith("/album"); // Photos & album
     }
     if (path === "/videos") {
-      return asPath.startsWith("/videos") || asPath.startsWith("/video"); // Videos & video
+      return pathname.startsWith("/videos") || pathname.startsWith("/video"); // Videos & video
     }
-    return asPath.startsWith(path); // Other prefixes
+    return pathname.startsWith(path); // Other prefixes
   };
 
   return (

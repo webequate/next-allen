@@ -3410,4 +3410,4 @@ Track which pages have been indexed by Google or have had indexing requested.
 
 **Total URLs: 3,390** (5 main pages + 74 album pages + 3,296 photo pages + 15 video pages)
 
-*Last updated: February 9, 2026*
+_Last updated: February 9, 2026_

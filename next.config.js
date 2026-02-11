@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
@@ -33,3 +34,5 @@ module.exports = {
     formats: ["image/avif", "image/webp"],
   },
 };
+
+module.exports = nextConfig;
