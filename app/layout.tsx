@@ -14,6 +14,10 @@ const brunoAce = Bruno_Ace({
 export const metadata: Metadata = {
   title: "Allen Hayden Johnson",
   description: "Allen Hayden Johnson's personal website.",
+  icons: {
+    icon: "/allen.png",
+    apple: "/allen.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
