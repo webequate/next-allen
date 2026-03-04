@@ -66,13 +66,6 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
                 Home
               </Link>
               <Link
-                href="/about"
-                aria-label="About"
-                className={isActive("/about") ? "active" : ""}
-              >
-                About
-              </Link>
-              <Link
                 href="/photos"
                 aria-label="Photos"
                 className={isActive("/photos") ? "active" : ""}
@@ -115,13 +108,6 @@ const Header: React.FC<HeaderProps> = ({ socialLink }) => {
             className={isActive("/") ? "active" : ""}
           >
             Home
-          </Link>
-          <Link
-            href="/about"
-            aria-label="About"
-            className={isActive("/about") ? "active" : ""}
-          >
-            About
           </Link>
           <Link
             href="/photos"

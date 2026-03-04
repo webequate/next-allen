@@ -45,13 +45,6 @@ const Footer: React.FC<FooterProps> = ({ name, socialLinks }) => {
                 Home
               </Link>
               <Link
-                href="/about"
-                aria-label="About"
-                className={isActive("/about") ? "active" : ""}
-              >
-                About
-              </Link>
-              <Link
                 href="/photos"
                 aria-label="Photos"
                 className={isActive("/photos") ? "active" : ""}
