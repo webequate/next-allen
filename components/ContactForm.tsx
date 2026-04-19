@@ -3,7 +3,6 @@
 
 import { useState } from "react";
 import { ContactForm as ContactFormData } from "@/interfaces/ContactForm";
-import Heading from "@/components/Heading";
 import FormInput from "@/components/FormInput";
 
 const ContactForm: React.FC = () => {
@@ -54,7 +53,7 @@ const ContactForm: React.FC = () => {
       } else {
         setSubmitStatus({ type: "error", message: result.message });
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus({
         type: "error",
         message: "Failed to send email. Please try again.",

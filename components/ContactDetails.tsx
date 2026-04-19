@@ -1,5 +1,4 @@
 // components/ContactDetails.tsx
-import Heading from "@/components/Heading";
 import DownloadCV from "@/components/DownloadCV";
 import Link from "next/link";
 import { FiUser, FiMapPin, FiPhone, FiMail, FiGlobe } from "react-icons/fi";

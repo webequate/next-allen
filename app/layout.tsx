@@ -2,7 +2,6 @@ import "@/styles/globals.css";
 import { ReactNode } from "react";
 import { Metadata } from "next";
 import { Bruno_Ace } from "next/font/google";
-import Layout from "@/components/Layout";
 import { ThemeProvider } from "next-themes";
 
 const brunoAce = Bruno_Ace({
@@ -27,7 +26,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="flex flex-col items-center">
         <ThemeProvider attribute="class" defaultTheme="dark">
           <div className="w-full max-w-7xl sm:px-8 lg:px-16">
-            <Layout>{children}</Layout>
+            <main className="min-h-screen bg-white dark:bg-neutral-900 sm:border-x border-dark-3 dark:border-light-3 px-3 sm:px-8 lg:px-16">
+              <div className="bg-white dark:bg-neutral-900">{children}</div>
+            </main>
           </div>
         </ThemeProvider>
       </body>

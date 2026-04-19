@@ -1,5 +1,5 @@
 import { SocialLink } from "@/types/basics";
-import { Album, Photo } from "@/types/photo";
+import { Album } from "@/types/photo";
 import basics from "@/data/basics.json";
 import albums from "@/data/photos.json";
 import Header from "@/components/Header";
@@ -76,7 +76,7 @@ const PhotoPage = async ({ params }: PhotoPageProps) => {
               height={600}
               sizes="100vw"
               priority
-              className="ring-1 ring-dark-3 dark:ring-light-3 object-contain max-w-full h-auto"
+              className="ring-1 ring-dark-3 dark:ring-light-3 object-contain w-auto h-auto max-w-full"
             />
           </a>
         </div>

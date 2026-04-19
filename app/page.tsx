@@ -4,7 +4,6 @@ import basics from "@/data/basics.json";
 import Header from "@/components/Header";
 import BusinessCard from "@/components/BusinessCard";
 import Footer from "@/components/Footer";
-import Seo from "@/components/Seo";
 
 export const metadata: Metadata = {
   title: basics.name,

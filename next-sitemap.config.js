@@ -11,7 +11,7 @@ module.exports = {
       lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
     };
   },
-  additionalPaths: async (config) => {
+  additionalPaths: async () => {
     // This can be used to add and sort additional paths
     return [];
   },

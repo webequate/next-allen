@@ -26,7 +26,7 @@ function buildReplyMailto(formData: ContactForm): string {
   )}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
-function buildHtmlEmail(formData: ContactForm, receivedAt: string): string {
+function buildHtmlEmail(formData: ContactForm): string {
   const name = escapeHtml(formData.name);
   const email = escapeHtml(formData.email);
   const subject = escapeHtml(formData.subject || "New contact form submission");
@@ -118,7 +118,7 @@ export async function sendContactEmail(formData: ContactForm): Promise<void> {
   }
 
   const receivedAt = new Date().toISOString();
-  const html = buildHtmlEmail(formData, receivedAt);
+  const html = buildHtmlEmail(formData);
   const text = buildPlainText(formData, receivedAt);
 
   const transporter = nodemailer.createTransport({
