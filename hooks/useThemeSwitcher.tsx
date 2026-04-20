@@ -7,10 +7,8 @@ const useThemeSwitcher = () => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
       setTheme(savedTheme);
-    } else {
-      localStorage.setItem("theme", theme);
     }
-  }, [theme]);
+  }, []);
 
   const activeTheme = theme === "dark" ? "light" : "dark";
 
