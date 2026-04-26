@@ -407,6 +407,32 @@ bash scripts/generate-video-posters.sh
 
 ---
 
+## Testing
+
+**Stack:** Vitest + React Testing Library (`@testing-library/react` v16, `@testing-library/user-event` v14, `@testing-library/jest-dom` v6).
+
+**Config files:**
+- `vitest.config.ts` — jsdom environment, `globals: true`, `@/` alias, `@vitejs/plugin-react`
+- `vitest.setup.ts` — imports `jest-dom`, globally mocks `next/link` (→ plain `<a>`) and `next/navigation` (`usePathname` as a `vi.fn()`)
+
+**Test location:** `__tests__/` mirroring the source tree (`__tests__/lib/`, `__tests__/components/`).
+
+**Conventions:**
+- Import `describe`, `it`, `expect`, `vi`, etc. from `vitest` explicitly in each test file.
+- Use `userEvent.setup()` + `await user.click/type/…` for all interaction tests.
+- Mock `next/navigation`'s `usePathname` per-test: `vi.mocked(usePathname).mockReturnValue("/photos")`.
+- Mock `next-themes` per test file where `ThemeSwitcher` is involved: `vi.mock("next-themes", () => ({ useTheme: vi.fn(() => ({ theme: "dark", setTheme: vi.fn() })) }))`.
+- Mock `react-icons` subpackages with `data-testid` stubs when you need to assert which icon rendered.
+- Scope `getByRole` queries with `within(document.querySelector(".nav-primary") as HTMLElement)` when the logo link and nav links share the same `aria-label`.
+- Mock `global.fetch` via `vi.stubGlobal("fetch", mockFn)` in `beforeEach`; restore with `vi.unstubAllGlobals()` in `afterEach`.
+- Use `vi.hoisted()` to declare mock variables that are referenced inside a `vi.mock()` factory (e.g. the nodemailer mock in `__tests__/lib/email.test.ts`).
+
+**What is tested vs skipped:**
+- Tested: components with logic, interactivity, or non-trivial conditional rendering (`ContactForm`, `Header`, `Footer`, `ThemeSwitcher`, `SocialButton`, `PhotoHeader`) and all utility functions in `lib/`.
+- Skipped as purely presentational (no logic): `BusinessCard`, `Album`, `AllenJohnson`, `ContactDetails`, `Copyright`, `DownloadCV`, `FormInput`, `Heading`, `PhotoFooter`, `Social`, `WebEquate`.
+
+---
+
 ## Commands
 
 ```bash
@@ -415,6 +441,8 @@ npm run build          # production build
 npm run lint           # eslint . (ESLint v9 flat config)
 npm run format         # prettier --write on all source files
 npm run build:sitemap  # next-sitemap + sort-sitemap.js
+npm run test           # vitest watch mode
+npm run test:run       # vitest single run (CI)
 ```
 
 ---
