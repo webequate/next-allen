@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer";
 import { ContactForm } from "@/interfaces/ContactForm";
 
-function escapeHtml(text: string): string {
+export function escapeHtml(text: string): string {
   const map: { [key: string]: string } = {
     "&": "&amp;",
     "<": "&lt;",
@@ -12,7 +12,7 @@ function escapeHtml(text: string): string {
   return text.replace(/[&<>"']/g, (char) => map[char]);
 }
 
-function buildReplyMailto(formData: ContactForm): string {
+export function buildReplyMailto(formData: ContactForm): string {
   const quotedMessage = formData.message
     .split("\n")
     .map((line) => "> " + line)
@@ -26,7 +26,7 @@ function buildReplyMailto(formData: ContactForm): string {
   )}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
-function buildHtmlEmail(formData: ContactForm): string {
+export function buildHtmlEmail(formData: ContactForm): string {
   const name = escapeHtml(formData.name);
   const email = escapeHtml(formData.email);
   const subject = escapeHtml(formData.subject || "New contact form submission");
@@ -85,7 +85,7 @@ function buildHtmlEmail(formData: ContactForm): string {
 </html>`;
 }
 
-function buildPlainText(formData: ContactForm, receivedAt: string): string {
+export function buildPlainText(formData: ContactForm, receivedAt: string): string {
   const lines = [
     "Website Contact Submission",
     "================================",
